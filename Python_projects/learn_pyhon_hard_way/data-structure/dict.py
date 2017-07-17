@@ -1,6 +1,6 @@
 # ab means 'Adress Book'
 ab = {
-     'ligm': 'Jinan',
+     'Ligm': 'Jinan',
      'Huimin': 'Yuncheng',
      'Jiale': 'Wanxiang',
      'God': 'Tianguo'
