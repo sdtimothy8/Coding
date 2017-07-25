@@ -1,0 +1,31 @@
+# coding=utf-8
+__author__ = 'liushaolin@inspur.com'
+
+WARNING_HOST = "warningHost"
+WARNING_TYPE = "warningType"
+WARNING_DATA = "warningData"
+WARNING_LOCATION = "warningLocation"
+WARNING_TIME = "warningTime"
+CPU_USER = "cpu_user"
+CPU_SYSTEM = "cpu_system"
+CPU_IOWAIT = "cpu_iowait"
+CPU_LOAD_1MIN = "cpu_load_1min"
+CPU_LOAD_5MIN = "cpu_load_5min"
+CPU_LOAD_15MIN = "cpu_load_15min"
+MEM_PHYSIC = "mem_physic"
+MEM_SWAP = "mem_swap"
+FILESYSTEM = "filesystem"
+CPU_TEMPERATURE = "cpu_temperature"
+PS_CPU_RATE = "ps_cpu_rate"
+PS_MEM_RATE = "ps_mem_rate"
+MIN = "min"
+HOUR = "hour"
+DAY = "days"
+WEEK = "weeks"
+MONTH = "months"
+YEAR = "years"
+SECURITY = "安全"
+MINOR = "一般警告"
+MAJOR = "严重警告"
+
+

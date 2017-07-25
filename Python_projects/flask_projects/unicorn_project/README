@@ -1,0 +1,65 @@
+Author: shaomingwu@inspur.com  May 28th,2015
+
+V 0.2 Updated by shaomingwu#inspur.com on 2015/7/17
+The puropose for the files located at the top directory.
+1, py_coderule_check.py
+   The tool for checking the source code according to code style rule.
+   This module will use the module as pep8_unicorn.py.
+2, pep8_unicorn.py
+   Derived from pep8.py which define the code style rule for python.
+   The standard is PEP8
+3, sourcemonitor.py
+   Summary the lines for each file and module.
+   
+V 0.1 Created by shaomingwu@inspur.com on 2015/5/28
+The simple guide for launching ksmp project.
+
+There are two ways for launching ksmp project, with or without apache web server, 
+shown as below:
+1, To launch the ksmp project with Django framework. (Without apache web server)
+  python manage.py runserver 0.0.0.0:8000
+
+2, To launch the ksmp project with apache (httpd) web server.
+The python module as mod_wsgi should be installed at first.
+  
+To use the mod_wsgi express version with Django, after having installed 
+the mod_wsgi package into your Python installation, edit your Django settings module 
+and add mod_wsgi.server to the list of installed apps.
+
+INSTALLED_APPS = (
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+    'mod_wsgi.server',
+)
+
+If wanting to have Apache started as root in order to listen on port 8000, 
+use the --setup-only option to therunmodwsgi management command.
+####--Command line for creatidng shell script (as apachectl)------------------
+sudo python manage.py runmodwsgi --setup-only --port=8000 \
+    --user ksmp --group ksmp \
+    --server-root=/etc/mod_wsgi-express-8000
+    
+#===============================================
+The directories and files created as below:
+[root@localhost mod_wsgi-express-8000]# pwd
+	/etc/mod_wsgi-express-8000
+[root@localhost mod_wsgi-express-8000]# ls
+	apachectl     error_log     httpd.conf   resource.wsgi
+	default.wsgi  handler.wsgi  httpd.pid    wsgi.10763.0.1.sock
+	envvars       htdocs        python-eggs
+
+Having created the configuration and startup script, to start the 
+Apache instance you can now run:
+	/etc/mod_wsgi-express-8000/apachectl start
+	
+To subsequently stop the Apache instance you can run:
+	/etc/mod_wsgi-express-8000/apachectl stop
+	
+You can also restart the Apache instance as necessary using:
+	/etc/mod_wsgi-express-8000/apachectl restart
+
+

@@ -1,0 +1,134 @@
+[
+	{
+		"model": "prealarm.WarningRules",
+		"fields": {
+			"key_name": "cpu_user",
+			"threshold_first": 0.75,
+			"threshold_second": 0.9,
+			"email_content": "预警项:\t cpu_user\n预警级别:\t %grade\n预警值:\t %value\n时间:\t %time\n",
+			"email_level": 0,
+			"key_name_c": "用户使用CPU占比(%)"
+		}
+	},
+	{
+		"model": "prealarm.WarningRules",
+		"fields": {
+			"key_name": "cpu_system",
+			"threshold_first": 0.75,
+			"threshold_second": 0.9,
+			"email_content": "预警项:\t cpu_system\n预警级别:\t %grade\n预警值:\t %value\n时间:\t %time\n",	
+			"email_level": 0,
+			"key_name_c": "系统使用CPU占比(%)"
+		}
+	},
+	{
+		"model": "prealarm.WarningRules",
+		"fields": {
+			"key_name": "cpu_iowait",
+			"threshold_first": 0.75,
+			"threshold_second": 0.9,
+			"email_content": "预警项:\t cpu_iowait\n预警级别:\t %grade\n预警值:\t %value\n时间:\t %time\n",	
+            "email_level": 0,
+			"key_name_c": "CPU等待磁盘读写(%)"
+		}
+	},
+	{
+		"model": "prealarm.WarningRules",
+		"fields": {
+			"key_name": "cpu_load_1min",
+			"threshold_first": 10,
+			"threshold_second": 50,
+			"email_content": "预警项:\t cpu_load_1min\n预警级别:\t %grade\n预警值:\t %value\n时间:\t %time\n",	
+			"email_level": 0,
+			"key_name_c": "CPU 1分钟负载"
+		}
+	},
+	{
+		"model": "prealarm.WarningRules",
+		"fields": {
+			"key_name": "cpu_load_5min",
+			"threshold_first": 10,
+			"threshold_second": 50,
+			"email_content": "预警项:\t cpu_load_5min\n预警级别:\t %grade\n预警值:\t %value\n时间:\t %time\n",	
+			"email_level": 0,
+			"key_name_c": "CPU 5分钟负载"
+		}
+	},
+	{
+		"model": "prealarm.WarningRules",
+		"fields": {
+			"key_name": "cpu_load_15min",
+			"threshold_first": 10,
+			"threshold_second": 50,
+			"email_content": "预警项:\t cpu_load_15min\n预警级别:\t %grade\n预警值:\t %value\n时间:\t %time\n",	
+			"email_level": 0,
+			"key_name_c": "CPU 15分钟负载"
+		}
+	},
+	{
+		"model": "prealarm.WarningRules",
+		"fields": {
+			"key_name": "mem_physic",
+			"threshold_first": 0.75,
+			"threshold_second": 0.90,
+			"email_content": "预警项:\t mem_physic\n预警级别:\t %grade\n预警值:\t %value\n时间:\t %time\n",	
+			"email_level": 0,
+			"key_name_c": "物理内存使用量(%)"
+		}
+	},
+	{
+		"model": "prealarm.WarningRules",
+		"fields": {
+			"key_name": "mem_swap",
+			"threshold_first": 0.75,
+			"threshold_second": 0.9,
+			"email_content": "预警项:\t mem_swap\n预警级别:\t %grade\n预警值:\t %value\n时间:\t %time\n",	
+			"email_level": 0,
+			"key_name_c": "交换区使用量(%)"
+		}
+	},
+	{
+		"model": "prealarm.WarningRules",
+		"fields": {
+			"key_name": "filesystem",
+			"threshold_first": 0.75,
+			"threshold_second": 0.9,
+			"email_content": "预警项:\t filesystem\n预警级别:\t %grade\n预警值:\t %value\n时间:\t %time\n",
+			"email_level": 0,
+			"key_name_c": "文件系统使用量(%)"
+		}
+	},
+	{
+		"model": "prealarm.WarningRules",
+		"fields": {
+			"key_name": "cpu_temperature",
+			"threshold_first": 65,
+			"threshold_second": 90,
+			"email_content": "预警项:\t cpu_temperature\n预警级别:\t %grade\n预警值:\t %value\n时间:\t %time\n",	
+			"email_level": 0,
+			"key_name_c": "CPU温度(&#176;C)"
+		}
+	},
+	{
+		"model": "prealarm.WarningRules",
+		"fields": {
+			"key_name": "ps_cpu_rate",
+			"threshold_first": 0.75,
+			"threshold_second": 0.9,
+			"email_content": "预警项:\t ps_cpu_rate\n预警级别:\t %grade\n预警值:\t %value\n时间:\t %time\n"	,
+			"email_level": 0,
+			"key_name_c": "进程占用CPU比(%)"
+		}
+	},
+	{
+		"model": "prealarm.WarningRules",
+		"fields": {
+			"key_name": "ps_mem_rate",
+			"threshold_first": 0.75,
+			"threshold_second": 0.9,
+			"email_content": "预警项:\t ps_mem_rate\n预警级别:\t %grade\n预警值:\t %value\n时间:\t %time\n",	
+			"email_level": 0,
+			"key_name_c": "进程占用内存比(%)"
+		}
+	}
+]

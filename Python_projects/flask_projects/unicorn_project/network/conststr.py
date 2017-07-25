@@ -1,0 +1,33 @@
+"""
+Const strings used in module network
+"""
+
+__author__ = 'liushaolin@inspur.com'
+
+ACTIVATE_DEVICE_CMD = 'nmcli device connect %s'
+ADD_SUCCESS_RES = 'add success!'
+ADD_FAILED_RES = 'add failed!'
+CHANGE_SUCCESS_RES = 'change state success!'
+CHANGE_FAILED_RES = 'change state failed!'
+DEACTIVATE_DEVICE_CMD = 'nmcli device disconnect %s'
+DELETE_SUCCESS_RES = 'delete success!'
+DELETE_FAILED_RES = 'delete failed!'
+EMPTY_IPV4_ADDR = 'ipv4 address is empty!'
+EMPTY_IPV6_ADDR = 'ipv6 address is empty!'
+FAILED_RES = 'failed'
+INVALID_HWADDR = 'hardware address is invalid!'
+INVALID_IPV4_ADDR = 'ipv4 address is invalid!'
+INVALID_IPV4_PREFIX = 'ipv4 prefix is invalid(an integer between 1-32)'
+INVALID_IPV6_ADDR = 'ipv6 address is invalid!'
+INVALID_IPV6_PREFIX = 'ipv6 prefix is invalid(an integer between 1-128)'
+INVALID_DNS_ADDR = 'DNS address is invalid!'
+INVALID_MAC_ADDR = 'MAC address is invalid!'
+RESET_SUCCESS_RES = 'reset success!'
+RESET_FAILED_RES = 'reset failed!'
+RET_RES = 'result'
+RET_TYPE = 'type'
+RET_MSG = 'message'
+RET_CODE = 'code'
+SUCCESS_RES = 'success'
+UPDATE_SUCCESS_RES = 'update success'
+UPDATE_FAILED_RES = 'update failed'

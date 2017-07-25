@@ -1,0 +1,98 @@
+/bin/sh: /home/svncode/ksmp/pep8_unicorn.py: 权限不够
+/bin/sh: /home/svncode/ksmp/pep8_unicorn.py: 权限不够
+/bin/sh: /home/svncode/ksmp/pep8_unicorn.py: 权限不够
+/bin/sh: /home/svncode/ksmp/pep8_unicorn.py: 权限不够
+/bin/sh: /home/svncode/ksmp/pep8_unicorn.py: 权限不够
+/bin/sh: /home/svncode/ksmp/pep8_unicorn.py: 权限不够
+/bin/sh: /home/svncode/ksmp/pep8_unicorn.py: 权限不够
+/bin/sh: /home/svncode/ksmp/pep8_unicorn.py: 权限不够
+/bin/sh: /home/svncode/ksmp/pep8_unicorn.py: 权限不够
+/bin/sh: /home/svncode/ksmp/pep8_unicorn.py: 权限不够
+/bin/sh: /home/svncode/ksmp/pep8_unicorn.py: 权限不够
+/bin/sh: /home/svncode/ksmp/pep8_unicorn.py: 权限不够
+/bin/sh: /home/svncode/ksmp/pep8_unicorn.py: 权限不够
+/bin/sh: /home/svncode/ksmp/pep8_unicorn.py: 权限不够
+/bin/sh: /home/svncode/ksmp/pep8_unicorn.py: 权限不够
+/home/svncode/ksmp/firewall/business.py:79:1: E302 expected 2 blank lines, found 0
+/home/svncode/ksmp/firewall/business.py:249:28: E231 missing whitespace after ','
+/home/svncode/ksmp/firewall/business.py:417:26: E225 missing whitespace around operator
+/home/svncode/ksmp/firewall/business.py:460:26: E225 missing whitespace around operator
+/home/svncode/ksmp/firewall/business.py:532:18: E111 indentation is not a multiple of four
+/home/svncode/ksmp/firewall/business.py:534:18: E111 indentation is not a multiple of four
+/home/svncode/ksmp/firewall/business.py:588:34: E225 missing whitespace around operator
+/home/svncode/ksmp/firewall/business.py:729:22: W292 no newline at end of file
+/home/svncode/ksmp/firewall/urls.py:15:6: E131 continuation line unaligned for hanging indent
+/home/svncode/ksmp/firewall/views.py:293:23: E225 missing whitespace around operator
+/home/svncode/ksmp/firewall/views.py:294:23: E225 missing whitespace around operator
+/home/svncode/ksmp/firewall/views.py:358:1: E303 too many blank lines (3)
+/home/svncode/ksmp/firewall/views.py:397:9: E265 block comment should start with '# '
+/home/svncode/ksmp/firewall/views.py:403:9: E265 block comment should start with '# '
+/home/svncode/ksmp/firewall/views.py:404:13: E265 block comment should start with '# '
+/home/svncode/ksmp/firewall/views.py:406:1: E302 expected 2 blank lines, found 1
+/home/svncode/ksmp/firewall/views.py:423:1: E302 expected 2 blank lines, found 1
+/home/svncode/ksmp/firewall/views.py:487:1: E302 expected 2 blank lines, found 1
+/home/svncode/ksmp/firewall/views.py:531:9: E265 block comment should start with '# '
+/home/svncode/ksmp/firewall/views.py:626:59: W292 no newline at end of file
+/home/svncode/ksmp/ftp/tests.py:95:54: E251 unexpected spaces around keyword / parameter equals
+/home/svncode/ksmp/ftp/tests.py:95:56: E251 unexpected spaces around keyword / parameter equals
+/home/svncode/ksmp/ftp/tests.py:95:79: E251 unexpected spaces around keyword / parameter equals
+/home/svncode/ksmp/ftp/tests.py:95:81: E251 unexpected spaces around keyword / parameter equals
+/home/svncode/ksmp/index/views.py:93:1: W293 blank line contains whitespace
+/home/svncode/ksmp/index/views.py:93:1: W391 blank line at end of file
+/home/svncode/ksmp/login/tests.py:32:28: E231 missing whitespace after ','
+/home/svncode/ksmp/login/views.py:21:1: E302 expected 2 blank lines, found 1
+/home/svncode/ksmp/logmanager/tests.py:22:5: E303 too many blank lines (2)
+/home/svncode/ksmp/logmanager/tests.py:39:5: E303 too many blank lines (2)
+/home/svncode/ksmp/logmanager/views.py:22:5: E303 too many blank lines (2)
+/home/svncode/ksmp/logmanager/views.py:40:5: E303 too many blank lines (2)
+/home/svncode/ksmp/network/tests.py:476:1: W391 blank line at end of file
+/home/svncode/ksmp/packages/package.py:4:1: E302 expected 2 blank lines, found 1
+/home/svncode/ksmp/packages/package.py:13:1: E302 expected 2 blank lines, found 1
+/home/svncode/ksmp/packages/package.py:16:5: E265 block comment should start with '# '
+/home/svncode/ksmp/packages/package.py:21:5: E265 block comment should start with '# '
+/home/svncode/ksmp/packages/package.py:24:20: E225 missing whitespace around operator
+/home/svncode/ksmp/packages/package.py:54:1: E302 expected 2 blank lines, found 1
+/home/svncode/ksmp/packages/package.py:56:5: E265 block comment should start with '# '
+/home/svncode/ksmp/packages/package.py:59:160: E501 line too long (215 > 159 characters)
+/home/svncode/ksmp/packages/views.py:14:1: E302 expected 2 blank lines, found 1
+/home/svncode/ksmp/packages/views.py:136:1: W293 blank line contains whitespace
+/home/svncode/ksmp/session/TestSessionAuthticateMiddleWare.py:16:1: E302 expected 2 blank lines, found 1
+/home/svncode/ksmp/session/TestSessionAuthticateMiddleWare.py:33:54: E261 at least two spaces before inline comment
+/home/svncode/ksmp/session/TestSessionAuthticateMiddleWare.py:33:55: E262 inline comment should start with '# '
+/home/svncode/ksmp/sysmonitor/models.py:4:1: E302 expected 2 blank lines, found 1
+/home/svncode/ksmp/sysmonitor/testsCpu.py:82:9: E265 block comment should start with '# '
+/home/svncode/ksmp/sysmonitor/testsCpu.py:83:9: E265 block comment should start with '# '
+/home/svncode/ksmp/sysmonitor/testsProcess.py:4:1: E302 expected 2 blank lines, found 1
+/home/svncode/ksmp/sysmonitor/testsProcess.py:33:52: W292 no newline at end of file
+/home/svncode/ksmp/sysmonitor/views.py:69:17: E231 missing whitespace after ','
+/home/svncode/ksmp/sysmonitor/views.py:82:17: E231 missing whitespace after ','
+/home/svncode/ksmp/sysmonitor/views.py:96:17: E231 missing whitespace after ','
+/home/svncode/ksmp/sysmonitor/views.py:109:17: E231 missing whitespace after ','
+/home/svncode/ksmp/sysmonitor/views.py:128:17: E231 missing whitespace after ','
+/home/svncode/ksmp/sysmonitor/core/unicon_standalone.py:61:5: E303 too many blank lines (3)
+/home/svncode/ksmp/sysmonitor/core/unicon_standalone.py:95:13: E116 unexpected indentation (comment)
+/home/svncode/ksmp/sysmonitor/plugins/unicon_mem.py:71:160: E501 line too long (348 > 159 characters)
+/home/svncode/ksmp/sysmonitor/plugins/unicon_mem.py:74:160: E501 line too long (170 > 159 characters)
+/home/svncode/ksmp/sysmonitor/plugins/unicon_processlist.py:156:21: W292 no newline at end of file
+/home/svncode/ksmp/sysmonitor/service/servicecpu.py:61:9: E265 block comment should start with '# '
+/home/svncode/ksmp/times/urls.py:12:1: W293 blank line contains whitespace
+/home/svncode/ksmp/times/views.py:13:1: E302 expected 2 blank lines, found 1
+/home/svncode/ksmp/times/views.py:107:22: E703 statement ends with a semicolon
+/home/svncode/ksmp/times/views.py:110:1: E101 indentation contains mixed spaces and tabs
+/home/svncode/ksmp/times/views.py:110:1: W191 indentation contains tabs
+/home/svncode/ksmp/times/views.py:110:1: W293 blank line contains whitespace
+/home/svncode/ksmp/times/views.py:111:1: E101 indentation contains mixed spaces and tabs
+/home/svncode/ksmp/times/views.py:125:1: E302 expected 2 blank lines, found 1
+/home/svncode/ksmp/times/views.py:134:56: W291 trailing whitespace
+/home/svncode/ksmp/times/views.py:138:25: E703 statement ends with a semicolon
+/home/svncode/ksmp/times/views.py:141:1: W293 blank line contains whitespace
+/home/svncode/ksmp/times/views.py:155:79: E261 at least two spaces before inline comment
+/home/svncode/ksmp/times/views.py:155:80: E262 inline comment should start with '# '
+/home/svncode/ksmp/users/views.py:7:1: E302 expected 2 blank lines, found 1
+/home/svncode/ksmp/users/views.py:36:44: E261 at least two spaces before inline comment
+/home/svncode/ksmp/users/views.py:36:45: E262 inline comment should start with '# '
+/home/svncode/ksmp/users/views.py:42:44: E261 at least two spaces before inline comment
+/home/svncode/ksmp/users/views.py:42:45: E262 inline comment should start with '# '
+/home/svncode/ksmp/users/views.py:76:1: W293 blank line contains whitespace
+/home/svncode/ksmp/users/views.py:78:9: E303 too many blank lines (2)
+/home/svncode/ksmp/users/views.py:79:1: W293 blank line contains whitespace
