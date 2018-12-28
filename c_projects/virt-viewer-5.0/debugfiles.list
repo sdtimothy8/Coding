@@ -1,0 +1,17 @@
+%dir /usr/lib/debug
+%dir /usr/lib/debug/usr
+%dir /usr/lib/debug/usr/bin
+%dir /usr/lib/debug/.build-id
+%dir /usr/lib/debug/.build-id/b7
+%dir /usr/lib/debug/.build-id/41
+%dir /usr/lib/debug/.build-id/83
+%dir /usr/lib/debug/.dwz
+/usr/lib/debug/usr/bin/virt-viewer.debug
+/usr/lib/debug/usr/bin/remote-viewer.debug
+/usr/lib/debug/.build-id/b7/fd5301c434867b558fa5d5b2c6e08b17d225fc
+/usr/lib/debug/.build-id/b7/fd5301c434867b558fa5d5b2c6e08b17d225fc.debug
+/usr/lib/debug/.build-id/41/d7a42ef6a8c36de55fde8f95caa3e24857b9a9
+/usr/lib/debug/.build-id/41/d7a42ef6a8c36de55fde8f95caa3e24857b9a9.debug
+/usr/lib/debug/.build-id/83/1fbb94c0cb4b9492c88d6df67a9075e2d0af5b.debug
+/usr/lib/debug/.dwz/virt-viewer-5.0-12.el7.x86_64
+/usr/src/debug/virt-viewer-5.0

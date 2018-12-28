@@ -1,0 +1,1548 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ACLOCAL	Makefile	/^ACLOCAL = ${SHELL} \/root\/rpmbuild\/BUILD\/virt-viewer-5.0\/build-aux\/missing aclocal-1.13$/;"	m
+ACLOCAL_M4	Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+ALL_LINGUAS	Makefile	/^ALL_LINGUAS = $/;"	m
+AMTAR	Makefile	/^AMTAR = $${TAR-tar}$/;"	m
+AM_DEFAULT_VERBOSITY	Makefile	/^AM_DEFAULT_VERBOSITY = 0$/;"	m
+AM_V_CC	Makefile	/^AM_V_CC = $(am__v_CC_$(V))$/;"	m
+AM_V_CCLD	Makefile	/^AM_V_CCLD = $(am__v_CCLD_$(V))$/;"	m
+AM_V_GEN	Makefile	/^AM_V_GEN = $(am__v_GEN_$(V))$/;"	m
+AM_V_P	Makefile	/^AM_V_P = $(am__v_P_$(V))$/;"	m
+AM_V_at	Makefile	/^AM_V_at = $(am__v_at_$(V))$/;"	m
+AM_V_lt	Makefile	/^AM_V_lt = $(am__v_lt_$(V))$/;"	m
+AR	Makefile	/^AR = ar$/;"	m
+AUTOCONF	Makefile	/^AUTOCONF = ${SHELL} \/root\/rpmbuild\/BUILD\/virt-viewer-5.0\/build-aux\/missing autoconf$/;"	m
+AUTOHEADER	Makefile	/^AUTOHEADER = ${SHELL} \/root\/rpmbuild\/BUILD\/virt-viewer-5.0\/build-aux\/missing autoheader$/;"	m
+AUTOMAKE	Makefile	/^AUTOMAKE = ${SHELL} \/root\/rpmbuild\/BUILD\/virt-viewer-5.0\/build-aux\/missing automake-1.13$/;"	m
+AUTO_RESIZE_ALWAYS	virt-viewer-display-spice.c	/^    AUTO_RESIZE_ALWAYS,$/;"	e	enum:__anon11	file:
+AUTO_RESIZE_FULLSCREEN	virt-viewer-display-spice.c	/^    AUTO_RESIZE_FULLSCREEN,$/;"	e	enum:__anon11	file:
+AUTO_RESIZE_NEVER	virt-viewer-display-spice.c	/^    AUTO_RESIZE_NEVER,$/;"	e	enum:__anon11	file:
+AWK	Makefile	/^AWK = gawk$/;"	m
+AutoResizeState	virt-viewer-display-spice.c	/^} AutoResizeState;$/;"	t	typeref:enum:__anon11	file:
+BUILDID	Makefile	/^BUILDID = -12.el7$/;"	m
+BUILT_SOURCES	Makefile	/^BUILT_SOURCES = \\$/;"	m
+CATALOGS	Makefile	/^CATALOGS = $/;"	m
+CATOBJEXT	Makefile	/^CATOBJEXT = .gmo$/;"	m
+CC	Makefile	/^CC = gcc$/;"	m
+CCDEPMODE	Makefile	/^CCDEPMODE = depmode=none$/;"	m
+CCLD	Makefile	/^CCLD = $(CC)$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -specs=\/usr\/lib\/rpm\/redhat\/redhat-hardened-cc1  -m64 -mtune=generic$/;"	m
+CLEANFILES	Makefile	/^CLEANFILES = \\$/;"	m
+COMMON_CFLAGS	Makefile	/^COMMON_CFLAGS = \\$/;"	m
+COMMON_LIBS	Makefile	/^COMMON_LIBS = \\$/;"	m
+COMPILE	Makefile	/^COMPILE = $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) \\$/;"	m
+CONFIG_CLEAN_FILES	Makefile	/^CONFIG_CLEAN_FILES = virt-viewer.rc$/;"	m
+CONFIG_CLEAN_VPATH_FILES	Makefile	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CONFIG_HEADER	Makefile	/^CONFIG_HEADER = $(top_builddir)\/config.h$/;"	m
+CPP	Makefile	/^CPP = gcc -E$/;"	m
+CPPFLAGS	Makefile	/^CPPFLAGS = $/;"	m
+CTAGS	Makefile	/^CTAGS = ctags$/;"	m
+CYGPATH_W	Makefile	/^CYGPATH_W = echo$/;"	m
+ConnectionInfo	remote-viewer-connect.c	/^} ConnectionInfo;$/;"	t	typeref:struct:__anon3	file:
+DATA	Makefile	/^DATA = $(noinst_DATA)$/;"	m
+DATADIRNAME	Makefile	/^DATADIRNAME = share$/;"	m
+DEFAULT_INCLUDES	Makefile	/^DEFAULT_INCLUDES = -I. -I$(top_builddir)$/;"	m
+DEFS	Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEPDIR	Makefile	/^DEPDIR = .deps$/;"	m
+DIALOG_PRIVATE	remote-viewer-iso-list-dialog.c	34;"	d	file:
+DISTFILES	Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DIST_COMMON	Makefile	/^DIST_COMMON = $(srcdir)\/Makefile.in $(srcdir)\/Makefile.am \\$/;"	m
+DIST_SOURCES	Makefile	/^DIST_SOURCES = $(libvirt_viewer_util_la_SOURCES) \\$/;"	m
+DLLTOOL	Makefile	/^DLLTOOL = false$/;"	m
+DOMAIN_SELECTION_DEFAULT	virt-viewer.c	/^    DOMAIN_SELECTION_DEFAULT = DOMAIN_SELECTION_ID | DOMAIN_SELECTION_UUID | DOMAIN_SELECTION_NAME,$/;"	e	enum:__anon24	file:
+DOMAIN_SELECTION_ID	virt-viewer.c	/^    DOMAIN_SELECTION_ID = (1 << 0),$/;"	e	enum:__anon24	file:
+DOMAIN_SELECTION_NAME	virt-viewer.c	/^    DOMAIN_SELECTION_NAME = (1 << 2),$/;"	e	enum:__anon24	file:
+DOMAIN_SELECTION_UUID	virt-viewer.c	/^    DOMAIN_SELECTION_UUID = (1 << 1),$/;"	e	enum:__anon24	file:
+DSYMUTIL	Makefile	/^DSYMUTIL = $/;"	m
+DUMPBIN	Makefile	/^DUMPBIN = $/;"	m
+DomainSelection	virt-viewer.c	/^} DomainSelection;$/;"	t	typeref:enum:__anon24	file:
+ECHO_C	Makefile	/^ECHO_C = $/;"	m
+ECHO_N	Makefile	/^ECHO_N = -n$/;"	m
+ECHO_T	Makefile	/^ECHO_T = $/;"	m
+EGREP	Makefile	/^EGREP = \/usr\/bin\/grep -E$/;"	m
+ENUMS_FILES	Makefile	/^ENUMS_FILES = \\$/;"	m
+ETAGS	Makefile	/^ETAGS = etags$/;"	m
+EXEEXT	Makefile	/^EXEEXT = $/;"	m
+EXTRA_DIST	Makefile	/^EXTRA_DIST = $(noinst_DATA) virt-viewer-enums.c.etemplate \\$/;"	m
+FGREP	Makefile	/^FGREP = \/usr\/bin\/grep -F$/;"	m
+FILE_TRANSFER_DIALOG_PRIVATE	virt-viewer-file-transfer-dialog.c	42;"	d	file:
+FONT_WEIGHT	remote-viewer-iso-list-dialog.c	/^    FONT_WEIGHT,$/;"	e	enum:RemoteViewerISOListDialogModel	file:
+FullscreenOptions	virt-viewer-app.c	/^} FullscreenOptions;$/;"	t	typeref:struct:__anon20	file:
+GETTEXT_PACKAGE	Makefile	/^GETTEXT_PACKAGE = virt-viewer$/;"	m
+GET_PRIVATE	remote-viewer.c	62;"	d	file:
+GET_PRIVATE	virt-viewer-app.c	161;"	d	file:
+GET_PRIVATE	virt-viewer-notebook.c	32;"	d	file:
+GET_PRIVATE	virt-viewer-window.c	80;"	d	file:
+GET_PRIVATE	virt-viewer.c	72;"	d	file:
+GLIB2_CFLAGS	Makefile	/^GLIB2_CFLAGS = -pthread -I\/usr\/include\/glib-2.0 -I\/usr\/lib64\/glib-2.0\/include   -DGLIB_VERSION_MIN_REQUIRED=GLIB_VERSION_2_38     -DGLIB_VERSION_MAX_ALLOWED=GLIB_VERSION_2_38$/;"	m
+GLIB2_LIBS	Makefile	/^GLIB2_LIBS = -pthread -Wl,--export-dynamic -lgio-2.0 -lgobject-2.0 -lgthread-2.0 -lgmodule-2.0 -lglib-2.0  $/;"	m
+GLIB2_REQUIRED	Makefile	/^GLIB2_REQUIRED = 2.38$/;"	m
+GLIB_COMPAT_H	glib-compat.h	26;"	d
+GLIB_COMPILE_RESOURCES	Makefile	/^GLIB_COMPILE_RESOURCES = \/usr\/bin\/glib-compile-resources$/;"	m
+GLIB_DISABLE_DEPRECATION_WARNINGS	virt-viewer-session-vnc.c	28;"	d	file:
+GLIB_MKENUMS	Makefile	/^GLIB_MKENUMS = glib-mkenums$/;"	m
+GMOFILES	Makefile	/^GMOFILES = $/;"	m
+GMSGFMT	Makefile	/^GMSGFMT = \/usr\/bin\/msgfmt$/;"	m
+GOVIRT_REQUIRED	Makefile	/^GOVIRT_REQUIRED = 0.3.2$/;"	m
+GREP	Makefile	/^GREP = \/usr\/bin\/grep$/;"	m
+GTK_CFLAGS	Makefile	/^GTK_CFLAGS = -pthread -I\/usr\/include\/gtk-3.0 -I\/usr\/include\/atk-1.0 -I\/usr\/include\/at-spi2-atk\/2.0 -I\/usr\/include\/pango-1.0 -I\/usr\/include\/gio-unix-2.0\/ -I\/usr\/include\/cairo -I\/usr\/include\/gdk-pixbuf-2.0 -I\/usr\/include\/glib-2.0 -I\/usr\/lib64\/glib-2.0\/include -I\/usr\/include\/at-spi-2.0 -I\/usr\/include\/dbus-1.0 -I\/usr\/lib64\/dbus-1.0\/include -I\/usr\/include\/libdrm -I\/usr\/include\/harfbuzz -I\/usr\/include\/freetype2 -I\/usr\/include\/fribidi -I\/usr\/include\/libpng15 -I\/usr\/include\/uuid -I\/usr\/include\/pixman-1   -DGDK_VERSION_MIN_REQUIRED=GDK_VERSION_3_12     -DGDK_VERSION_MAX_ALLOWED=GDK_VERSION_3_12$/;"	m
+GTK_LIBS	Makefile	/^GTK_LIBS = -lgtk-3 -lgdk-3 -latk-1.0 -lgio-2.0 -lpangocairo-1.0 -lgdk_pixbuf-2.0 -lcairo-gobject -lpango-1.0 -lcairo -lgobject-2.0 -lglib-2.0  $/;"	m
+GTK_REQUIRED	Makefile	/^GTK_REQUIRED = 3.12$/;"	m
+GTK_VNC_CFLAGS	Makefile	/^GTK_VNC_CFLAGS = -pthread -I\/usr\/include\/gtk-vnc-2.0 -I\/usr\/include\/gvnc-1.0 -I\/usr\/include\/gtk-3.0 -I\/usr\/include\/glib-2.0 -I\/usr\/lib64\/glib-2.0\/include -I\/usr\/include\/atk-1.0 -I\/usr\/include\/at-spi2-atk\/2.0 -I\/usr\/include\/pango-1.0 -I\/usr\/include\/gio-unix-2.0\/ -I\/usr\/include\/cairo -I\/usr\/include\/gdk-pixbuf-2.0 -I\/usr\/include\/at-spi-2.0 -I\/usr\/include\/dbus-1.0 -I\/usr\/lib64\/dbus-1.0\/include -I\/usr\/include\/libdrm -I\/usr\/include\/harfbuzz -I\/usr\/include\/freetype2 -I\/usr\/include\/fribidi -I\/usr\/include\/libpng15 -I\/usr\/include\/uuid -I\/usr\/include\/pixman-1  $/;"	m
+GTK_VNC_LIBS	Makefile	/^GTK_VNC_LIBS = -lgtk-vnc-2.0 -lgvnc-1.0 -lgtk-3 -lgdk-3 -latk-1.0 -lgio-2.0 -lpangocairo-1.0 -lgdk_pixbuf-2.0 -lcairo-gobject -lpango-1.0 -lcairo -lgobject-2.0 -lglib-2.0  $/;"	m
+GTK_VNC_REQUIRED	Makefile	/^GTK_VNC_REQUIRED = 0.4.0$/;"	m
+G_DEFINE_ABSTRACT_TYPE	virt-viewer-app.c	/^G_DEFINE_ABSTRACT_TYPE(VirtViewerApp, virt_viewer_app, GTK_TYPE_APPLICATION)$/;"	f
+G_DEFINE_ABSTRACT_TYPE	virt-viewer-display.c	/^G_DEFINE_ABSTRACT_TYPE(VirtViewerDisplay, virt_viewer_display, GTK_TYPE_BIN)$/;"	f
+G_DEFINE_ABSTRACT_TYPE	virt-viewer-session.c	/^G_DEFINE_ABSTRACT_TYPE(VirtViewerSession, virt_viewer_session, G_TYPE_OBJECT)$/;"	f
+G_DEFINE_CONSTRUCTOR	virt-viewer-resources.c	11102;"	d	file:
+G_DEFINE_CONSTRUCTOR	virt-viewer-resources.c	11129;"	d	file:
+G_DEFINE_CONSTRUCTOR	virt-viewer-resources.c	11158;"	d	file:
+G_DEFINE_CONSTRUCTOR	virt-viewer-resources.c	11183;"	d	file:
+G_DEFINE_CONSTRUCTOR_NEEDS_PRAGMA	virt-viewer-resources.c	11153;"	d	file:
+G_DEFINE_CONSTRUCTOR_NEEDS_PRAGMA	virt-viewer-resources.c	11178;"	d	file:
+G_DEFINE_CONSTRUCTOR_PRAGMA_ARGS	virt-viewer-resources.c	11156;"	d	file:
+G_DEFINE_CONSTRUCTOR_PRAGMA_ARGS	virt-viewer-resources.c	11181;"	d	file:
+G_DEFINE_DESTRUCTOR	virt-viewer-resources.c	11103;"	d	file:
+G_DEFINE_DESTRUCTOR	virt-viewer-resources.c	11130;"	d	file:
+G_DEFINE_DESTRUCTOR	virt-viewer-resources.c	11165;"	d	file:
+G_DEFINE_DESTRUCTOR	virt-viewer-resources.c	11188;"	d	file:
+G_DEFINE_DESTRUCTOR_NEEDS_PRAGMA	virt-viewer-resources.c	11154;"	d	file:
+G_DEFINE_DESTRUCTOR_NEEDS_PRAGMA	virt-viewer-resources.c	11179;"	d	file:
+G_DEFINE_DESTRUCTOR_PRAGMA_ARGS	virt-viewer-resources.c	11163;"	d	file:
+G_DEFINE_DESTRUCTOR_PRAGMA_ARGS	virt-viewer-resources.c	11186;"	d	file:
+G_DEFINE_TYPE	ovirt-foreign-menu.c	/^G_DEFINE_TYPE (OvirtForeignMenu, ovirt_foreign_menu, G_TYPE_OBJECT)$/;"	f
+G_DEFINE_TYPE	remote-viewer-iso-list-dialog.c	/^G_DEFINE_TYPE(RemoteViewerISOListDialog, remote_viewer_iso_list_dialog, GTK_TYPE_DIALOG)$/;"	f
+G_DEFINE_TYPE	remote-viewer.c	/^G_DEFINE_TYPE (RemoteViewer, remote_viewer, VIRT_VIEWER_TYPE_APP)$/;"	f
+G_DEFINE_TYPE	virt-viewer-display-vnc.c	/^G_DEFINE_TYPE(VirtViewerDisplayVnc, virt_viewer_display_vnc, VIRT_VIEWER_TYPE_DISPLAY)$/;"	f
+G_DEFINE_TYPE	virt-viewer-notebook.c	/^G_DEFINE_TYPE (VirtViewerNotebook, virt_viewer_notebook, GTK_TYPE_NOTEBOOK)$/;"	f
+G_DEFINE_TYPE	virt-viewer-session-spice.c	/^G_DEFINE_TYPE (VirtViewerSessionSpice, virt_viewer_session_spice, VIRT_VIEWER_TYPE_SESSION)$/;"	f
+G_DEFINE_TYPE	virt-viewer-session-vnc.c	/^G_DEFINE_TYPE(VirtViewerSessionVnc, virt_viewer_session_vnc, VIRT_VIEWER_TYPE_SESSION)$/;"	f
+G_DEFINE_TYPE	virt-viewer-timed-revealer.c	/^G_DEFINE_TYPE (VirtViewerTimedRevealer, virt_viewer_timed_revealer, GTK_TYPE_EVENT_BOX)$/;"	f
+G_DEFINE_TYPE	virt-viewer-window.c	/^G_DEFINE_TYPE (VirtViewerWindow, virt_viewer_window, G_TYPE_OBJECT)$/;"	f
+G_HAS_CONSTRUCTORS	virt-viewer-resources.c	11100;"	d	file:
+G_HAS_CONSTRUCTORS	virt-viewer-resources.c	11108;"	d	file:
+G_HAS_CONSTRUCTORS	virt-viewer-resources.c	11150;"	d	file:
+G_HAS_CONSTRUCTORS	virt-viewer-resources.c	11176;"	d	file:
+G_MSVC_CTOR	virt-viewer-resources.c	11132;"	d	file:
+G_MSVC_DTOR	virt-viewer-resources.c	11140;"	d	file:
+G_MSVC_SYMBOL_PREFIX	virt-viewer-resources.c	11124;"	d	file:
+G_MSVC_SYMBOL_PREFIX	virt-viewer-resources.c	11126;"	d	file:
+G_N_ELEMENTS	virt-viewer-window.c	/^G_STATIC_ASSERT(G_N_ELEMENTS(keypad_action_entries) == G_N_ELEMENTS(keypad_action_accels));$/;"	v
+G_VALUE_INIT	remote-viewer.c	51;"	d	file:
+ICONDIR	Makefile	/^ICONDIR = $(top_builddir)\/icons$/;"	m
+ICOTOOL	Makefile	/^ICOTOOL = icotool$/;"	m
+INSTALL	Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL_DATA	Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_HEADER	Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_PROGRAM	Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_STRIP_PROGRAM	Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m
+INSTOBJEXT	Makefile	/^INSTOBJEXT = .mo$/;"	m
+INTLLIBS	Makefile	/^INTLLIBS = $/;"	m
+INTLTOOL_EXTRACT	Makefile	/^INTLTOOL_EXTRACT = \/usr\/bin\/intltool-extract$/;"	m
+INTLTOOL_MERGE	Makefile	/^INTLTOOL_MERGE = \/usr\/bin\/intltool-merge$/;"	m
+INTLTOOL_PERL	Makefile	/^INTLTOOL_PERL = \/usr\/bin\/perl$/;"	m
+INTLTOOL_UPDATE	Makefile	/^INTLTOOL_UPDATE = \/usr\/bin\/intltool-update$/;"	m
+INTLTOOL_V_MERGE	Makefile	/^INTLTOOL_V_MERGE = $(INTLTOOL__v_MERGE_$(V))$/;"	m
+INTLTOOL_V_MERGE_OPTIONS	Makefile	/^INTLTOOL_V_MERGE_OPTIONS = $(intltool__v_merge_options_$(V))$/;"	m
+INTLTOOL__v_MERGE_	Makefile	/^INTLTOOL__v_MERGE_ = $(INTLTOOL__v_MERGE_$(AM_DEFAULT_VERBOSITY))$/;"	m
+INTLTOOL__v_MERGE_0	Makefile	/^INTLTOOL__v_MERGE_0 = @echo "  ITMRG " $@;$/;"	m
+INTL_MACOSX_LIBS	Makefile	/^INTL_MACOSX_LIBS = $/;"	m
+ISO_IS_ACTIVE	remote-viewer-iso-list-dialog.c	/^    ISO_IS_ACTIVE = 0,$/;"	e	enum:RemoteViewerISOListDialogModel	file:
+ISO_NAME	remote-viewer-iso-list-dialog.c	/^    ISO_NAME,$/;"	e	enum:RemoteViewerISOListDialogModel	file:
+LD	Makefile	/^LD = \/usr\/bin\/ld -m elf_x86_64$/;"	m
+LDADD	Makefile	/^LDADD = $(am__append_7)$/;"	m
+LDFLAGS	Makefile	/^LDFLAGS = -Wl,-z,relro -specs=\/usr\/lib\/rpm\/redhat\/redhat-hardened-ld$/;"	m
+LIBOBJS	Makefile	/^LIBOBJS = $/;"	m
+LIBS	Makefile	/^LIBS = $/;"	m
+LIBTOOL	Makefile	/^LIBTOOL = $(SHELL) $(top_builddir)\/libtool$/;"	m
+LIBVIRT_CFLAGS	Makefile	/^LIBVIRT_CFLAGS = -I\/usr\/include\/libvirt-glib-1.0 -I\/usr\/include\/glib-2.0 -I\/usr\/lib64\/glib-2.0\/include  $/;"	m
+LIBVIRT_GLIB_REQUIRED	Makefile	/^LIBVIRT_GLIB_REQUIRED = 0.1.8$/;"	m
+LIBVIRT_LIBS	Makefile	/^LIBVIRT_LIBS = -lvirt -lvirt-glib-1.0 -lglib-2.0  $/;"	m
+LIBVIRT_REQUIRED	Makefile	/^LIBVIRT_REQUIRED = 0.10.0$/;"	m
+LIBXML2_CFLAGS	Makefile	/^LIBXML2_CFLAGS = -I\/usr\/include\/libxml2  $/;"	m
+LIBXML2_LIBS	Makefile	/^LIBXML2_LIBS = -lxml2  $/;"	m
+LIBXML2_REQUIRED	Makefile	/^LIBXML2_REQUIRED = 2.6.0$/;"	m
+LINK	Makefile	/^LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \\$/;"	m
+LIPO	Makefile	/^LIPO = $/;"	m
+LN_S	Makefile	/^LN_S = ln -s$/;"	m
+LTCOMPILE	Makefile	/^LTCOMPILE = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \\$/;"	m
+LTLIBOBJS	Makefile	/^LTLIBOBJS = $/;"	m
+LTLIBRARIES	Makefile	/^LTLIBRARIES = $(noinst_LTLIBRARIES)$/;"	m
+MAINTAINERCLEANFILES	Makefile	/^MAINTAINERCLEANFILES = $(am__append_8)$/;"	m
+MAIN_GROUP	virt-viewer-file.c	101;"	d	file:
+MAKEINFO	Makefile	/^MAKEINFO = ${SHELL} \/root\/rpmbuild\/BUILD\/virt-viewer-5.0\/build-aux\/missing makeinfo$/;"	m
+MANIFESTDIR	Makefile	/^MANIFESTDIR = $(srcdir)$/;"	m
+MANIFEST_TOOL	Makefile	/^MANIFEST_TOOL = :$/;"	m
+MAX_KEY_COMBO	virt-viewer-window.c	535;"	d	file:
+MAX_ZOOM_LEVEL	virt-viewer-window.h	34;"	d
+MIN_DISPLAY_HEIGHT	virt-viewer-display.h	33;"	d
+MIN_DISPLAY_WIDTH	virt-viewer-display.h	32;"	d
+MIN_ZOOM_LEVEL	virt-viewer-window.h	33;"	d
+MKDIR_P	Makefile	/^MKDIR_P = \/usr\/bin\/mkdir -p$/;"	m
+MKINSTALLDIRS	Makefile	/^MKINSTALLDIRS = build-aux\/mkinstalldirs$/;"	m
+MSGFMT	Makefile	/^MSGFMT = \/usr\/bin\/msgfmt$/;"	m
+MSGFMT_OPTS	Makefile	/^MSGFMT_OPTS = -c$/;"	m
+MSGMERGE	Makefile	/^MSGMERGE = \/usr\/bin\/msgmerge$/;"	m
+NM	Makefile	/^NM = \/usr\/bin\/nm -B$/;"	m
+NMEDIT	Makefile	/^NMEDIT = $/;"	m
+NORMAL_INSTALL	Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_UNINSTALL	Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+NORMAL_ZOOM_LEVEL	virt-viewer-window.h	35;"	d
+NULL	Makefile	/^NULL = $/;"	m
+OBJDUMP	Makefile	/^OBJDUMP = objdump$/;"	m
+OBJEXT	Makefile	/^OBJEXT = o$/;"	m
+OTOOL	Makefile	/^OTOOL = $/;"	m
+OTOOL64	Makefile	/^OTOOL64 = $/;"	m
+OVIRTIS_FOREIGN_MENU_CLASS	ovirt-foreign-menu.h	47;"	d
+OVIRT_CFLAGS	Makefile	/^OVIRT_CFLAGS = -pthread -I\/usr\/include\/govirt-1.0 -I\/usr\/include\/glib-2.0 -I\/usr\/lib64\/glib-2.0\/include -I\/usr\/include\/rest-0.7 -I\/usr\/include\/libsoup-2.4 -I\/usr\/include\/libxml2  $/;"	m
+OVIRT_FOREIGN_MENU	ovirt-foreign-menu.h	38;"	d
+OVIRT_FOREIGN_MENU_CLASS	ovirt-foreign-menu.h	41;"	d
+OVIRT_FOREIGN_MENU_GET_CLASS	ovirt-foreign-menu.h	50;"	d
+OVIRT_FOREIGN_MENU_GET_PRIVATE	ovirt-foreign-menu.c	90;"	d	file:
+OVIRT_GROUP	virt-viewer-file.c	102;"	d	file:
+OVIRT_IS_FOREIGN_MENU	ovirt-foreign-menu.h	44;"	d
+OVIRT_LIBS	Makefile	/^OVIRT_LIBS = -lgovirt -lrest-0.7 -lsoup-2.4 -lxml2 -lgio-2.0 -lgobject-2.0 -lglib-2.0  $/;"	m
+OVIRT_TYPE_FOREIGN_MENU	ovirt-foreign-menu.h	36;"	d
+OvirtForeignMenu	ovirt-foreign-menu.h	/^typedef struct _OvirtForeignMenu OvirtForeignMenu;$/;"	t	typeref:struct:_OvirtForeignMenu
+OvirtForeignMenuClass	ovirt-foreign-menu.h	/^typedef struct _OvirtForeignMenuClass OvirtForeignMenuClass;$/;"	t	typeref:struct:_OvirtForeignMenuClass
+OvirtForeignMenuPrivate	ovirt-foreign-menu.h	/^typedef struct _OvirtForeignMenuPrivate OvirtForeignMenuPrivate;$/;"	t	typeref:struct:_OvirtForeignMenuPrivate
+OvirtForeignMenuState	ovirt-foreign-menu.c	/^} OvirtForeignMenuState;$/;"	t	typeref:enum:__anon15	file:
+PACKAGE	Makefile	/^PACKAGE = virt-viewer$/;"	m
+PACKAGE_BUGREPORT	Makefile	/^PACKAGE_BUGREPORT = $/;"	m
+PACKAGE_NAME	Makefile	/^PACKAGE_NAME = virt-viewer$/;"	m
+PACKAGE_STRING	Makefile	/^PACKAGE_STRING = virt-viewer 5.0$/;"	m
+PACKAGE_TARNAME	Makefile	/^PACKAGE_TARNAME = virt-viewer$/;"	m
+PACKAGE_URL	Makefile	/^PACKAGE_URL = $/;"	m
+PACKAGE_VERSION	Makefile	/^PACKAGE_VERSION = 5.0$/;"	m
+PATH_SEPARATOR	Makefile	/^PATH_SEPARATOR = :$/;"	m
+PKG_CONFIG	Makefile	/^PKG_CONFIG = \/usr\/bin\/pkg-config$/;"	m
+PKG_CONFIG_LIBDIR	Makefile	/^PKG_CONFIG_LIBDIR = $/;"	m
+PKG_CONFIG_PATH	Makefile	/^PKG_CONFIG_PATH = :\/usr\/lib64\/pkgconfig:\/usr\/share\/pkgconfig$/;"	m
+POFILES	Makefile	/^POFILES = $/;"	m
+POST_INSTALL	Makefile	/^POST_INSTALL = :$/;"	m
+POST_UNINSTALL	Makefile	/^POST_UNINSTALL = :$/;"	m
+POSUB	Makefile	/^POSUB = po$/;"	m
+PO_IN_DATADIR_FALSE	Makefile	/^PO_IN_DATADIR_FALSE = $/;"	m
+PO_IN_DATADIR_TRUE	Makefile	/^PO_IN_DATADIR_TRUE = $/;"	m
+PRE_INSTALL	Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_UNINSTALL	Makefile	/^PRE_UNINSTALL = :$/;"	m
+PROGRAMS	Makefile	/^PROGRAMS = $(bin_PROGRAMS)$/;"	m
+PROP_0	ovirt-foreign-menu.c	/^    PROP_0,$/;"	e	enum:__anon16	file:
+PROP_0	remote-viewer-iso-list-dialog.c	/^    PROP_0,$/;"	e	enum:RemoteViewerISOListDialogProperties	file:
+PROP_0	virt-viewer-session-spice.c	/^    PROP_0,$/;"	e	enum:__anon8	file:
+PROP_API	ovirt-foreign-menu.c	/^    PROP_API,$/;"	e	enum:__anon16	file:
+PROP_CA	virt-viewer-file.c	/^    PROP_CA,$/;"	e	enum:__anon23	file:
+PROP_COLOR_DEPTH	virt-viewer-file.c	/^    PROP_COLOR_DEPTH,$/;"	e	enum:__anon23	file:
+PROP_DELETE_THIS_FILE	virt-viewer-file.c	/^    PROP_DELETE_THIS_FILE,$/;"	e	enum:__anon23	file:
+PROP_DISABLE_CHANNELS	virt-viewer-file.c	/^    PROP_DISABLE_CHANNELS,$/;"	e	enum:__anon23	file:
+PROP_DISABLE_EFFECTS	virt-viewer-file.c	/^    PROP_DISABLE_EFFECTS,$/;"	e	enum:__anon23	file:
+PROP_DUMMY_PROPERTY	virt-viewer-file.c	/^    PROP_DUMMY_PROPERTY,$/;"	e	enum:__anon23	file:
+PROP_ENABLE_SMARTCARD	virt-viewer-file.c	/^    PROP_ENABLE_SMARTCARD,$/;"	e	enum:__anon23	file:
+PROP_ENABLE_USBREDIR	virt-viewer-file.c	/^    PROP_ENABLE_USBREDIR,$/;"	e	enum:__anon23	file:
+PROP_ENABLE_USB_AUTOSHARE	virt-viewer-file.c	/^    PROP_ENABLE_USB_AUTOSHARE,$/;"	e	enum:__anon23	file:
+PROP_FILE	ovirt-foreign-menu.c	/^    PROP_FILE,$/;"	e	enum:__anon16	file:
+PROP_FILES	ovirt-foreign-menu.c	/^    PROP_FILES,$/;"	e	enum:__anon16	file:
+PROP_FOREIGN_MENU	remote-viewer-iso-list-dialog.c	/^    PROP_FOREIGN_MENU,$/;"	e	enum:RemoteViewerISOListDialogProperties	file:
+PROP_FULLSCREEN	virt-viewer-file.c	/^    PROP_FULLSCREEN,$/;"	e	enum:__anon23	file:
+PROP_HOST	virt-viewer-file.c	/^    PROP_HOST,$/;"	e	enum:__anon23	file:
+PROP_HOST_SUBJECT	virt-viewer-file.c	/^    PROP_HOST_SUBJECT,$/;"	e	enum:__anon23	file:
+PROP_MAIN_WINDOW	virt-viewer-session-spice.c	/^    PROP_MAIN_WINDOW$/;"	e	enum:__anon8	file:
+PROP_OVIRT_ADMIN	virt-viewer-file.c	/^    PROP_OVIRT_ADMIN,$/;"	e	enum:__anon23	file:
+PROP_OVIRT_CA	virt-viewer-file.c	/^    PROP_OVIRT_CA,$/;"	e	enum:__anon23	file:
+PROP_OVIRT_HOST	virt-viewer-file.c	/^    PROP_OVIRT_HOST,$/;"	e	enum:__anon23	file:
+PROP_OVIRT_JSESSIONID	virt-viewer-file.c	/^    PROP_OVIRT_JSESSIONID,$/;"	e	enum:__anon23	file:
+PROP_OVIRT_SSO_TOKEN	virt-viewer-file.c	/^    PROP_OVIRT_SSO_TOKEN,$/;"	e	enum:__anon23	file:
+PROP_OVIRT_VM_GUID	virt-viewer-file.c	/^    PROP_OVIRT_VM_GUID,$/;"	e	enum:__anon23	file:
+PROP_PASSWORD	virt-viewer-file.c	/^    PROP_PASSWORD,$/;"	e	enum:__anon23	file:
+PROP_PORT	virt-viewer-file.c	/^    PROP_PORT,$/;"	e	enum:__anon23	file:
+PROP_PROXY	ovirt-foreign-menu.c	/^    PROP_PROXY,$/;"	e	enum:__anon16	file:
+PROP_PROXY	virt-viewer-file.c	/^    PROP_PROXY,$/;"	e	enum:__anon23	file:
+PROP_RELEASE_CURSOR	virt-viewer-file.c	/^    PROP_RELEASE_CURSOR,$/;"	e	enum:__anon23	file:
+PROP_SECURE_ATTENTION	virt-viewer-file.c	/^    PROP_SECURE_ATTENTION,$/;"	e	enum:__anon23	file:
+PROP_SECURE_CHANNELS	virt-viewer-file.c	/^    PROP_SECURE_CHANNELS,$/;"	e	enum:__anon23	file:
+PROP_SPICE_SESSION	virt-viewer-session-spice.c	/^    PROP_SPICE_SESSION,$/;"	e	enum:__anon8	file:
+PROP_SW_SMARTCARD_READER	virt-viewer-session-spice.c	/^    PROP_SW_SMARTCARD_READER,$/;"	e	enum:__anon8	file:
+PROP_TITLE	virt-viewer-file.c	/^    PROP_TITLE,$/;"	e	enum:__anon23	file:
+PROP_TLS_CIPHERS	virt-viewer-file.c	/^    PROP_TLS_CIPHERS,$/;"	e	enum:__anon23	file:
+PROP_TLS_PORT	virt-viewer-file.c	/^    PROP_TLS_PORT,$/;"	e	enum:__anon23	file:
+PROP_TOGGLE_FULLSCREEN	virt-viewer-file.c	/^    PROP_TOGGLE_FULLSCREEN,$/;"	e	enum:__anon23	file:
+PROP_TYPE	virt-viewer-file.c	/^    PROP_TYPE,$/;"	e	enum:__anon23	file:
+PROP_USB_FILTER	virt-viewer-file.c	/^    PROP_USB_FILTER,$/;"	e	enum:__anon23	file:
+PROP_USERNAME	virt-viewer-file.c	/^    PROP_USERNAME,$/;"	e	enum:__anon23	file:
+PROP_VERSION	virt-viewer-file.c	/^    PROP_VERSION,$/;"	e	enum:__anon23	file:
+PROP_VERSIONS	virt-viewer-file.c	/^    PROP_VERSIONS,$/;"	e	enum:__anon23	file:
+PROP_VERSION_URL	virt-viewer-file.c	/^    PROP_VERSION_URL,$/;"	e	enum:__anon23	file:
+PROP_VM	ovirt-foreign-menu.c	/^    PROP_VM,$/;"	e	enum:__anon16	file:
+PROP_VM_GUID	ovirt-foreign-menu.c	/^    PROP_VM_GUID,$/;"	e	enum:__anon16	file:
+RANLIB	Makefile	/^RANLIB = ranlib$/;"	m
+REMOTE_VIEWER	remote-viewer.h	32;"	d
+REMOTE_VIEWER_CLASS	remote-viewer.h	33;"	d
+REMOTE_VIEWER_CONNECT_H	remote-viewer-connect.h	22;"	d
+REMOTE_VIEWER_GET_CLASS	remote-viewer.h	36;"	d
+REMOTE_VIEWER_H	remote-viewer.h	24;"	d
+REMOTE_VIEWER_IS	remote-viewer.h	34;"	d
+REMOTE_VIEWER_ISO_LIST_DIALOG	remote-viewer-iso-list-dialog.h	30;"	d
+REMOTE_VIEWER_ISO_LIST_DIALOG_CLASS	remote-viewer-iso-list-dialog.h	31;"	d
+REMOTE_VIEWER_ISO_LIST_DIALOG_GET_CLASS	remote-viewer-iso-list-dialog.h	34;"	d
+REMOTE_VIEWER_IS_CLASS	remote-viewer.h	35;"	d
+REMOTE_VIEWER_IS_ISO_LIST_DIALOG	remote-viewer-iso-list-dialog.h	32;"	d
+REMOTE_VIEWER_IS_ISO_LIST_DIALOG_CLASS	remote-viewer-iso-list-dialog.h	33;"	d
+REMOTE_VIEWER_TYPE	remote-viewer.h	31;"	d
+REMOTE_VIEWER_TYPE_ISO_LIST_DIALOG	remote-viewer-iso-list-dialog.h	28;"	d
+RemoteViewer	remote-viewer.h	/^} RemoteViewer;$/;"	t	typeref:struct:__anon1
+RemoteViewerClass	remote-viewer.h	/^} RemoteViewerClass;$/;"	t	typeref:struct:__anon2
+RemoteViewerISOListDialog	remote-viewer-iso-list-dialog.h	/^typedef struct _RemoteViewerISOListDialog RemoteViewerISOListDialog;$/;"	t	typeref:struct:_RemoteViewerISOListDialog
+RemoteViewerISOListDialogClass	remote-viewer-iso-list-dialog.h	/^typedef struct _RemoteViewerISOListDialogClass RemoteViewerISOListDialogClass;$/;"	t	typeref:struct:_RemoteViewerISOListDialogClass
+RemoteViewerISOListDialogModel	remote-viewer-iso-list-dialog.c	/^enum RemoteViewerISOListDialogModel$/;"	g	file:
+RemoteViewerISOListDialogPrivate	remote-viewer-iso-list-dialog.h	/^typedef struct _RemoteViewerISOListDialogPrivate RemoteViewerISOListDialogPrivate;$/;"	t	typeref:struct:_RemoteViewerISOListDialogPrivate
+RemoteViewerISOListDialogProperties	remote-viewer-iso-list-dialog.c	/^enum RemoteViewerISOListDialogProperties {$/;"	g	file:
+RemoteViewerPrivate	remote-viewer.h	/^typedef struct _RemoteViewerPrivate RemoteViewerPrivate;$/;"	t	typeref:struct:_RemoteViewerPrivate
+SECTION	virt-viewer-resources.c	4;"	d	file:
+SECTION	virt-viewer-resources.c	6;"	d	file:
+SED	Makefile	/^SED = \/usr\/bin\/sed$/;"	m
+SET_MAKE	Makefile	/^SET_MAKE = $/;"	m
+SHELL	Makefile	/^SHELL = \/bin\/sh$/;"	m
+SOURCES	Makefile	/^SOURCES = $(libvirt_viewer_util_la_SOURCES) \\$/;"	m
+SPICE_GTK_CFLAGS	Makefile	/^SPICE_GTK_CFLAGS = -pthread -I\/usr\/include\/spice-client-gtk-3.0 -I\/usr\/include\/gtk-3.0 -I\/usr\/include\/spice-client-glib-2.0 -I\/usr\/include\/atk-1.0 -I\/usr\/include\/at-spi2-atk\/2.0 -I\/usr\/include\/pango-1.0 -I\/usr\/include\/gio-unix-2.0\/ -I\/usr\/include\/cairo -I\/usr\/include\/gdk-pixbuf-2.0 -I\/usr\/include\/glib-2.0 -I\/usr\/lib64\/glib-2.0\/include -I\/usr\/include\/at-spi-2.0 -I\/usr\/include\/dbus-1.0 -I\/usr\/lib64\/dbus-1.0\/include -I\/usr\/include\/libdrm -I\/usr\/include\/harfbuzz -I\/usr\/include\/freetype2 -I\/usr\/include\/fribidi -I\/usr\/include\/libpng15 -I\/usr\/include\/uuid -I\/usr\/include\/pixman-1 -I\/usr\/include\/spice-1  $/;"	m
+SPICE_GTK_LIBS	Makefile	/^SPICE_GTK_LIBS = -lspice-client-gtk-3.0 -lgtk-3 -lgdk-3 -latk-1.0 -lgio-2.0 -lpangocairo-1.0 -lgdk_pixbuf-2.0 -lcairo-gobject -lpango-1.0 -lcairo -lgobject-2.0 -lglib-2.0 -lspice-client-glib-2.0  $/;"	m
+SPICE_GTK_REQUIRED	Makefile	/^SPICE_GTK_REQUIRED = 0.33$/;"	m
+SPICE_PROTOCOL_CFLAGS	Makefile	/^SPICE_PROTOCOL_CFLAGS = -I\/usr\/include\/spice-1  $/;"	m
+SPICE_PROTOCOL_LIBS	Makefile	/^SPICE_PROTOCOL_LIBS =  $/;"	m
+SPICE_PROTOCOL_REQUIRED	Makefile	/^SPICE_PROTOCOL_REQUIRED = 0.12.7$/;"	m
+STATE_0	ovirt-foreign-menu.c	/^    STATE_0,$/;"	e	enum:__anon15	file:
+STATE_API	ovirt-foreign-menu.c	/^    STATE_API,$/;"	e	enum:__anon15	file:
+STATE_CDROM_FILE	ovirt-foreign-menu.c	/^    STATE_CDROM_FILE,$/;"	e	enum:__anon15	file:
+STATE_CLUSTER	ovirt-foreign-menu.c	/^    STATE_CLUSTER,$/;"	e	enum:__anon15	file:
+STATE_DATA_CENTER	ovirt-foreign-menu.c	/^    STATE_DATA_CENTER,$/;"	e	enum:__anon15	file:
+STATE_HOST	ovirt-foreign-menu.c	/^    STATE_HOST,$/;"	e	enum:__anon15	file:
+STATE_ISOS	ovirt-foreign-menu.c	/^    STATE_ISOS$/;"	e	enum:__anon15	file:
+STATE_STORAGE_DOMAIN	ovirt-foreign-menu.c	/^    STATE_STORAGE_DOMAIN,$/;"	e	enum:__anon15	file:
+STATE_VM	ovirt-foreign-menu.c	/^    STATE_VM,$/;"	e	enum:__anon15	file:
+STATE_VM_CDROM	ovirt-foreign-menu.c	/^    STATE_VM_CDROM,$/;"	e	enum:__anon15	file:
+STRIP	Makefile	/^STRIP = strip$/;"	m
+UPDATE_MIME_DATABASE	Makefile	/^UPDATE_MIME_DATABASE = \/usr\/bin\/update-mime-database$/;"	m
+USE_NLS	Makefile	/^USE_NLS = yes$/;"	m
+UUID_LEN	virt-viewer-session-spice.c	338;"	d	file:
+VERSION	Makefile	/^VERSION = 5.0$/;"	m
+VIRT_VIEWER	virt-viewer.h	32;"	d
+VIRT_VIEWER_APP	virt-viewer-app.h	33;"	d
+VIRT_VIEWER_APP_CLASS	virt-viewer-app.h	34;"	d
+VIRT_VIEWER_APP_GET_CLASS	virt-viewer-app.h	37;"	d
+VIRT_VIEWER_APP_H	virt-viewer-app.h	24;"	d
+VIRT_VIEWER_AUTH_H	virt-viewer-auth.h	24;"	d
+VIRT_VIEWER_CLASS	virt-viewer.h	33;"	d
+VIRT_VIEWER_DISPLAY	virt-viewer-display.h	37;"	d
+VIRT_VIEWER_DISPLAY_CLASS	virt-viewer-display.h	40;"	d
+VIRT_VIEWER_DISPLAY_GET_CLASS	virt-viewer-display.h	49;"	d
+VIRT_VIEWER_DISPLAY_GET_PRIVATE	virt-viewer-display.c	34;"	d	file:
+VIRT_VIEWER_DISPLAY_SHOW_HINT_DISABLED	virt-viewer-display.h	/^    VIRT_VIEWER_DISPLAY_SHOW_HINT_DISABLED         = 1 << 1,$/;"	e	enum:__anon13
+VIRT_VIEWER_DISPLAY_SHOW_HINT_READY	virt-viewer-display.h	/^    VIRT_VIEWER_DISPLAY_SHOW_HINT_READY            = 1 << 0,$/;"	e	enum:__anon13
+VIRT_VIEWER_DISPLAY_SHOW_HINT_SET	virt-viewer-display.h	/^    VIRT_VIEWER_DISPLAY_SHOW_HINT_SET              = 1 << 2,$/;"	e	enum:__anon13
+VIRT_VIEWER_DISPLAY_SPICE	virt-viewer-display-spice.h	37;"	d
+VIRT_VIEWER_DISPLAY_SPICE_CLASS	virt-viewer-display-spice.h	40;"	d
+VIRT_VIEWER_DISPLAY_SPICE_GET_CLASS	virt-viewer-display-spice.h	49;"	d
+VIRT_VIEWER_DISPLAY_SPICE_GET_PRIVATE	virt-viewer-display-spice.c	52;"	d	file:
+VIRT_VIEWER_DISPLAY_VNC	virt-viewer-display-vnc.h	37;"	d
+VIRT_VIEWER_DISPLAY_VNC_CLASS	virt-viewer-display-vnc.h	40;"	d
+VIRT_VIEWER_DISPLAY_VNC_GET_CLASS	virt-viewer-display-vnc.h	49;"	d
+VIRT_VIEWER_DISPLAY_VNC_GET_PRIVATE	virt-viewer-display-vnc.c	39;"	d	file:
+VIRT_VIEWER_ENUMS_H	virt-viewer-enums.h	27;"	d
+VIRT_VIEWER_ERROR	virt-viewer-util.h	36;"	d
+VIRT_VIEWER_ERROR_CANCELLED	virt-viewer-util.h	/^    VIRT_VIEWER_ERROR_CANCELLED$/;"	e	enum:__anon19
+VIRT_VIEWER_ERROR_FAILED	virt-viewer-util.h	/^    VIRT_VIEWER_ERROR_FAILED,$/;"	e	enum:__anon19
+VIRT_VIEWER_FILE	virt-viewer-file.h	29;"	d
+VIRT_VIEWER_FILE_CLASS	virt-viewer-file.h	30;"	d
+VIRT_VIEWER_FILE_GET_CLASS	virt-viewer-file.h	33;"	d
+VIRT_VIEWER_FILE_GET_PRIVATE	virt-viewer-file.c	99;"	d	file:
+VIRT_VIEWER_FILE_TRANSFER_DIALOG	virt-viewer-file-transfer-dialog.h	31;"	d
+VIRT_VIEWER_FILE_TRANSFER_DIALOG_CLASS	virt-viewer-file-transfer-dialog.h	32;"	d
+VIRT_VIEWER_FILE_TRANSFER_DIALOG_GET_CLASS	virt-viewer-file-transfer-dialog.h	35;"	d
+VIRT_VIEWER_GET_CLASS	virt-viewer.h	36;"	d
+VIRT_VIEWER_H	virt-viewer.h	24;"	d
+VIRT_VIEWER_IS	virt-viewer.h	34;"	d
+VIRT_VIEWER_IS_APP	virt-viewer-app.h	35;"	d
+VIRT_VIEWER_IS_APP_CLASS	virt-viewer-app.h	36;"	d
+VIRT_VIEWER_IS_CLASS	virt-viewer.h	35;"	d
+VIRT_VIEWER_IS_DISPLAY	virt-viewer-display.h	43;"	d
+VIRT_VIEWER_IS_DISPLAY_CLASS	virt-viewer-display.h	46;"	d
+VIRT_VIEWER_IS_DISPLAY_SPICE	virt-viewer-display-spice.h	43;"	d
+VIRT_VIEWER_IS_DISPLAY_SPICE_CLASS	virt-viewer-display-spice.h	46;"	d
+VIRT_VIEWER_IS_DISPLAY_VNC	virt-viewer-display-vnc.h	43;"	d
+VIRT_VIEWER_IS_DISPLAY_VNC_CLASS	virt-viewer-display-vnc.h	46;"	d
+VIRT_VIEWER_IS_FILE	virt-viewer-file.h	31;"	d
+VIRT_VIEWER_IS_FILE_CLASS	virt-viewer-file.h	32;"	d
+VIRT_VIEWER_IS_FILE_TRANSFER_DIALOG	virt-viewer-file-transfer-dialog.h	33;"	d
+VIRT_VIEWER_IS_FILE_TRANSFER_DIALOG_CLASS	virt-viewer-file-transfer-dialog.h	34;"	d
+VIRT_VIEWER_IS_NOTEBOOK	virt-viewer-notebook.h	40;"	d
+VIRT_VIEWER_IS_NOTEBOOK_CLASS	virt-viewer-notebook.h	43;"	d
+VIRT_VIEWER_IS_SESSION	virt-viewer-session.h	43;"	d
+VIRT_VIEWER_IS_SESSION_CLASS	virt-viewer-session.h	46;"	d
+VIRT_VIEWER_IS_SESSION_SPICE	virt-viewer-session-spice.h	42;"	d
+VIRT_VIEWER_IS_SESSION_SPICE_CLASS	virt-viewer-session-spice.h	45;"	d
+VIRT_VIEWER_IS_SESSION_VNC	virt-viewer-session-vnc.h	42;"	d
+VIRT_VIEWER_IS_SESSION_VNC_CLASS	virt-viewer-session-vnc.h	45;"	d
+VIRT_VIEWER_IS_TIMED_REVEALER	virt-viewer-timed-revealer.h	40;"	d
+VIRT_VIEWER_IS_TIMED_REVEALER_CLASS	virt-viewer-timed-revealer.h	43;"	d
+VIRT_VIEWER_IS_WINDOW	virt-viewer-window.h	45;"	d
+VIRT_VIEWER_IS_WINDOW_CLASS	virt-viewer-window.h	48;"	d
+VIRT_VIEWER_NOTEBOOK	virt-viewer-notebook.h	34;"	d
+VIRT_VIEWER_NOTEBOOK_CLASS	virt-viewer-notebook.h	37;"	d
+VIRT_VIEWER_NOTEBOOK_GET_CLASS	virt-viewer-notebook.h	46;"	d
+VIRT_VIEWER_RES	Makefile	/^VIRT_VIEWER_RES = virt-viewer.rc virt-viewer.manifest$/;"	m
+VIRT_VIEWER_RESOURCE_PREFIX	virt-viewer-util.h	37;"	d
+VIRT_VIEWER_SESSION	virt-viewer-session.h	37;"	d
+VIRT_VIEWER_SESSION_CLASS	virt-viewer-session.h	40;"	d
+VIRT_VIEWER_SESSION_GET_CLASS	virt-viewer-session.h	49;"	d
+VIRT_VIEWER_SESSION_GET_PRIVATE	virt-viewer-session.c	33;"	d	file:
+VIRT_VIEWER_SESSION_SPICE	virt-viewer-session-spice.h	36;"	d
+VIRT_VIEWER_SESSION_SPICE_CLASS	virt-viewer-session-spice.h	39;"	d
+VIRT_VIEWER_SESSION_SPICE_GET_CLASS	virt-viewer-session-spice.h	48;"	d
+VIRT_VIEWER_SESSION_SPICE_GET_PRIVATE	virt-viewer-session-spice.c	57;"	d	file:
+VIRT_VIEWER_SESSION_VNC	virt-viewer-session-vnc.h	36;"	d
+VIRT_VIEWER_SESSION_VNC_CLASS	virt-viewer-session-vnc.h	39;"	d
+VIRT_VIEWER_SESSION_VNC_GET_CLASS	virt-viewer-session-vnc.h	48;"	d
+VIRT_VIEWER_SESSION_VNC_GET_PRIVATE	virt-viewer-session-vnc.c	46;"	d	file:
+VIRT_VIEWER_TIMED_REVEALER	virt-viewer-timed-revealer.h	34;"	d
+VIRT_VIEWER_TIMED_REVEALER_CLASS	virt-viewer-timed-revealer.h	37;"	d
+VIRT_VIEWER_TIMED_REVEALER_GET_CLASS	virt-viewer-timed-revealer.h	46;"	d
+VIRT_VIEWER_TIMED_REVEALER_GET_PRIVATE	virt-viewer-timed-revealer.c	30;"	d	file:
+VIRT_VIEWER_TYPE	virt-viewer.h	31;"	d
+VIRT_VIEWER_TYPE_APP	virt-viewer-app.h	32;"	d
+VIRT_VIEWER_TYPE_DISPLAY	virt-viewer-display.h	35;"	d
+VIRT_VIEWER_TYPE_DISPLAY_SHOW_HINT_FLAGS	virt-viewer-enums.h	33;"	d
+VIRT_VIEWER_TYPE_DISPLAY_SPICE	virt-viewer-display-spice.h	35;"	d
+VIRT_VIEWER_TYPE_DISPLAY_VNC	virt-viewer-display-vnc.h	35;"	d
+VIRT_VIEWER_TYPE_FILE	virt-viewer-file.h	28;"	d
+VIRT_VIEWER_TYPE_FILE_TRANSFER_DIALOG	virt-viewer-file-transfer-dialog.h	29;"	d
+VIRT_VIEWER_TYPE_NOTEBOOK	virt-viewer-notebook.h	32;"	d
+VIRT_VIEWER_TYPE_SESSION	virt-viewer-session.h	35;"	d
+VIRT_VIEWER_TYPE_SESSION_SPICE	virt-viewer-session-spice.h	34;"	d
+VIRT_VIEWER_TYPE_SESSION_VNC	virt-viewer-session-vnc.h	34;"	d
+VIRT_VIEWER_TYPE_TIMED_REVEALER	virt-viewer-timed-revealer.h	32;"	d
+VIRT_VIEWER_TYPE_WINDOW	virt-viewer-window.h	37;"	d
+VIRT_VIEWER_UTIL_H	virt-viewer-util.h	25;"	d
+VIRT_VIEWER_VM_CONNECTION_H	virt-viewer-vm-connection.h	22;"	d
+VIRT_VIEWER_WINDOW	virt-viewer-window.h	39;"	d
+VIRT_VIEWER_WINDOW_CLASS	virt-viewer-window.h	42;"	d
+VIRT_VIEWER_WINDOW_GET_CLASS	virt-viewer-window.h	51;"	d
+VirtViewer	virt-viewer.h	/^} VirtViewer;$/;"	t	typeref:struct:__anon17
+VirtViewerApp	virt-viewer-app.h	/^} VirtViewerApp;$/;"	t	typeref:struct:__anon21
+VirtViewerAppClass	virt-viewer-app.h	/^} VirtViewerAppClass;$/;"	t	typeref:struct:__anon22
+VirtViewerAppPrivate	virt-viewer-app.h	/^typedef struct _VirtViewerAppPrivate VirtViewerAppPrivate;$/;"	t	typeref:struct:_VirtViewerAppPrivate
+VirtViewerClass	virt-viewer.h	/^} VirtViewerClass;$/;"	t	typeref:struct:__anon18
+VirtViewerDisplay	virt-viewer-display.h	/^typedef struct _VirtViewerDisplay       VirtViewerDisplay;$/;"	t	typeref:struct:_VirtViewerDisplay
+VirtViewerDisplayChannel	virt-viewer-display.h	/^typedef struct _VirtViewerDisplayChannel VirtViewerDisplayChannel;$/;"	t	typeref:struct:_VirtViewerDisplayChannel
+VirtViewerDisplayClass	virt-viewer-display.h	/^typedef struct _VirtViewerDisplayClass  VirtViewerDisplayClass;$/;"	t	typeref:struct:_VirtViewerDisplayClass
+VirtViewerDisplayPrivate	virt-viewer-display.h	/^typedef struct _VirtViewerDisplayPrivate VirtViewerDisplayPrivate;$/;"	t	typeref:struct:_VirtViewerDisplayPrivate
+VirtViewerDisplayShowHintFlags	virt-viewer-display.h	/^} VirtViewerDisplayShowHintFlags;$/;"	t	typeref:enum:__anon13
+VirtViewerDisplaySpice	virt-viewer-display-spice.h	/^typedef struct _VirtViewerDisplaySpice VirtViewerDisplaySpice;$/;"	t	typeref:struct:_VirtViewerDisplaySpice
+VirtViewerDisplaySpiceClass	virt-viewer-display-spice.h	/^typedef struct _VirtViewerDisplaySpiceClass VirtViewerDisplaySpiceClass;$/;"	t	typeref:struct:_VirtViewerDisplaySpiceClass
+VirtViewerDisplaySpicePrivate	virt-viewer-display-spice.h	/^typedef struct _VirtViewerDisplaySpicePrivate VirtViewerDisplaySpicePrivate;$/;"	t	typeref:struct:_VirtViewerDisplaySpicePrivate
+VirtViewerDisplayVnc	virt-viewer-display-vnc.h	/^typedef struct _VirtViewerDisplayVnc VirtViewerDisplayVnc;$/;"	t	typeref:struct:_VirtViewerDisplayVnc
+VirtViewerDisplayVncClass	virt-viewer-display-vnc.h	/^typedef struct _VirtViewerDisplayVncClass VirtViewerDisplayVncClass;$/;"	t	typeref:struct:_VirtViewerDisplayVncClass
+VirtViewerDisplayVncPrivate	virt-viewer-display-vnc.h	/^typedef struct _VirtViewerDisplayVncPrivate VirtViewerDisplayVncPrivate;$/;"	t	typeref:struct:_VirtViewerDisplayVncPrivate
+VirtViewerFile	virt-viewer-file.h	/^typedef struct _VirtViewerFile VirtViewerFile;$/;"	t	typeref:struct:_VirtViewerFile
+VirtViewerFileClass	virt-viewer-file.h	/^typedef struct _VirtViewerFileClass VirtViewerFileClass;$/;"	t	typeref:struct:_VirtViewerFileClass
+VirtViewerFilePrivate	virt-viewer-file.h	/^typedef struct _VirtViewerFilePrivate VirtViewerFilePrivate;$/;"	t	typeref:struct:_VirtViewerFilePrivate
+VirtViewerFileTransferDialog	virt-viewer-file-transfer-dialog.h	/^typedef struct _VirtViewerFileTransferDialog VirtViewerFileTransferDialog;$/;"	t	typeref:struct:_VirtViewerFileTransferDialog
+VirtViewerFileTransferDialogClass	virt-viewer-file-transfer-dialog.h	/^typedef struct _VirtViewerFileTransferDialogClass VirtViewerFileTransferDialogClass;$/;"	t	typeref:struct:_VirtViewerFileTransferDialogClass
+VirtViewerFileTransferDialogPrivate	virt-viewer-file-transfer-dialog.h	/^typedef struct _VirtViewerFileTransferDialogPrivate VirtViewerFileTransferDialogPrivate;$/;"	t	typeref:struct:_VirtViewerFileTransferDialogPrivate
+VirtViewerNotebook	virt-viewer-notebook.h	/^} VirtViewerNotebook;$/;"	t	typeref:struct:__anon9
+VirtViewerNotebookClass	virt-viewer-notebook.h	/^} VirtViewerNotebookClass;$/;"	t	typeref:struct:__anon10
+VirtViewerNotebookPrivate	virt-viewer-notebook.h	/^typedef struct _VirtViewerNotebookPrivate VirtViewerNotebookPrivate;$/;"	t	typeref:struct:_VirtViewerNotebookPrivate
+VirtViewerPrivate	virt-viewer.h	/^typedef struct _VirtViewerPrivate VirtViewerPrivate;$/;"	t	typeref:struct:_VirtViewerPrivate
+VirtViewerSession	virt-viewer-display.h	/^typedef struct _VirtViewerSession       VirtViewerSession;$/;"	t	typeref:struct:_VirtViewerSession
+VirtViewerSessionChannel	virt-viewer-session.h	/^typedef struct _VirtViewerSessionChannel VirtViewerSessionChannel;$/;"	t	typeref:struct:_VirtViewerSessionChannel
+VirtViewerSessionClass	virt-viewer-display.h	/^typedef struct _VirtViewerSessionClass  VirtViewerSessionClass;$/;"	t	typeref:struct:_VirtViewerSessionClass
+VirtViewerSessionPrivate	virt-viewer-session.h	/^typedef struct _VirtViewerSessionPrivate VirtViewerSessionPrivate;$/;"	t	typeref:struct:_VirtViewerSessionPrivate
+VirtViewerSessionSpice	virt-viewer-session-spice.h	/^typedef struct _VirtViewerSessionSpice VirtViewerSessionSpice;$/;"	t	typeref:struct:_VirtViewerSessionSpice
+VirtViewerSessionSpiceClass	virt-viewer-session-spice.h	/^typedef struct _VirtViewerSessionSpiceClass VirtViewerSessionSpiceClass;$/;"	t	typeref:struct:_VirtViewerSessionSpiceClass
+VirtViewerSessionSpicePrivate	virt-viewer-session-spice.h	/^typedef struct _VirtViewerSessionSpicePrivate VirtViewerSessionSpicePrivate;$/;"	t	typeref:struct:_VirtViewerSessionSpicePrivate
+VirtViewerSessionVnc	virt-viewer-session-vnc.h	/^typedef struct _VirtViewerSessionVnc VirtViewerSessionVnc;$/;"	t	typeref:struct:_VirtViewerSessionVnc
+VirtViewerSessionVncClass	virt-viewer-session-vnc.h	/^typedef struct _VirtViewerSessionVncClass VirtViewerSessionVncClass;$/;"	t	typeref:struct:_VirtViewerSessionVncClass
+VirtViewerSessionVncPrivate	virt-viewer-session-vnc.h	/^typedef struct _VirtViewerSessionVncPrivate VirtViewerSessionVncPrivate;$/;"	t	typeref:struct:_VirtViewerSessionVncPrivate
+VirtViewerTimedRevealer	virt-viewer-timed-revealer.h	/^} VirtViewerTimedRevealer;$/;"	t	typeref:struct:__anon6
+VirtViewerTimedRevealerClass	virt-viewer-timed-revealer.h	/^} VirtViewerTimedRevealerClass;$/;"	t	typeref:struct:__anon7
+VirtViewerTimedRevealerPrivate	virt-viewer-timed-revealer.h	/^typedef struct _VirtViewerTimedRevealerPrivate VirtViewerTimedRevealerPrivate;$/;"	t	typeref:struct:_VirtViewerTimedRevealerPrivate
+VirtViewerWindow	virt-viewer-window.h	/^} VirtViewerWindow;$/;"	t	typeref:struct:__anon4
+VirtViewerWindowClass	virt-viewer-window.h	/^} VirtViewerWindowClass;$/;"	t	typeref:struct:__anon5
+VirtViewerWindowPrivate	virt-viewer-window.h	/^typedef struct _VirtViewerWindowPrivate VirtViewerWindowPrivate;$/;"	t	typeref:struct:_VirtViewerWindowPrivate
+WARN_CFLAGS	Makefile	/^WARN_CFLAGS =  -fexceptions -fstack-protector --param=ssp-buffer-size=4 -fasynchronous-unwind-tables -Wall -Wmissing-prototypes -std=c99 -Wnested-externs -Wpointer-arith -Wextra -Wshadow -Wcast-align -Wwrite-strings -Waggregate-return -Winline -Wredundant-decls -Wdeprecated-declarations -Wno-sign-compare $/;"	m
+WINDOWS_PRODUCTVERSION	Makefile	/^WINDOWS_PRODUCTVERSION = 5.0.12.el7$/;"	m
+WINDRES	Makefile	/^WINDRES = $/;"	m
+WIXL_ARCH	Makefile	/^WIXL_ARCH = $/;"	m
+WeakHandlerCtx	virt-viewer-util.c	/^} WeakHandlerCtx;$/;"	t	typeref:struct:__anon12	file:
+XGETTEXT	Makefile	/^XGETTEXT = \/usr\/bin\/xgettext$/;"	m
+ZOOM_STEP	virt-viewer-window.c	48;"	d	file:
+_OVIRT_FOREIGN_MENU_H	ovirt-foreign-menu.h	26;"	d
+_OvirtForeignMenu	ovirt-foreign-menu.h	/^struct _OvirtForeignMenu {$/;"	s
+_OvirtForeignMenuClass	ovirt-foreign-menu.h	/^struct _OvirtForeignMenuClass {$/;"	s
+_RemoteViewerISOListDialog	remote-viewer-iso-list-dialog.h	/^struct _RemoteViewerISOListDialog$/;"	s
+_RemoteViewerISOListDialogClass	remote-viewer-iso-list-dialog.h	/^struct _RemoteViewerISOListDialogClass$/;"	s
+_RemoteViewerPrivate	remote-viewer.c	/^struct _RemoteViewerPrivate {$/;"	s	file:
+_VIRT_VIEWER_DISPLAY_H	virt-viewer-display.h	25;"	d
+_VIRT_VIEWER_DISPLAY_SPICE_H	virt-viewer-display-spice.h	25;"	d
+_VIRT_VIEWER_DISPLAY_VNC_H	virt-viewer-display-vnc.h	25;"	d
+_VIRT_VIEWER_NOTEBOOK	virt-viewer-notebook.h	25;"	d
+_VIRT_VIEWER_SESSION_H	virt-viewer-session.h	25;"	d
+_VIRT_VIEWER_SESSION_SPICE_H	virt-viewer-session-spice.h	25;"	d
+_VIRT_VIEWER_SESSION_VNC_H	virt-viewer-session-vnc.h	25;"	d
+_VIRT_VIEWER_TIMED_REVEALER_H	virt-viewer-timed-revealer.h	25;"	d
+_VIRT_VIEWER_WINDOW	virt-viewer-window.h	25;"	d
+_VirtViewerAppPrivate	virt-viewer-app.c	/^struct _VirtViewerAppPrivate {$/;"	s	file:
+_VirtViewerDisplay	virt-viewer-display.h	/^struct _VirtViewerDisplay {$/;"	s
+_VirtViewerDisplayClass	virt-viewer-display.h	/^struct _VirtViewerDisplayClass {$/;"	s
+_VirtViewerDisplayPrivate	virt-viewer-display.c	/^struct _VirtViewerDisplayPrivate$/;"	s	file:
+_VirtViewerDisplaySpice	virt-viewer-display-spice.h	/^struct _VirtViewerDisplaySpice {$/;"	s
+_VirtViewerDisplaySpiceClass	virt-viewer-display-spice.h	/^struct _VirtViewerDisplaySpiceClass {$/;"	s
+_VirtViewerDisplaySpicePrivate	virt-viewer-display-spice.c	/^struct _VirtViewerDisplaySpicePrivate {$/;"	s	file:
+_VirtViewerDisplayVnc	virt-viewer-display-vnc.h	/^struct _VirtViewerDisplayVnc {$/;"	s
+_VirtViewerDisplayVncClass	virt-viewer-display-vnc.h	/^struct _VirtViewerDisplayVncClass {$/;"	s
+_VirtViewerFile	virt-viewer-file.h	/^struct _VirtViewerFile$/;"	s
+_VirtViewerFileClass	virt-viewer-file.h	/^struct _VirtViewerFileClass$/;"	s
+_VirtViewerFilePrivate	virt-viewer-file.c	/^struct _VirtViewerFilePrivate {$/;"	s	file:
+_VirtViewerFileTransferDialog	virt-viewer-file-transfer-dialog.h	/^struct _VirtViewerFileTransferDialog$/;"	s
+_VirtViewerFileTransferDialogClass	virt-viewer-file-transfer-dialog.h	/^struct _VirtViewerFileTransferDialogClass$/;"	s
+_VirtViewerFileTransferDialogPrivate	virt-viewer-file-transfer-dialog.c	/^struct _VirtViewerFileTransferDialogPrivate$/;"	s	file:
+_VirtViewerPrivate	virt-viewer.c	/^struct _VirtViewerPrivate {$/;"	s	file:
+_VirtViewerSession	virt-viewer-session.h	/^struct _VirtViewerSession {$/;"	s
+_VirtViewerSessionClass	virt-viewer-session.h	/^struct _VirtViewerSessionClass {$/;"	s
+_VirtViewerSessionPrivate	virt-viewer-session.c	/^struct _VirtViewerSessionPrivate$/;"	s	file:
+_VirtViewerSessionSpice	virt-viewer-session-spice.h	/^struct _VirtViewerSessionSpice {$/;"	s
+_VirtViewerSessionSpiceClass	virt-viewer-session-spice.h	/^struct _VirtViewerSessionSpiceClass {$/;"	s
+_VirtViewerSessionVnc	virt-viewer-session-vnc.h	/^struct _VirtViewerSessionVnc {$/;"	s
+_VirtViewerSessionVncClass	virt-viewer-session-vnc.h	/^struct _VirtViewerSessionVncClass {$/;"	s
+_VirtViewerWindowPrivate	virt-viewer-window.c	/^struct _VirtViewerWindowPrivate {$/;"	s	file:
+__REMOTE_VIEWER_ISO_LIST_DIALOG_H__	remote-viewer-iso-list-dialog.h	22;"	d
+__RESOURCE_virt_viewer_H__	virt-viewer-resources.h	2;"	d
+__VIRT_VIEWER_FILE_H__	virt-viewer-file.h	22;"	d
+__VIRT_VIEWER_FILE_TRANSFER_DIALOG_H__	virt-viewer-file-transfer-dialog.h	22;"	d
+abs_builddir	Makefile	/^abs_builddir = \/root\/rpmbuild\/BUILD\/virt-viewer-5.0\/src$/;"	m
+abs_srcdir	Makefile	/^abs_srcdir = \/root\/rpmbuild\/BUILD\/virt-viewer-5.0\/src$/;"	m
+abs_top_builddir	Makefile	/^abs_top_builddir = \/root\/rpmbuild\/BUILD\/virt-viewer-5.0$/;"	m
+abs_top_srcdir	Makefile	/^abs_top_srcdir = \/root\/rpmbuild\/BUILD\/virt-viewer-5.0$/;"	m
+ac_ct_AR	Makefile	/^ac_ct_AR = ar$/;"	m
+ac_ct_CC	Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_ct_DUMPBIN	Makefile	/^ac_ct_DUMPBIN = $/;"	m
+accelCbData	virt-viewer-window.c	/^struct accelCbData$/;"	s	file:
+accel_enabled	virt-viewer-window.c	/^    gboolean accel_enabled;$/;"	m	struct:_VirtViewerWindowPrivate	file:
+accel_group	virt-viewer-window.c	/^    GtkAccelGroup *accel_group;$/;"	m	struct:_VirtViewerWindowPrivate	file:
+accel_key_to_keys	virt-viewer-window.c	/^accel_key_to_keys(const GtkAccelKey *key)$/;"	f	file:
+accel_list	virt-viewer-window.c	/^    GSList *accel_list;$/;"	m	struct:_VirtViewerWindowPrivate	file:
+accel_map_item_cb	virt-viewer-window.c	/^accel_map_item_cb(gpointer data,$/;"	f	file:
+accel_path	virt-viewer-window.c	/^    const gchar* accel_path;$/;"	m	struct:keyComboDef	file:
+accel_setting	virt-viewer-window.c	/^    GValue accel_setting;$/;"	m	struct:_VirtViewerWindowPrivate	file:
+action_zoom_in	virt-viewer-window.c	/^action_zoom_in(G_GNUC_UNUSED GSimpleAction *action,$/;"	f	file:
+action_zoom_out	virt-viewer-window.c	/^action_zoom_out(G_GNUC_UNUSED GSimpleAction *action,$/;"	f	file:
+action_zoom_reset	virt-viewer-window.c	/^action_zoom_reset(G_GNUC_UNUSED GSimpleAction *action,$/;"	f	file:
+activate	virt-viewer-app.h	/^    gboolean (*activate) (VirtViewerApp *self, GError **error);$/;"	m	struct:__anon22
+active	virt-viewer-app.c	/^    gboolean active;$/;"	m	struct:_VirtViewerAppPrivate	file:
+add_if_writable	virt-viewer-window.c	/^static void add_if_writable (GdkPixbufFormat *data, GHashTable *formats)$/;"	f	file:
+add_option_entries	virt-viewer-app.h	/^    void (*add_option_entries)(VirtViewerApp *self, GOptionContext *context, GOptionGroup *group);$/;"	m	struct:__anon22
+agent_connected_changed	virt-viewer-session-spice.c	/^agent_connected_changed(SpiceChannel *cmain G_GNUC_UNUSED,$/;"	f	file:
+alignment	virt-viewer-resources.c	/^static const SECTION union { const guint8 data[88480]; const double alignment; void * const ptr;}  virt_viewer_resource_data = { {$/;"	m	union:__anon14	file:
+am__DEPENDENCIES_1	Makefile	/^am__DEPENDENCIES_1 =$/;"	m
+am__DEPENDENCIES_2	Makefile	/^am__DEPENDENCIES_2 = $(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \\$/;"	m
+am__EXEEXT_1	Makefile	/^am__EXEEXT_1 = virt-viewer$(EXEEXT)$/;"	m
+am__aclocal_m4_deps	Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/m4\/libtool.m4 \\$/;"	m
+am__append_1	Makefile	/^am__append_1 = \\$/;"	m
+am__append_2	Makefile	/^am__append_2 = \\$/;"	m
+am__append_3	Makefile	/^am__append_3 = \\$/;"	m
+am__append_4	Makefile	/^am__append_4 = virt-viewer$/;"	m
+am__can_run_installinfo	Makefile	/^am__can_run_installinfo = \\$/;"	m
+am__cd	Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__configure_deps	Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__debug_helper_SOURCES_DIST	Makefile	/^am__debug_helper_SOURCES_DIST = debug-helper.c$/;"	m
+am__define_uniq_tagged_files	Makefile	/^am__define_uniq_tagged_files = \\$/;"	m
+am__depfiles_maybe	Makefile	/^am__depfiles_maybe = depfiles$/;"	m
+am__include	Makefile	/^am__include = include$/;"	m
+am__installdirs	Makefile	/^am__installdirs = "$(DESTDIR)$(bindir)"$/;"	m
+am__is_gnu_make	Makefile	/^am__is_gnu_make = test -n '$(MAKEFILE_LIST)' && test -n '$(MAKELEVEL)'$/;"	m
+am__leading_dot	Makefile	/^am__leading_dot = .$/;"	m
+am__libvirt_viewer_la_SOURCES_DIST	Makefile	/^am__libvirt_viewer_la_SOURCES_DIST = virt-viewer-resources.h \\$/;"	m
+am__make_dryrun	Makefile	/^am__make_dryrun = (target_option=n; $(am__make_running_with_option))$/;"	m
+am__make_keepgoing	Makefile	/^am__make_keepgoing = (target_option=k; $(am__make_running_with_option))$/;"	m
+am__make_running_with_option	Makefile	/^am__make_running_with_option = \\$/;"	m
+am__mv	Makefile	/^am__mv = mv -f$/;"	m
+am__objects_1	Makefile	/^am__objects_1 =$/;"	m
+am__objects_2	Makefile	/^am__objects_2 = libvirt_viewer_la-virt-viewer-resources.lo \\$/;"	m
+am__objects_3	Makefile	/^am__objects_3 = libvirt_viewer_la-virt-viewer-session-vnc.lo \\$/;"	m
+am__objects_4	Makefile	/^am__objects_4 = libvirt_viewer_la-virt-viewer-session-spice.lo \\$/;"	m
+am__objects_5	Makefile	/^am__objects_5 =  \\$/;"	m
+am__quote	Makefile	/^am__quote = $/;"	m
+am__tagged_files	Makefile	/^am__tagged_files = $(HEADERS) $(SOURCES) $(TAGS_FILES) $(LISP)$/;"	m
+am__tar	Makefile	/^am__tar = $${TAR-tar} chof - "$$tardir"$/;"	m
+am__uniquify_input	Makefile	/^am__uniquify_input = $(AWK) '\\$/;"	m
+am__untar	Makefile	/^am__untar = $${TAR-tar} xf -$/;"	m
+am__v_CCLD_	Makefile	/^am__v_CCLD_ = $(am__v_CCLD_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_CCLD_0	Makefile	/^am__v_CCLD_0 = @echo "  CCLD    " $@;$/;"	m
+am__v_CCLD_1	Makefile	/^am__v_CCLD_1 = $/;"	m
+am__v_CC_	Makefile	/^am__v_CC_ = $(am__v_CC_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_CC_0	Makefile	/^am__v_CC_0 = @echo "  CC      " $@;$/;"	m
+am__v_CC_1	Makefile	/^am__v_CC_1 = $/;"	m
+am__v_GEN_	Makefile	/^am__v_GEN_ = $(am__v_GEN_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_GEN_0	Makefile	/^am__v_GEN_0 = @echo "  GEN     " $@;$/;"	m
+am__v_GEN_1	Makefile	/^am__v_GEN_1 = $/;"	m
+am__v_P_	Makefile	/^am__v_P_ = $(am__v_P_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_P_0	Makefile	/^am__v_P_0 = false$/;"	m
+am__v_P_1	Makefile	/^am__v_P_1 = :$/;"	m
+am__v_at_	Makefile	/^am__v_at_ = $(am__v_at_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_at_0	Makefile	/^am__v_at_0 = @$/;"	m
+am__v_at_1	Makefile	/^am__v_at_1 = $/;"	m
+am__v_lt_	Makefile	/^am__v_lt_ = $(am__v_lt_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_lt_0	Makefile	/^am__v_lt_0 = --silent$/;"	m
+am__v_lt_1	Makefile	/^am__v_lt_1 = $/;"	m
+am__virt_viewer_SOURCES_DIST	Makefile	/^am__virt_viewer_SOURCES_DIST = virt-viewer.h virt-viewer.c \\$/;"	m
+am__windows_cmdline_wrapper_SOURCES_DIST	Makefile	/^am__windows_cmdline_wrapper_SOURCES_DIST = windows-cmdline-wrapper.c$/;"	m
+am_libvirt_viewer_la_OBJECTS	Makefile	/^am_libvirt_viewer_la_OBJECTS = $(am__objects_2) \\$/;"	m
+am_libvirt_viewer_util_la_OBJECTS	Makefile	/^am_libvirt_viewer_util_la_OBJECTS =  \\$/;"	m
+am_remote_viewer_OBJECTS	Makefile	/^am_remote_viewer_OBJECTS = remote_viewer-remote-viewer.$(OBJEXT) \\$/;"	m
+am_virt_viewer_OBJECTS	Makefile	/^am_virt_viewer_OBJECTS =  \\$/;"	m
+api_fetched_cb	ovirt-foreign-menu.c	/^static void api_fetched_cb(GObject *source_object,$/;"	f	file:
+app	virt-viewer-app.c	/^    VirtViewerApp *app;$/;"	m	struct:__anon20	file:
+app	virt-viewer-session.c	/^    VirtViewerApp *app;$/;"	m	struct:_VirtViewerSessionPrivate	file:
+app	virt-viewer-window.c	/^    VirtViewerApp *app;$/;"	m	struct:_VirtViewerWindowPrivate	file:
+app_window_try_fullscreen	virt-viewer-app.c	/^app_window_try_fullscreen(VirtViewerApp *self G_GNUC_UNUSED,$/;"	f	file:
+apply_monitor_geometry	virt-viewer-session.h	/^    void (*apply_monitor_geometry)(VirtViewerSession *session, GHashTable* monitors);$/;"	m	struct:_VirtViewerSessionClass
+attach	virt-viewer-app.c	/^    gboolean attach;$/;"	m	struct:_VirtViewerAppPrivate	file:
+auth_cancelled	virt-viewer.c	/^    gboolean auth_cancelled;$/;"	m	struct:_VirtViewerPrivate	file:
+authenticate_cb	remote-viewer.c	/^authenticate_cb(RestProxy *proxy, G_GNUC_UNUSED RestProxyAuth *auth,$/;"	f	file:
+authretry	virt-viewer-app.c	/^    gboolean authretry;$/;"	m	struct:_VirtViewerAppPrivate	file:
+auto_resize	virt-viewer-display-spice.c	/^    AutoResizeState auto_resize;$/;"	m	struct:_VirtViewerDisplaySpicePrivate	file:
+auto_usbredir	virt-viewer-session.c	/^    gboolean auto_usbredir;$/;"	m	struct:_VirtViewerSessionPrivate	file:
+bin_PROGRAMS	Makefile	/^bin_PROGRAMS = $(am__EXEEXT_1) remote-viewer$(EXEEXT) $(am__EXEEXT_2)$/;"	m
+bindir	Makefile	/^bindir = \/usr\/bin$/;"	m
+build	Makefile	/^build = x86_64-redhat-linux-gnu$/;"	m
+build_alias	Makefile	/^build_alias = x86_64-redhat-linux-gnu$/;"	m
+build_cpu	Makefile	/^build_cpu = x86_64$/;"	m
+build_os	Makefile	/^build_os = linux-gnu$/;"	m
+build_triplet	Makefile	/^build_triplet = x86_64-redhat-linux-gnu$/;"	m
+build_vendor	Makefile	/^build_vendor = redhat$/;"	m
+builddir	Makefile	/^builddir = .$/;"	m
+builder	virt-viewer-window.c	/^    GtkBuilder *builder;$/;"	m	struct:_VirtViewerWindowPrivate	file:
+can_activate_cb	virt-viewer-window.c	/^can_activate_cb (GtkWidget *widget G_GNUC_UNUSED,$/;"	f	file:
+can_retry_auth	virt-viewer-session.h	/^    gboolean (*can_retry_auth)(VirtViewerSession *session);$/;"	m	struct:_VirtViewerSessionClass
+can_share_folder	virt-viewer-session.h	/^    gboolean (*can_share_folder)(VirtViewerSession *session);$/;"	m	struct:_VirtViewerSessionClass
+cancelled	virt-viewer-app.c	/^    gboolean cancelled;$/;"	m	struct:_VirtViewerAppPrivate	file:
+cdrom_file_refreshed_cb	ovirt-foreign-menu.c	/^static void cdrom_file_refreshed_cb(GObject *source_object,$/;"	f	file:
+cdroms_fetched_cb	ovirt-foreign-menu.c	/^static void cdroms_fetched_cb(GObject *source_object,$/;"	f	file:
+channel	virt-viewer-display-spice.c	/^    SpiceChannel *channel; \/* weak reference *\/$/;"	m	struct:_VirtViewerDisplaySpicePrivate	file:
+channel_open_fd	virt-viewer-session.h	/^    gboolean (* channel_open_fd) (VirtViewerSession* session, VirtViewerSessionChannel *channel, int fd);$/;"	m	struct:_VirtViewerSessionClass
+choose_vm	remote-viewer.c	/^choose_vm(GtkWindow *main_window,$/;"	f	file:
+choose_vm	virt-viewer.c	/^choose_vm(GtkWindow *main_window,$/;"	f	file:
+clipboard	virt-viewer-app.c	/^    gchar *clipboard;$/;"	m	struct:_VirtViewerAppPrivate	file:
+close	virt-viewer-display.h	/^    void (*close)(VirtViewerDisplay *display);$/;"	m	struct:_VirtViewerDisplayClass
+close	virt-viewer-session.h	/^    void (* close) (VirtViewerSession* session);$/;"	m	struct:_VirtViewerSessionClass
+closure	virt-viewer-util.c	/^    GClosure *closure;$/;"	m	struct:__anon12	file:
+closure_invalidated_cb	virt-viewer-util.c	/^closure_invalidated_cb(gpointer ctx_,$/;"	f	file:
+cluster_fetched_cb	ovirt-foreign-menu.c	/^static void cluster_fetched_cb(GObject *source_object,$/;"	f	file:
+completed_transfer_size	virt-viewer-file-transfer-dialog.c	/^    guint64 completed_transfer_size;$/;"	m	struct:_VirtViewerFileTransferDialogPrivate	file:
+config	virt-viewer-app.c	/^    GKeyFile *config;$/;"	m	struct:_VirtViewerAppPrivate	file:
+config_file	virt-viewer-app.c	/^    gchar *config_file;$/;"	m	struct:_VirtViewerAppPrivate	file:
+conn	virt-viewer.c	/^    virConnectPtr conn;$/;"	m	struct:_VirtViewerPrivate	file:
+connect_button_clicked_cb	remote-viewer-connect.c	/^connect_button_clicked_cb(GtkButton *button G_GNUC_UNUSED, gpointer data)$/;"	f	file:
+connect_dialog_run	remote-viewer-connect.c	/^connect_dialog_run(ConnectionInfo *ci)$/;"	f	file:
+connected	virt-viewer-app.c	/^    gboolean connected;$/;"	m	struct:_VirtViewerAppPrivate	file:
+count_window_visible	virt-viewer-app.c	/^static void count_window_visible(gpointer value,$/;"	f	file:
+create_ovirt_session	remote-viewer.c	/^create_ovirt_session(VirtViewerApp *app, const char *uri, GError **err)$/;"	f	file:
+create_spice_session	virt-viewer-session-spice.c	/^create_spice_session(VirtViewerSessionSpice *self)$/;"	f	file:
+ctrl_key_to_gtk_key	virt-viewer-util.c	/^ctrl_key_to_gtk_key(const gchar *key)$/;"	f	file:
+data	virt-viewer-resources.c	/^static const SECTION union { const guint8 data[88480]; const double alignment; void * const ptr;}  virt_viewer_resource_data = { {$/;"	m	union:__anon14	file:
+data_center_fetched_cb	ovirt-foreign-menu.c	/^static void data_center_fetched_cb(GObject *source_object,$/;"	f	file:
+datadir	Makefile	/^datadir = \/usr\/share$/;"	m
+datarootdir	Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+deactivated	virt-viewer-app.h	/^    void (*deactivated) (VirtViewerApp *self, gboolean connect_error);$/;"	m	struct:__anon22
+debug_helper_DEPENDENCIES	Makefile	/^debug_helper_DEPENDENCIES = $(am__append_7)$/;"	m
+debug_helper_LDADD	Makefile	/^debug_helper_LDADD = $(LDADD)$/;"	m
+debug_helper_LINK	Makefile	/^debug_helper_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \\$/;"	m
+debug_helper_OBJECTS	Makefile	/^debug_helper_OBJECTS = $(am_debug_helper_OBJECTS)$/;"	m
+delete_event	virt-viewer-file-transfer-dialog.c	/^static gboolean delete_event(GtkWidget *widget,$/;"	f	file:
+depcomp	Makefile	/^depcomp = $(SHELL) $(top_srcdir)\/build-aux\/depcomp$/;"	m
+desktopHeight	virt-viewer-display.c	/^    guint desktopHeight;$/;"	m	struct:_VirtViewerDisplayPrivate	file:
+desktopWidth	virt-viewer-display.c	/^    guint desktopWidth;$/;"	m	struct:_VirtViewerDisplayPrivate	file:
+desktop_resize_pending	virt-viewer-window.c	/^    gboolean desktop_resize_pending;$/;"	m	struct:_VirtViewerWindowPrivate	file:
+destroy_display	virt-viewer-session-spice.c	/^destroy_display(gpointer data)$/;"	f	file:
+dialog_response	virt-viewer-file-transfer-dialog.c	/^dialog_response(GtkDialog *dialog,$/;"	f	file:
+direct	virt-viewer-app.c	/^    gboolean direct;$/;"	m	struct:_VirtViewerAppPrivate	file:
+disable	virt-viewer-display.h	/^    void (*disable)(VirtViewerDisplay *display);$/;"	m	struct:_VirtViewerDisplayClass
+display	virt-viewer-display-spice.c	/^    SpiceDisplay *display;$/;"	m	struct:_VirtViewerDisplaySpicePrivate	file:
+display	virt-viewer-window.c	/^    VirtViewerDisplay *display;$/;"	m	struct:_VirtViewerWindowPrivate	file:
+display_desktop_resize	virt-viewer-display.h	/^    void (*display_desktop_resize)(VirtViewerDisplay *display);$/;"	m	struct:_VirtViewerDisplayClass
+display_is_in_fullscreen_mode	virt-viewer-session-spice.c	/^display_is_in_fullscreen_mode(VirtViewerSessionSpice *self,$/;"	f	file:
+display_keyboard_grab	virt-viewer-display.h	/^    void (*display_keyboard_grab)(VirtViewerDisplay *display);$/;"	m	struct:_VirtViewerDisplayClass
+display_keyboard_ungrab	virt-viewer-display.h	/^    void (*display_keyboard_ungrab)(VirtViewerDisplay *display);$/;"	m	struct:_VirtViewerDisplayClass
+display_pointer_grab	virt-viewer-display.h	/^    void (*display_pointer_grab)(VirtViewerDisplay *display);$/;"	m	struct:_VirtViewerDisplayClass
+display_pointer_ungrab	virt-viewer-display.h	/^    void (*display_pointer_ungrab)(VirtViewerDisplay *display);$/;"	m	struct:_VirtViewerDisplayClass
+display_show_hint	virt-viewer-app.c	/^display_show_hint(VirtViewerDisplay *display,$/;"	f	file:
+display_show_hint	virt-viewer-window.c	/^display_show_hint(VirtViewerDisplay *display,$/;"	f	file:
+displays	virt-viewer-app.c	/^    GHashTable *displays;$/;"	m	struct:_VirtViewerAppPrivate	file:
+displays	virt-viewer-session.c	/^    GList *displays;$/;"	m	struct:_VirtViewerSessionPrivate	file:
+displays_cmp	virt-viewer-util.c	/^displays_cmp(const void *p1, const void *p2, gpointer user_data)$/;"	f	file:
+doDebug	virt-viewer-app.c	/^gboolean doDebug = FALSE;$/;"	v
+docdir	Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE_TARNAME}$/;"	m
+dom	virt-viewer.c	/^    virDomainPtr dom;$/;"	m	struct:_VirtViewerPrivate	file:
+domain_event	virt-viewer.c	/^    gint domain_event;$/;"	m	struct:_VirtViewerPrivate	file:
+domain_selection_to_opt	virt-viewer.c	/^static const gchar* domain_selection_to_opt[] = {$/;"	v	file:
+domain_selection_type	virt-viewer.c	/^static DomainSelection domain_selection_type = DOMAIN_SELECTION_DEFAULT;$/;"	v	file:
+domkey	virt-viewer.c	/^    char *domkey;$/;"	m	struct:_VirtViewerPrivate	file:
+dvidir	Makefile	/^dvidir = ${docdir}$/;"	m
+enable	virt-viewer-display.h	/^    void (*enable)(VirtViewerDisplay *display);$/;"	m	struct:_VirtViewerDisplayClass
+enable_accel	virt-viewer-app.c	/^    gboolean enable_accel;$/;"	m	struct:_VirtViewerAppPrivate	file:
+enable_accel_changed	virt-viewer-display-spice.c	/^enable_accel_changed(VirtViewerApp *app,$/;"	f	file:
+enable_accel_changed	virt-viewer-display-vnc.c	/^enable_accel_changed(VirtViewerApp *app,$/;"	f	file:
+enable_mnemonics_save	virt-viewer-window.c	/^    gboolean enable_mnemonics_save;$/;"	m	struct:_VirtViewerWindowPrivate	file:
+ensure_window_for_display	virt-viewer-app.c	/^ensure_window_for_display(VirtViewerApp *self, VirtViewerDisplay *display)$/;"	f	file:
+entry	remote-viewer-connect.c	/^    GtkWidget *entry;$/;"	m	struct:__anon3	file:
+entry_activated_cb	remote-viewer-connect.c	/^entry_activated_cb(GtkEntry *entry G_GNUC_UNUSED, gpointer data)$/;"	f	file:
+entry_changed_cb	remote-viewer-connect.c	/^entry_changed_cb(GtkEditable* entry, gpointer data)$/;"	f	file:
+entry_focus_in_cb	remote-viewer-connect.c	/^entry_focus_in_cb(GtkWidget *widget G_GNUC_UNUSED, GdkEvent *event G_GNUC_UNUSED, gpointer data)$/;"	f	file:
+entry_icon_release_cb	remote-viewer-connect.c	/^entry_icon_release_cb(GtkEntry* entry, gpointer data G_GNUC_UNUSED)$/;"	f	file:
+error_dialog_response	virt-viewer-file-transfer-dialog.c	/^error_dialog_response(GtkDialog *dialog,$/;"	f	file:
+exec_prefix	Makefile	/^exec_prefix = \/usr$/;"	m
+failed	virt-viewer-file-transfer-dialog.c	/^    GSList *failed;$/;"	m	struct:_VirtViewerFileTransferDialogPrivate	file:
+fetch_iso_names_cb	remote-viewer-iso-list-dialog.c	/^fetch_iso_names_cb(OvirtForeignMenu *foreign_menu,$/;"	f	file:
+file	virt-viewer-session.c	/^    VirtViewerFile *file;$/;"	m	struct:_VirtViewerSessionPrivate	file:
+file_transfers	virt-viewer-file-transfer-dialog.c	/^    GSList *file_transfers;$/;"	m	struct:_VirtViewerFileTransferDialogPrivate	file:
+fill_session	virt-viewer-session-spice.c	/^fill_session(VirtViewerFile *file, SpiceSession *session)$/;"	f	file:
+find_max_id	virt-viewer-util.c	/^static void find_max_id(gpointer key,$/;"	f	file:
+focused	virt-viewer-app.c	/^    gint focused;$/;"	m	struct:_VirtViewerAppPrivate	file:
+fullscreen	virt-viewer-app.c	/^    gboolean fullscreen;$/;"	m	struct:_VirtViewerAppPrivate	file:
+fullscreen	virt-viewer-app.c	/^    gboolean fullscreen;$/;"	m	struct:__anon20	file:
+fullscreen	virt-viewer-display.c	/^    gboolean fullscreen;$/;"	m	struct:_VirtViewerDisplayPrivate	file:
+fullscreen	virt-viewer-window.c	/^    gboolean fullscreen;$/;"	m	struct:_VirtViewerWindowPrivate	file:
+fullscreen_cb	virt-viewer-app.c	/^static void fullscreen_cb(gpointer value,$/;"	f	file:
+fullscreen_changed	virt-viewer-display-spice.c	/^fullscreen_changed(VirtViewerDisplaySpice *self,$/;"	f	file:
+fullscreen_monitor	virt-viewer-window.c	/^    gint fullscreen_monitor;$/;"	m	struct:_VirtViewerWindowPrivate	file:
+g_strv_contains	glib-compat.c	/^g_strv_contains (const gchar * const *strv,$/;"	f
+get_image_format	virt-viewer-window.c	/^static GdkPixbufFormat *get_image_format(const char *filename)$/;"	f	file:
+get_main	virt-viewer-display-spice.c	/^get_main(VirtViewerDisplay *self)$/;"	f	file:
+get_n_client_monitors	virt-viewer-app.c	/^get_n_client_monitors()$/;"	f	file:
+get_nkeys	virt-viewer-window.c	/^get_nkeys(const guint *keys)$/;"	f	file:
+get_pixbuf	virt-viewer-display.h	/^    GdkPixbuf *(*get_pixbuf)(VirtViewerDisplay *display);$/;"	m	struct:_VirtViewerDisplayClass
+get_program_path	debug-helper.c	/^get_program_path(void)$/;"	f	file:
+ghost	virt-viewer-app.c	/^    char *ghost;$/;"	m	struct:_VirtViewerAppPrivate	file:
+gport	virt-viewer-app.c	/^    char *gport;$/;"	m	struct:_VirtViewerAppPrivate	file:
+grabbed	virt-viewer-app.c	/^    gboolean grabbed;$/;"	m	struct:_VirtViewerAppPrivate	file:
+grabbed	virt-viewer-window.c	/^    gboolean grabbed;$/;"	m	struct:_VirtViewerWindowPrivate	file:
+gtlsport	virt-viewer-app.c	/^    char *gtlsport;$/;"	m	struct:_VirtViewerAppPrivate	file:
+guest_name	virt-viewer-app.c	/^    gchar *guest_name;$/;"	m	struct:_VirtViewerAppPrivate	file:
+guri	virt-viewer-app.c	/^    char *guri; \/* prefered over ghost:gport *\/$/;"	m	struct:_VirtViewerAppPrivate	file:
+handler_id	virt-viewer-util.c	/^    gulong handler_id;$/;"	m	struct:__anon12	file:
+has_usbredir	virt-viewer-session.c	/^    gboolean has_usbredir;$/;"	m	struct:_VirtViewerSessionPrivate	file:
+hide_one_window	virt-viewer-app.c	/^static void hide_one_window(gpointer value,$/;"	f	file:
+hide_transfer_dialog	virt-viewer-file-transfer-dialog.c	/^static gboolean hide_transfer_dialog(gpointer data)$/;"	f	file:
+host	Makefile	/^host = x86_64-redhat-linux-gnu$/;"	m
+host	virt-viewer-app.c	/^    char *host; \/* ssh *\/$/;"	m	struct:_VirtViewerAppPrivate	file:
+host_alias	Makefile	/^host_alias = x86_64-redhat-linux-gnu$/;"	m
+host_cpu	Makefile	/^host_cpu = x86_64$/;"	m
+host_fetched_cb	ovirt-foreign-menu.c	/^static void host_fetched_cb(GObject *source_object,$/;"	f	file:
+host_os	Makefile	/^host_os = linux-gnu$/;"	m
+host_triplet	Makefile	/^host_triplet = x86_64-redhat-linux-gnu$/;"	m
+host_vendor	Makefile	/^host_vendor = redhat$/;"	m
+htmldir	Makefile	/^htmldir = ${docdir}$/;"	m
+includedir	Makefile	/^includedir = \/usr\/include$/;"	m
+infodir	Makefile	/^infodir = \/usr\/share\/info$/;"	m
+init_image_formats	virt-viewer-window.c	/^static GHashTable *init_image_formats(void)$/;"	f	file:
+initial_connect	virt-viewer-app.h	/^    gboolean (*initial_connect) (VirtViewerApp *self, GError **error);$/;"	m	struct:__anon22
+initial_display_map	virt-viewer-app.c	/^    GHashTable *initial_display_map;$/;"	m	struct:_VirtViewerAppPrivate	file:
+initial_zoom_set	virt-viewer-window.c	/^    gboolean initial_zoom_set;$/;"	m	struct:_VirtViewerWindowPrivate	file:
+insert_smartcard_accel_key	virt-viewer-app.c	/^    guint insert_smartcard_accel_key;$/;"	m	struct:_VirtViewerAppPrivate	file:
+insert_smartcard_accel_mods	virt-viewer-app.c	/^    GdkModifierType insert_smartcard_accel_mods;$/;"	m	struct:_VirtViewerAppPrivate	file:
+install_sh	Makefile	/^install_sh = ${SHELL} \/root\/rpmbuild\/BUILD\/virt-viewer-5.0\/build-aux\/install-sh$/;"	m
+install_sh_DATA	Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_PROGRAM	Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+instance	virt-viewer-util.c	/^    GObject *instance;$/;"	m	struct:__anon12	file:
+instance_destroyed_cb	virt-viewer-util.c	/^instance_destroyed_cb(gpointer ctx_,$/;"	f	file:
+intltool__v_merge_options_	Makefile	/^intltool__v_merge_options_ = $(intltool__v_merge_options_$(AM_DEFAULT_VERBOSITY))$/;"	m
+intltool__v_merge_options_0	Makefile	/^intltool__v_merge_options_0 = -q$/;"	m
+is_handle_valid	virt-viewer-util.c	/^static BOOL is_handle_valid(HANDLE h)$/;"	f	file:
+iso_dialog_response	virt-viewer-window.c	/^iso_dialog_response(GtkDialog *dialog,$/;"	f	file:
+iso_list_fetched_cb	ovirt-foreign-menu.c	/^static void iso_list_fetched_cb(GObject *source_object,$/;"	f	file:
+iso_name_set_cb	ovirt-foreign-menu.c	/^static void iso_name_set_cb(GObject *source_object,$/;"	f	file:
+keyComboDef	virt-viewer-window.c	/^struct keyComboDef {$/;"	s	file:
+keyCombos	virt-viewer-window.c	/^static const struct keyComboDef keyCombos[] = {$/;"	v	typeref:struct:keyComboDef	file:
+key_pressed_cb	remote-viewer-connect.c	/^key_pressed_cb(GtkWidget *widget G_GNUC_UNUSED, GdkEvent *event, gpointer data)$/;"	f	file:
+keycombo_menu_location	virt-viewer-window.c	/^static void keycombo_menu_location(GtkMenu *menu G_GNUC_UNUSED, gint *x, gint *y,$/;"	f	file:
+keyfile	virt-viewer-file.c	/^    GKeyFile* keyfile;$/;"	m	struct:_VirtViewerFilePrivate	file:
+keypad_action_accels	virt-viewer-window.c	/^static const gchar *const keypad_action_accels[][2] = {$/;"	v	file:
+keypad_action_entries	virt-viewer-window.c	/^static const GActionEntry keypad_action_entries[] = {$/;"	v	file:
+keys	virt-viewer-window.c	/^    guint keys[MAX_KEY_COMBO];$/;"	m	struct:keyComboDef	file:
+kiosk	virt-viewer-app.c	/^    gboolean kiosk;$/;"	m	struct:_VirtViewerAppPrivate	file:
+kiosk	virt-viewer-window.c	/^    gboolean kiosk;$/;"	m	struct:_VirtViewerWindowPrivate	file:
+label	virt-viewer-window.c	/^    const char *label;$/;"	m	struct:keyComboDef	file:
+libdir	Makefile	/^libdir = \/usr\/lib64$/;"	m
+libexecdir	Makefile	/^libexecdir = \/usr\/libexec$/;"	m
+libvirt_viewer_la_CFLAGS	Makefile	/^libvirt_viewer_la_CFLAGS = \\$/;"	m
+libvirt_viewer_la_DEPENDENCIES	Makefile	/^libvirt_viewer_la_DEPENDENCIES = $(am__DEPENDENCIES_2) \\$/;"	m
+libvirt_viewer_la_LIBADD	Makefile	/^libvirt_viewer_la_LIBADD = \\$/;"	m
+libvirt_viewer_la_LINK	Makefile	/^libvirt_viewer_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \\$/;"	m
+libvirt_viewer_la_OBJECTS	Makefile	/^libvirt_viewer_la_OBJECTS = $(am_libvirt_viewer_la_OBJECTS)$/;"	m
+libvirt_viewer_la_SOURCES	Makefile	/^libvirt_viewer_la_SOURCES = $(BUILT_SOURCES) glib-compat.h \\$/;"	m
+libvirt_viewer_util_la_CFLAGS	Makefile	/^libvirt_viewer_util_la_CFLAGS = \\$/;"	m
+libvirt_viewer_util_la_DEPENDENCIES	Makefile	/^libvirt_viewer_util_la_DEPENDENCIES = $(am__DEPENDENCIES_1) \\$/;"	m
+libvirt_viewer_util_la_LIBADD	Makefile	/^libvirt_viewer_util_la_LIBADD = \\$/;"	m
+libvirt_viewer_util_la_LINK	Makefile	/^libvirt_viewer_util_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \\$/;"	m
+libvirt_viewer_util_la_OBJECTS	Makefile	/^libvirt_viewer_util_la_OBJECTS = $(am_libvirt_viewer_util_la_OBJECTS)$/;"	m
+libvirt_viewer_util_la_SOURCES	Makefile	/^libvirt_viewer_util_la_SOURCES = \\$/;"	m
+localedir	Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localstatedir	Makefile	/^localstatedir = \/var$/;"	m
+log_handler	virt-viewer-util.c	/^static void log_handler(const gchar *log_domain,$/;"	f	file:
+loop	remote-viewer-connect.c	/^    GMainLoop *loop;$/;"	m	struct:__anon3	file:
+main	debug-helper.c	/^main(int argc, char *argv[])$/;"	f
+main	remote-viewer-main.c	/^main(int argc, char **argv)$/;"	f
+main	virt-viewer-main.c	/^int main(int argc, char **argv)$/;"	f
+main	windows-cmdline-wrapper.c	/^int main(int argc, char *argv[])$/;"	f
+main_notebook	virt-viewer-app.c	/^    GtkWidget *main_notebook;$/;"	m	struct:_VirtViewerAppPrivate	file:
+main_window	virt-viewer-app.c	/^    VirtViewerWindow *main_window;$/;"	m	struct:_VirtViewerAppPrivate	file:
+make_label_small	remote-viewer-connect.c	/^make_label_small(GtkLabel* label)$/;"	f	file:
+mandir	Makefile	/^mandir = \/usr\/share\/man$/;"	m
+mapped	virt-viewer-window.c	/^mapped(GtkWidget *widget, GdkEvent *event G_GNUC_UNUSED,$/;"	f	file:
+menu	virt-viewer-window.c	/^    GtkMenu *menu;$/;"	m	struct:accelCbData	file:
+menu_display_visible_toggled_cb	virt-viewer-app.c	/^menu_display_visible_toggled_cb(GtkCheckMenuItem *checkmenuitem,$/;"	f	file:
+mime_type	virt-viewer-session.h	/^    const gchar* (* mime_type) (VirtViewerSession* session);$/;"	m	struct:_VirtViewerSessionClass
+mkdir_p	Makefile	/^mkdir_p = $(MKDIR_P)$/;"	m
+mkinstalldirs	Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
+monitor	virt-viewer-display.c	/^    gint monitor;     \/* Monitor number on the client *\/$/;"	m	struct:_VirtViewerDisplayPrivate	file:
+name_changed	virt-viewer-session-spice.c	/^name_changed(GObject *gobject G_GNUC_UNUSED,$/;"	f	file:
+noinst_DATA	Makefile	/^noinst_DATA = \\$/;"	m
+noinst_LTLIBRARIES	Makefile	/^noinst_LTLIBRARIES = libvirt-viewer-util.la libvirt-viewer.la$/;"	m
+notebook	virt-viewer-window.c	/^    VirtViewerNotebook *notebook;$/;"	m	struct:_VirtViewerWindowPrivate	file:
+notify_software_reader_cb	virt-viewer-app.c	/^static void notify_software_reader_cb(GObject    *gobject G_GNUC_UNUSED,$/;"	f	file:
+nth_display	virt-viewer-display.c	/^    gint nth_display; \/* Monitor number inside the guest *\/$/;"	m	struct:_VirtViewerDisplayPrivate	file:
+num_files	virt-viewer-file-transfer-dialog.c	/^    guint num_files;$/;"	m	struct:_VirtViewerFileTransferDialogPrivate	file:
+observer	virt-viewer-util.c	/^    GObject *observer;$/;"	m	struct:__anon12	file:
+observer_destroyed_cb	virt-viewer-util.c	/^observer_destroyed_cb(gpointer ctx_,$/;"	f	file:
+oldincludedir	Makefile	/^oldincludedir = \/usr\/include$/;"	m
+on_new_file_transfer	virt-viewer-session-spice.c	/^on_new_file_transfer(SpiceMainChannel *channel G_GNUC_UNUSED,$/;"	f	file:
+open_connection	virt-viewer-app.h	/^    gboolean (*open_connection)(VirtViewerApp *self, int *fd);$/;"	m	struct:__anon22
+open_fd	virt-viewer-session.h	/^    gboolean (* open_fd) (VirtViewerSession* session, int fd);$/;"	m	struct:_VirtViewerSessionClass
+open_host	virt-viewer-session.h	/^    gboolean (* open_host) (VirtViewerSession* session, const gchar *host, const gchar *port, const gchar *tlsport);$/;"	m	struct:_VirtViewerSessionClass
+open_recent_dialog	remote-viewer.c	/^    gboolean open_recent_dialog;$/;"	m	struct:_RemoteViewerPrivate	file:
+open_uri	virt-viewer-session.h	/^    gboolean (* open_uri) (VirtViewerSession* session, const gchar *uri, GError **error);$/;"	m	struct:_VirtViewerSessionClass
+opt_args	remote-viewer.c	/^static gchar **opt_args = NULL;$/;"	v	file:
+opt_args	virt-viewer.c	/^static gchar **opt_args = NULL;$/;"	v	file:
+opt_attach	virt-viewer.c	/^static gboolean opt_attach = FALSE;$/;"	v	file:
+opt_debug	virt-viewer-app.c	/^static gboolean opt_debug = FALSE;$/;"	v	file:
+opt_direct	virt-viewer.c	/^static gboolean opt_direct = FALSE;$/;"	v	file:
+opt_domain_selection_cb	virt-viewer.c	/^opt_domain_selection_cb(const gchar *option_name,$/;"	f	file:
+opt_fullscreen	virt-viewer-app.c	/^static gboolean opt_fullscreen = FALSE;$/;"	v	file:
+opt_hotkeys	virt-viewer-app.c	/^static gchar *opt_hotkeys = NULL;$/;"	v	file:
+opt_kiosk	virt-viewer-app.c	/^static gboolean opt_kiosk = FALSE;$/;"	v	file:
+opt_kiosk_quit	virt-viewer-app.c	/^static gboolean opt_kiosk_quit = FALSE;$/;"	v	file:
+opt_reconnect	virt-viewer.c	/^static gboolean opt_reconnect = FALSE;$/;"	v	file:
+opt_title	remote-viewer.c	/^static char *opt_title = NULL;$/;"	v	file:
+opt_uri	virt-viewer.c	/^static gchar *opt_uri = NULL;$/;"	v	file:
+opt_verbose	virt-viewer-app.c	/^static gboolean opt_verbose = FALSE;$/;"	v	file:
+opt_version	virt-viewer-app.c	/^static gboolean opt_version = FALSE;$/;"	v	file:
+opt_waitvm	virt-viewer.c	/^static gboolean opt_waitvm = FALSE;$/;"	v	file:
+opt_zoom	virt-viewer-app.c	/^static int opt_zoom = NORMAL_ZOOM_LEVEL;$/;"	v	file:
+option_kiosk_quit	virt-viewer-app.c	/^option_kiosk_quit(G_GNUC_UNUSED const gchar *option_name,$/;"	f	file:
+ovirt_foreign_menu	remote-viewer.c	/^    OvirtForeignMenu *ovirt_foreign_menu;$/;"	m	struct:_RemoteViewerPrivate	file:
+ovirt_foreign_menu_class_init	ovirt-foreign-menu.c	/^ovirt_foreign_menu_class_init(OvirtForeignMenuClass *klass)$/;"	f	file:
+ovirt_foreign_menu_dispose	ovirt-foreign-menu.c	/^ovirt_foreign_menu_dispose(GObject *obj)$/;"	f	file:
+ovirt_foreign_menu_fetch_api_async	ovirt-foreign-menu.c	/^static void ovirt_foreign_menu_fetch_api_async(OvirtForeignMenu *menu,$/;"	f	file:
+ovirt_foreign_menu_fetch_cluster_async	ovirt-foreign-menu.c	/^static void ovirt_foreign_menu_fetch_cluster_async(OvirtForeignMenu *menu,$/;"	f	file:
+ovirt_foreign_menu_fetch_data_center_async	ovirt-foreign-menu.c	/^static void ovirt_foreign_menu_fetch_data_center_async(OvirtForeignMenu *menu,$/;"	f	file:
+ovirt_foreign_menu_fetch_host_async	ovirt-foreign-menu.c	/^static void ovirt_foreign_menu_fetch_host_async(OvirtForeignMenu *menu,$/;"	f	file:
+ovirt_foreign_menu_fetch_iso_list_async	ovirt-foreign-menu.c	/^static void ovirt_foreign_menu_fetch_iso_list_async(OvirtForeignMenu *menu,$/;"	f	file:
+ovirt_foreign_menu_fetch_iso_names_async	ovirt-foreign-menu.c	/^ovirt_foreign_menu_fetch_iso_names_async(OvirtForeignMenu *menu,$/;"	f
+ovirt_foreign_menu_fetch_iso_names_finish	ovirt-foreign-menu.c	/^ovirt_foreign_menu_fetch_iso_names_finish(OvirtForeignMenu *foreign_menu,$/;"	f
+ovirt_foreign_menu_fetch_storage_domain_async	ovirt-foreign-menu.c	/^static void ovirt_foreign_menu_fetch_storage_domain_async(OvirtForeignMenu *menu,$/;"	f	file:
+ovirt_foreign_menu_fetch_vm_async	ovirt-foreign-menu.c	/^static void ovirt_foreign_menu_fetch_vm_async(OvirtForeignMenu *menu,$/;"	f	file:
+ovirt_foreign_menu_fetch_vm_cdrom_async	ovirt-foreign-menu.c	/^static void ovirt_foreign_menu_fetch_vm_cdrom_async(OvirtForeignMenu *menu,$/;"	f	file:
+ovirt_foreign_menu_get_current_iso_name	ovirt-foreign-menu.c	/^ovirt_foreign_menu_get_current_iso_name(OvirtForeignMenu *foreign_menu)$/;"	f
+ovirt_foreign_menu_get_iso_names	ovirt-foreign-menu.c	/^ovirt_foreign_menu_get_iso_names(OvirtForeignMenu *foreign_menu)$/;"	f
+ovirt_foreign_menu_get_property	ovirt-foreign-menu.c	/^ovirt_foreign_menu_get_property(GObject *object, guint property_id,$/;"	f	file:
+ovirt_foreign_menu_init	ovirt-foreign-menu.c	/^ovirt_foreign_menu_init(OvirtForeignMenu *self)$/;"	f	file:
+ovirt_foreign_menu_iso_name_changed	remote-viewer-iso-list-dialog.c	/^ovirt_foreign_menu_iso_name_changed(OvirtForeignMenu *foreign_menu,$/;"	f	file:
+ovirt_foreign_menu_new	ovirt-foreign-menu.c	/^OvirtForeignMenu* ovirt_foreign_menu_new(OvirtProxy *proxy)$/;"	f
+ovirt_foreign_menu_new_from_file	ovirt-foreign-menu.c	/^OvirtForeignMenu *ovirt_foreign_menu_new_from_file(VirtViewerFile *file)$/;"	f
+ovirt_foreign_menu_next_async_step	ovirt-foreign-menu.c	/^ovirt_foreign_menu_next_async_step(OvirtForeignMenu *menu,$/;"	f	file:
+ovirt_foreign_menu_refresh_cdrom_file_async	ovirt-foreign-menu.c	/^static void ovirt_foreign_menu_refresh_cdrom_file_async(OvirtForeignMenu *menu,$/;"	f	file:
+ovirt_foreign_menu_set_current_iso_name_async	ovirt-foreign-menu.c	/^void ovirt_foreign_menu_set_current_iso_name_async(OvirtForeignMenu *foreign_menu,$/;"	f
+ovirt_foreign_menu_set_current_iso_name_finish	ovirt-foreign-menu.c	/^gboolean ovirt_foreign_menu_set_current_iso_name_finish(OvirtForeignMenu *foreign_menu,$/;"	f
+ovirt_foreign_menu_set_files	ovirt-foreign-menu.c	/^static void ovirt_foreign_menu_set_files(OvirtForeignMenu *menu,$/;"	f	file:
+ovirt_foreign_menu_set_property	ovirt-foreign-menu.c	/^ovirt_foreign_menu_set_property(GObject *object, guint property_id,$/;"	f	file:
+ovirt_foreign_menu_update	remote-viewer.c	/^ovirt_foreign_menu_update(GtkApplication *gtkapp, GtkWindow *gtkwin, G_GNUC_UNUSED gpointer data)$/;"	f	file:
+ovirt_foreign_menu_update_each	remote-viewer.c	/^ovirt_foreign_menu_update_each(gpointer value,$/;"	f	file:
+ovirt_foreign_menu_updated	remote-viewer.c	/^ovirt_foreign_menu_updated(RemoteViewer *self)$/;"	f	file:
+parent	ovirt-foreign-menu.h	/^    GObject parent;$/;"	m	struct:_OvirtForeignMenu
+parent	remote-viewer-iso-list-dialog.h	/^    GtkDialog parent;$/;"	m	struct:_RemoteViewerISOListDialog
+parent	remote-viewer.h	/^    VirtViewerApp parent;$/;"	m	struct:__anon1
+parent	virt-viewer-app.h	/^    GtkApplication parent;$/;"	m	struct:__anon21
+parent	virt-viewer-display-spice.h	/^    VirtViewerDisplay parent;$/;"	m	struct:_VirtViewerDisplaySpice
+parent	virt-viewer-display-vnc.h	/^    VirtViewerDisplay parent;$/;"	m	struct:_VirtViewerDisplayVnc
+parent	virt-viewer-display.h	/^    GtkBin parent;$/;"	m	struct:_VirtViewerDisplay
+parent	virt-viewer-file-transfer-dialog.h	/^    GtkDialog parent;$/;"	m	struct:_VirtViewerFileTransferDialog
+parent	virt-viewer-file.h	/^    GObject parent;$/;"	m	struct:_VirtViewerFile
+parent	virt-viewer-notebook.h	/^    GtkNotebook parent;$/;"	m	struct:__anon9
+parent	virt-viewer-session-spice.h	/^    VirtViewerSession parent;$/;"	m	struct:_VirtViewerSessionSpice
+parent	virt-viewer-session-vnc.h	/^    VirtViewerSession parent;$/;"	m	struct:_VirtViewerSessionVnc
+parent	virt-viewer-session.h	/^    GObject parent;$/;"	m	struct:_VirtViewerSession
+parent	virt-viewer-timed-revealer.h	/^    GtkEventBox parent;$/;"	m	struct:__anon6
+parent	virt-viewer-window.h	/^    GObject parent;$/;"	m	struct:__anon4
+parent	virt-viewer.h	/^    VirtViewerApp parent;$/;"	m	struct:__anon17
+parent_class	ovirt-foreign-menu.h	/^    GObjectClass parent_class;$/;"	m	struct:_OvirtForeignMenuClass
+parent_class	remote-viewer-iso-list-dialog.h	/^    GtkDialogClass parent_class;$/;"	m	struct:_RemoteViewerISOListDialogClass
+parent_class	remote-viewer.h	/^    VirtViewerAppClass parent_class;$/;"	m	struct:__anon2
+parent_class	virt-viewer-app.h	/^    GtkApplicationClass parent_class;$/;"	m	struct:__anon22
+parent_class	virt-viewer-display-spice.h	/^    VirtViewerDisplayClass parent_class;$/;"	m	struct:_VirtViewerDisplaySpiceClass
+parent_class	virt-viewer-display-vnc.h	/^    VirtViewerDisplayClass parent_class;$/;"	m	struct:_VirtViewerDisplayVncClass
+parent_class	virt-viewer-display.h	/^    GtkBinClass parent_class;$/;"	m	struct:_VirtViewerDisplayClass
+parent_class	virt-viewer-file-transfer-dialog.h	/^    GtkDialogClass parent_class;$/;"	m	struct:_VirtViewerFileTransferDialogClass
+parent_class	virt-viewer-file.h	/^    GObjectClass parent_class;$/;"	m	struct:_VirtViewerFileClass
+parent_class	virt-viewer-notebook.h	/^    GtkNotebookClass parent_class;$/;"	m	struct:__anon10
+parent_class	virt-viewer-session-spice.h	/^    VirtViewerSessionClass parent_class;$/;"	m	struct:_VirtViewerSessionSpiceClass
+parent_class	virt-viewer-session-vnc.h	/^    VirtViewerSessionClass parent_class;$/;"	m	struct:_VirtViewerSessionVncClass
+parent_class	virt-viewer-session.h	/^    GObjectClass parent_class;$/;"	m	struct:_VirtViewerSessionClass
+parent_class	virt-viewer-timed-revealer.h	/^    GtkEventBoxClass parent_class;$/;"	m	struct:__anon7
+parent_class	virt-viewer-window.h	/^    GObjectClass parent_class;$/;"	m	struct:__anon5
+parent_class	virt-viewer.h	/^    VirtViewerAppClass parent_class;$/;"	m	struct:__anon18
+parse_ovirt_uri	remote-viewer.c	/^parse_ovirt_uri(const gchar *uri_str, char **rest_uri, char **name, char **username)$/;"	f	file:
+pdfdir	Makefile	/^pdfdir = ${docdir}$/;"	m
+pkgdatadir	Makefile	/^pkgdatadir = $(datadir)\/virt-viewer$/;"	m
+pkgincludedir	Makefile	/^pkgincludedir = $(includedir)\/virt-viewer$/;"	m
+pkglibdir	Makefile	/^pkglibdir = $(libdir)\/virt-viewer$/;"	m
+pkglibexecdir	Makefile	/^pkglibexecdir = $(libexecdir)\/virt-viewer$/;"	m
+port	virt-viewer-app.c	/^    int port;\/* ssh *\/$/;"	m	struct:_VirtViewerAppPrivate	file:
+preferences	virt-viewer-app.c	/^    GtkWidget *preferences;$/;"	m	struct:_VirtViewerAppPrivate	file:
+preferences_shared_folder	virt-viewer-app.c	/^    GtkFileChooser *preferences_shared_folder;$/;"	m	struct:_VirtViewerAppPrivate	file:
+prefix	Makefile	/^prefix = \/usr$/;"	m
+pretty_address	virt-viewer-app.c	/^    char *pretty_address;$/;"	m	struct:_VirtViewerAppPrivate	file:
+priv	ovirt-foreign-menu.h	/^    OvirtForeignMenuPrivate *priv;$/;"	m	struct:_OvirtForeignMenu
+priv	remote-viewer-iso-list-dialog.h	/^    RemoteViewerISOListDialogPrivate *priv;$/;"	m	struct:_RemoteViewerISOListDialog
+priv	remote-viewer.h	/^    RemoteViewerPrivate *priv;$/;"	m	struct:__anon1
+priv	virt-viewer-app.h	/^    VirtViewerAppPrivate *priv;$/;"	m	struct:__anon21
+priv	virt-viewer-display-spice.h	/^    VirtViewerDisplaySpicePrivate *priv;$/;"	m	struct:_VirtViewerDisplaySpice
+priv	virt-viewer-display-vnc.h	/^    VirtViewerDisplayVncPrivate *priv;$/;"	m	struct:_VirtViewerDisplayVnc
+priv	virt-viewer-display.h	/^    VirtViewerDisplayPrivate *priv;$/;"	m	struct:_VirtViewerDisplay
+priv	virt-viewer-file-transfer-dialog.h	/^    VirtViewerFileTransferDialogPrivate *priv;$/;"	m	struct:_VirtViewerFileTransferDialog
+priv	virt-viewer-file.h	/^    VirtViewerFilePrivate *priv;$/;"	m	struct:_VirtViewerFile
+priv	virt-viewer-notebook.h	/^    VirtViewerNotebookPrivate *priv;$/;"	m	struct:__anon9
+priv	virt-viewer-session-spice.h	/^    VirtViewerSessionSpicePrivate *priv;$/;"	m	struct:_VirtViewerSessionSpice
+priv	virt-viewer-session-vnc.h	/^    VirtViewerSessionVncPrivate *priv;$/;"	m	struct:_VirtViewerSessionVnc
+priv	virt-viewer-session.h	/^    VirtViewerSessionPrivate *priv;$/;"	m	struct:_VirtViewerSession
+priv	virt-viewer-timed-revealer.h	/^    VirtViewerTimedRevealerPrivate *priv;$/;"	m	struct:__anon6
+priv	virt-viewer-window.h	/^    VirtViewerWindowPrivate *priv;$/;"	m	struct:__anon4
+priv	virt-viewer.h	/^    VirtViewerPrivate *priv;$/;"	m	struct:__anon17
+program_transform_name	Makefile	/^program_transform_name = s&^&&$/;"	m
+progressbar	virt-viewer-file-transfer-dialog.c	/^    GtkWidget *progressbar;$/;"	m	struct:_VirtViewerFileTransferDialogPrivate	file:
+property_notify_do_auto_conf	virt-viewer-session-spice.c	/^property_notify_do_auto_conf(GObject *gobject G_GNUC_UNUSED,$/;"	f	file:
+psdir	Makefile	/^psdir = ${docdir}$/;"	m
+ptr	virt-viewer-resources.c	/^static const SECTION union { const guint8 data[88480]; const double alignment; void * const ptr;}  virt_viewer_resource_data = { {$/;"	m	union:__anon14	file:
+quit_on_disconnect	virt-viewer-app.c	/^    gboolean quit_on_disconnect;$/;"	m	struct:_VirtViewerAppPrivate	file:
+quitting	virt-viewer-app.c	/^    gboolean quitting;$/;"	m	struct:_VirtViewerAppPrivate	file:
+reader_added_cb	virt-viewer-session-spice.c	/^static void reader_added_cb(SpiceSmartcardManager *manager G_GNUC_UNUSED,$/;"	f	file:
+reader_removed_cb	virt-viewer-session-spice.c	/^static void reader_removed_cb(SpiceSmartcardManager *manager G_GNUC_UNUSED,$/;"	f	file:
+rebuild_combo_menu	virt-viewer-window.c	/^rebuild_combo_menu(GObject    *gobject G_GNUC_UNUSED,$/;"	f	file:
+recent_item_activated_dialog_cb	remote-viewer-connect.c	/^recent_item_activated_dialog_cb(GtkRecentChooser *chooser G_GNUC_UNUSED, gpointer data)$/;"	f	file:
+recent_selection_changed_dialog_cb	remote-viewer-connect.c	/^recent_selection_changed_dialog_cb(GtkRecentChooser *chooser, gpointer data)$/;"	f	file:
+reconnect	virt-viewer.c	/^    gboolean reconnect;$/;"	m	struct:_VirtViewerPrivate	file:
+reconnect_poll	virt-viewer.c	/^    guint reconnect_poll; \/* source id *\/$/;"	m	struct:_VirtViewerPrivate	file:
+release_cursor	virt-viewer-display.h	/^    void (*release_cursor)(VirtViewerDisplay *display);$/;"	m	struct:_VirtViewerDisplayClass
+remote_viewer_CFLAGS	Makefile	/^remote_viewer_CFLAGS = \\$/;"	m
+remote_viewer_DEPENDENCIES	Makefile	/^remote_viewer_DEPENDENCIES = libvirt-viewer-util.la libvirt-viewer.la \\$/;"	m
+remote_viewer_LDADD	Makefile	/^remote_viewer_LDADD = \\$/;"	m
+remote_viewer_LDFLAGS	Makefile	/^remote_viewer_LDFLAGS = $(COMMON_LIBS) $(NULL) $(am__append_5)$/;"	m
+remote_viewer_LINK	Makefile	/^remote_viewer_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \\$/;"	m
+remote_viewer_OBJECTS	Makefile	/^remote_viewer_OBJECTS = $(am_remote_viewer_OBJECTS)$/;"	m
+remote_viewer_SOURCES	Makefile	/^remote_viewer_SOURCES = \\$/;"	m
+remote_viewer_add_option_entries	remote-viewer.c	/^remote_viewer_add_option_entries(VirtViewerApp *self, GOptionContext *context, GOptionGroup *group)$/;"	f	file:
+remote_viewer_class_init	remote-viewer.c	/^remote_viewer_class_init (RemoteViewerClass *klass)$/;"	f	file:
+remote_viewer_connect_dialog	remote-viewer-connect.c	/^remote_viewer_connect_dialog(GtkWindow *main_window, gchar **uri)$/;"	f
+remote_viewer_deactivated	remote-viewer.c	/^remote_viewer_deactivated(VirtViewerApp *app, gboolean connect_error)$/;"	f	file:
+remote_viewer_dispose	remote-viewer.c	/^remote_viewer_dispose (GObject *object)$/;"	f	file:
+remote_viewer_get_property	remote-viewer.c	/^remote_viewer_get_property(GObject *object, guint property_id,$/;"	f	file:
+remote_viewer_get_spice_session	remote-viewer.c	/^remote_viewer_get_spice_session(RemoteViewer *self)$/;"	f	file:
+remote_viewer_init	remote-viewer.c	/^remote_viewer_init(RemoteViewer *self)$/;"	f	file:
+remote_viewer_iso_list_dialog_class_init	remote-viewer-iso-list-dialog.c	/^remote_viewer_iso_list_dialog_class_init(RemoteViewerISOListDialogClass *klass)$/;"	f	file:
+remote_viewer_iso_list_dialog_dispose	remote-viewer-iso-list-dialog.c	/^remote_viewer_iso_list_dialog_dispose(GObject *object)$/;"	f	file:
+remote_viewer_iso_list_dialog_foreach	remote-viewer-iso-list-dialog.c	/^remote_viewer_iso_list_dialog_foreach(char *name, RemoteViewerISOListDialog *self)$/;"	f	file:
+remote_viewer_iso_list_dialog_init	remote-viewer-iso-list-dialog.c	/^remote_viewer_iso_list_dialog_init(RemoteViewerISOListDialog *self)$/;"	f	file:
+remote_viewer_iso_list_dialog_new	remote-viewer-iso-list-dialog.c	/^remote_viewer_iso_list_dialog_new(GtkWindow *parent, GObject *foreign_menu)$/;"	f
+remote_viewer_iso_list_dialog_refresh_iso_list	remote-viewer-iso-list-dialog.c	/^remote_viewer_iso_list_dialog_refresh_iso_list(RemoteViewerISOListDialog *self)$/;"	f	file:
+remote_viewer_iso_list_dialog_response	remote-viewer-iso-list-dialog.c	/^remote_viewer_iso_list_dialog_response(GtkDialog *dialog,$/;"	f	file:
+remote_viewer_iso_list_dialog_row_activated	remote-viewer-iso-list-dialog.c	/^remote_viewer_iso_list_dialog_row_activated(GtkTreeView *view G_GNUC_UNUSED,$/;"	f
+remote_viewer_iso_list_dialog_set_property	remote-viewer-iso-list-dialog.c	/^remote_viewer_iso_list_dialog_set_property(GObject *object, guint property_id,$/;"	f	file:
+remote_viewer_iso_list_dialog_show_error	remote-viewer-iso-list-dialog.c	/^remote_viewer_iso_list_dialog_show_error(RemoteViewerISOListDialog *self,$/;"	f	file:
+remote_viewer_iso_list_dialog_show_files	remote-viewer-iso-list-dialog.c	/^remote_viewer_iso_list_dialog_show_files(RemoteViewerISOListDialog *self)$/;"	f	file:
+remote_viewer_iso_list_dialog_toggled	remote-viewer-iso-list-dialog.c	/^remote_viewer_iso_list_dialog_toggled(GtkCellRendererToggle *cell_renderer G_GNUC_UNUSED,$/;"	f
+remote_viewer_local_command_line	remote-viewer.c	/^remote_viewer_local_command_line (GApplication   *gapp,$/;"	f	file:
+remote_viewer_new	remote-viewer.c	/^remote_viewer_new(void)$/;"	f
+remote_viewer_recent_add	remote-viewer.c	/^remote_viewer_recent_add(gchar *uri, const gchar *mime_type)$/;"	f	file:
+remote_viewer_session_connected	remote-viewer.c	/^remote_viewer_session_connected(VirtViewerSession *session,$/;"	f	file:
+remote_viewer_start	remote-viewer.c	/^remote_viewer_start(VirtViewerApp *app, GError **err)$/;"	f	file:
+remove_cb	virt-viewer-session-spice.c	/^static void remove_cb(GtkContainer   *container G_GNUC_UNUSED,$/;"	f	file:
+remove_smartcard_accel_key	virt-viewer-app.c	/^    guint remove_smartcard_accel_key;$/;"	m	struct:_VirtViewerAppPrivate	file:
+remove_smartcard_accel_mods	virt-viewer-app.c	/^    GdkModifierType remove_smartcard_accel_mods;$/;"	m	struct:_VirtViewerAppPrivate	file:
+resource	virt-viewer-app.c	/^    GResource *resource;$/;"	m	struct:_VirtViewerAppPrivate	file:
+resource_constructor	virt-viewer-resources.c	/^static void resource_constructor (void)$/;"	f	file:
+resource_destructor	virt-viewer-resources.c	/^static void resource_destructor (void)$/;"	f	file:
+response	remote-viewer-connect.c	/^    gboolean response;$/;"	m	struct:__anon3	file:
+revealer	virt-viewer-window.c	/^    VirtViewerTimedRevealer *revealer;$/;"	m	struct:_VirtViewerWindowPrivate	file:
+sbindir	Makefile	/^sbindir = \/usr\/sbin$/;"	m
+schedule_unreveal_timeout_cb	virt-viewer-timed-revealer.c	/^schedule_unreveal_timeout_cb(VirtViewerTimedRevealer *self)$/;"	f	file:
+selectable	virt-viewer-display.h	/^    gboolean (*selectable)(VirtViewerDisplay *display);$/;"	m	struct:_VirtViewerDisplayClass
+self	virt-viewer-window.c	/^    VirtViewerWindow *self;$/;"	m	struct:accelCbData	file:
+send_keys	virt-viewer-display.h	/^    void (*send_keys)(VirtViewerDisplay *display,$/;"	m	struct:_VirtViewerDisplayClass
+session	virt-viewer-app.c	/^    VirtViewerSession *session;$/;"	m	struct:_VirtViewerAppPrivate	file:
+session	virt-viewer-display.c	/^    VirtViewerSession *session;$/;"	m	struct:_VirtViewerDisplayPrivate	file:
+session_auth_refused	virt-viewer-session.h	/^    void (*session_auth_refused)(VirtViewerSession *session, const gchar *msg);$/;"	m	struct:_VirtViewerSessionClass
+session_auth_unsupported	virt-viewer-session.h	/^    void (*session_auth_unsupported)(VirtViewerSession *session, const gchar *msg);$/;"	m	struct:_VirtViewerSessionClass
+session_bell	virt-viewer-session.h	/^    void (*session_bell)(VirtViewerSession *session);$/;"	m	struct:_VirtViewerSessionClass
+session_cancelled	virt-viewer-session.h	/^    void (*session_cancelled)(VirtViewerSession *session);$/;"	m	struct:_VirtViewerSessionClass
+session_channel_open	virt-viewer-session.h	/^    void (*session_channel_open)(VirtViewerSession *session, VirtViewerSessionChannel *channel);$/;"	m	struct:_VirtViewerSessionClass
+session_connected	virt-viewer-session.h	/^    void (*session_connected)(VirtViewerSession *session);$/;"	m	struct:_VirtViewerSessionClass
+session_cut_text	virt-viewer-session.h	/^    void (*session_cut_text)(VirtViewerSession *session, const gchar *str);$/;"	m	struct:_VirtViewerSessionClass
+session_disconnected	virt-viewer-session.h	/^    void (*session_disconnected)(VirtViewerSession *session, const gchar *msg);$/;"	m	struct:_VirtViewerSessionClass
+session_display_added	virt-viewer-session.h	/^    void (*session_display_added)(VirtViewerSession *session,$/;"	m	struct:_VirtViewerSessionClass
+session_display_removed	virt-viewer-session.h	/^    void (*session_display_removed)(VirtViewerSession *session,$/;"	m	struct:_VirtViewerSessionClass
+session_display_updated	virt-viewer-session.h	/^    void (*session_display_updated)(VirtViewerSession *session);$/;"	m	struct:_VirtViewerSessionClass
+session_initialized	virt-viewer-session.h	/^    void (*session_initialized)(VirtViewerSession *session);$/;"	m	struct:_VirtViewerSessionClass
+session_usb_failed	virt-viewer-session.h	/^    void (*session_usb_failed)(VirtViewerSession *session, const gchar *msg);$/;"	m	struct:_VirtViewerSessionClass
+set_menus_sensitive	virt-viewer-app.c	/^set_menus_sensitive(gpointer value, gpointer user_data)$/;"	f	file:
+set_title	virt-viewer-app.c	/^set_title(gpointer value,$/;"	f	file:
+set_usb_options_sensitive	virt-viewer-app.c	/^static void set_usb_options_sensitive(gpointer value,$/;"	f	file:
+share_folder	virt-viewer-session.c	/^    gboolean share_folder;$/;"	m	struct:_VirtViewerSessionPrivate	file:
+share_folder_changed	virt-viewer-app.c	/^share_folder_changed(VirtViewerApp *self)$/;"	f	file:
+share_folder_ro	virt-viewer-session.c	/^    gboolean share_folder_ro;$/;"	m	struct:_VirtViewerSessionPrivate	file:
+shared_folder	virt-viewer-session.c	/^    gchar *shared_folder;$/;"	m	struct:_VirtViewerSessionPrivate	file:
+sharedstatedir	Makefile	/^sharedstatedir = \/var\/lib$/;"	m
+show_display_cb	virt-viewer-app.c	/^show_display_cb(gpointer value,$/;"	f	file:
+show_hint	virt-viewer-display.c	/^    guint show_hint;$/;"	m	struct:_VirtViewerDisplayPrivate	file:
+show_hint_changed	virt-viewer-display-spice.c	/^show_hint_changed(VirtViewerDisplay *self)$/;"	f	file:
+show_password	virt-viewer-auth.c	/^show_password(GtkCheckButton *check_button G_GNUC_UNUSED,$/;"	f	file:
+show_status_cb	virt-viewer-app.c	/^show_status_cb(gpointer value,$/;"	f	file:
+show_transfer_dialog	virt-viewer-file-transfer-dialog.c	/^static void show_transfer_dialog(VirtViewerFileTransferDialog *self)$/;"	f	file:
+show_transfer_dialog_delayed	virt-viewer-file-transfer-dialog.c	/^static gboolean show_transfer_dialog_delayed(gpointer user_data)$/;"	f	file:
+shutdown_loop	remote-viewer-connect.c	/^shutdown_loop(GMainLoop *loop)$/;"	f	file:
+smartcard_insert	virt-viewer-session.h	/^    void (* smartcard_insert) (VirtViewerSession* session);$/;"	m	struct:_VirtViewerSessionClass
+smartcard_remove	virt-viewer-session.h	/^    void (* smartcard_remove) (VirtViewerSession* session);$/;"	m	struct:_VirtViewerSessionClass
+spice_hotkey_set_accel	virt-viewer-file.c	/^spice_hotkey_set_accel(const gchar *accel_path, const gchar *key)$/;"	f	file:
+spice_hotkey_to_gtk_accelerator	virt-viewer-util.c	/^spice_hotkey_to_gtk_accelerator(const gchar *key)$/;"	f
+srcdir	Makefile	/^srcdir = .$/;"	m
+start	virt-viewer-app.h	/^    gboolean (*start) (VirtViewerApp *self, GError **error);$/;"	m	struct:__anon22
+started	virt-viewer-app.c	/^    gboolean started;$/;"	m	struct:_VirtViewerAppPrivate	file:
+static_resource	virt-viewer-resources.c	/^static GStaticResource static_resource = { virt_viewer_resource_data.data, sizeof (virt_viewer_resource_data.data), NULL, NULL, NULL };$/;"	v	file:
+storage_domain_attached_to_data_center	ovirt-foreign-menu.c	/^static gboolean storage_domain_attached_to_data_center(OvirtStorageDomain *domain,$/;"	f	file:
+storage_domains_fetched_cb	ovirt-foreign-menu.c	/^static void storage_domains_fetched_cb(GObject *source_object,$/;"	f	file:
+str_is_empty	virt-viewer-util.c	/^static gboolean str_is_empty(const gchar *str)$/;"	f	file:
+subdir	Makefile	/^subdir = src$/;"	m
+subtitle	virt-viewer-window.c	/^    gchar *subtitle;$/;"	m	struct:_VirtViewerWindowPrivate	file:
+sysconfdir	Makefile	/^sysconfdir = \/etc$/;"	m
+target_alias	Makefile	/^target_alias = $/;"	m
+task_finished	virt-viewer-file-transfer-dialog.c	/^static void task_finished(SpiceFileTransferTask *task,$/;"	f	file:
+task_progress_notify	virt-viewer-file-transfer-dialog.c	/^static void task_progress_notify(GObject *object G_GNUC_UNUSED,$/;"	f	file:
+task_total_bytes_notify	virt-viewer-file-transfer-dialog.c	/^static void task_total_bytes_notify(GObject *object,$/;"	f	file:
+timer_hide_src	virt-viewer-file-transfer-dialog.c	/^    guint timer_hide_src;$/;"	m	struct:_VirtViewerFileTransferDialogPrivate	file:
+timer_show_src	virt-viewer-file-transfer-dialog.c	/^    guint timer_show_src;$/;"	m	struct:_VirtViewerFileTransferDialogPrivate	file:
+title	virt-viewer-app.c	/^    char *title;$/;"	m	struct:_VirtViewerAppPrivate	file:
+title_maybe_changed	virt-viewer-app.c	/^title_maybe_changed(VirtViewerApp *self, GParamSpec* pspec G_GNUC_UNUSED, gpointer user_data G_GNUC_UNUSED)$/;"	f	file:
+toolbar	virt-viewer-window.c	/^    GtkWidget *toolbar;$/;"	m	struct:_VirtViewerWindowPrivate	file:
+toolbar_send_key	virt-viewer-window.c	/^    GtkWidget *toolbar_send_key;$/;"	m	struct:_VirtViewerWindowPrivate	file:
+toolbar_usb_device_selection	virt-viewer-window.c	/^    GtkWidget *toolbar_usb_device_selection;$/;"	m	struct:_VirtViewerWindowPrivate	file:
+top_build_prefix	Makefile	/^top_build_prefix = ..\/$/;"	m
+top_builddir	Makefile	/^top_builddir = ..$/;"	m
+top_srcdir	Makefile	/^top_srcdir = ..$/;"	m
+total_transfer_size	virt-viewer-file-transfer-dialog.c	/^    guint64 total_transfer_size;$/;"	m	struct:_VirtViewerFileTransferDialogPrivate	file:
+transfer_summary	virt-viewer-file-transfer-dialog.c	/^    GtkWidget *transfer_summary;$/;"	m	struct:_VirtViewerFileTransferDialogPrivate	file:
+transform	Makefile	/^transform = $(program_transform_name)$/;"	m
+transport	virt-viewer-app.c	/^    char *transport;$/;"	m	struct:_VirtViewerAppPrivate	file:
+treeselection_changed_cb	virt-viewer-vm-connection.c	/^treeselection_changed_cb(GtkTreeSelection *selection, gpointer userdata)$/;"	f	file:
+treeview_row_activated_cb	virt-viewer-vm-connection.c	/^treeview_row_activated_cb(GtkTreeView *treeview G_GNUC_UNUSED,$/;"	f	file:
+unixsock	virt-viewer-app.c	/^    char *unixsock;$/;"	m	struct:_VirtViewerAppPrivate	file:
+update_display_ready	virt-viewer-display-spice.c	/^update_display_ready(VirtViewerDisplaySpice *self)$/;"	f	file:
+update_enabled	virt-viewer-display-spice.c	/^static void update_enabled(VirtViewerDisplay *self, gboolean enabled, gboolean send)$/;"	f	file:
+update_global_progress	virt-viewer-file-transfer-dialog.c	/^static void update_global_progress(VirtViewerFileTransferDialog *self)$/;"	f	file:
+update_menu_displays_sort	virt-viewer-app.c	/^update_menu_displays_sort(gconstpointer a, gconstpointer b)$/;"	f	file:
+update_share_folder	virt-viewer-session-spice.c	/^update_share_folder(VirtViewerSessionSpice *self)$/;"	f	file:
+update_title	virt-viewer-app.c	/^static void update_title(gpointer value,$/;"	f	file:
+uri	virt-viewer-session.c	/^    gchar *uri;$/;"	m	struct:_VirtViewerSessionPrivate	file:
+uri	virt-viewer.c	/^    char *uri;$/;"	m	struct:_VirtViewerPrivate	file:
+usb_connect_failed	virt-viewer-session-spice.c	/^usb_connect_failed(GObject *object G_GNUC_UNUSED,$/;"	f	file:
+usb_device_selection	virt-viewer-session.h	/^    void (* usb_device_selection) (VirtViewerSession* session, GtkWindow *parent);$/;"	m	struct:_VirtViewerSessionClass
+user	virt-viewer-app.c	/^    char *user; \/* ssh *\/$/;"	m	struct:_VirtViewerAppPrivate	file:
+uuid	virt-viewer-app.c	/^    char *uuid;$/;"	m	struct:_VirtViewerAppPrivate	file:
+uuid_changed	virt-viewer-session-spice.c	/^uuid_changed(GObject *gobject G_GNUC_UNUSED,$/;"	f	file:
+verbose	virt-viewer-app.c	/^    gboolean verbose;$/;"	m	struct:_VirtViewerAppPrivate	file:
+viewer_window_focus_in_cb	virt-viewer-app.c	/^viewer_window_focus_in_cb(GtkWindow *window G_GNUC_UNUSED,$/;"	f	file:
+viewer_window_focus_out_cb	virt-viewer-app.c	/^viewer_window_focus_out_cb(GtkWindow *window G_GNUC_UNUSED,$/;"	f	file:
+viewer_window_visible_cb	virt-viewer-app.c	/^viewer_window_visible_cb(GtkWidget *widget G_GNUC_UNUSED,$/;"	f	file:
+virt_viewer_CFLAGS	Makefile	/^virt_viewer_CFLAGS = \\$/;"	m
+virt_viewer_DEPENDENCIES	Makefile	/^virt_viewer_DEPENDENCIES = libvirt-viewer-util.la \\$/;"	m
+virt_viewer_LDADD	Makefile	/^virt_viewer_LDADD = \\$/;"	m
+virt_viewer_LDFLAGS	Makefile	/^virt_viewer_LDFLAGS = \\$/;"	m
+virt_viewer_LINK	Makefile	/^virt_viewer_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \\$/;"	m
+virt_viewer_OBJECTS	Makefile	/^virt_viewer_OBJECTS = $(am_virt_viewer_OBJECTS)$/;"	m
+virt_viewer_SOURCES	Makefile	/^virt_viewer_SOURCES = \\$/;"	m
+virt_viewer_add_option_entries	virt-viewer.c	/^virt_viewer_add_option_entries(VirtViewerApp *self, GOptionContext *context, GOptionGroup *group)$/;"	f	file:
+virt_viewer_align_monitors_linear	virt-viewer-util.c	/^virt_viewer_align_monitors_linear(GHashTable *displays)$/;"	f
+virt_viewer_app_about_close	virt-viewer-app.c	/^virt_viewer_app_about_close(GtkWidget *dialog,$/;"	f
+virt_viewer_app_about_delete	virt-viewer-app.c	/^virt_viewer_app_about_delete(GtkWidget *dialog,$/;"	f
+virt_viewer_app_activate	virt-viewer-app.c	/^virt_viewer_app_activate(VirtViewerApp *self, GError **error)$/;"	f
+virt_viewer_app_add_option_entries	virt-viewer-app.c	/^virt_viewer_app_add_option_entries(G_GNUC_UNUSED VirtViewerApp *self,$/;"	f	file:
+virt_viewer_app_apply_monitor_mapping	virt-viewer-app.c	/^void virt_viewer_app_apply_monitor_mapping(VirtViewerApp *self)$/;"	f	file:
+virt_viewer_app_auth_refused	virt-viewer-app.c	/^static void virt_viewer_app_auth_refused(VirtViewerSession *session,$/;"	f	file:
+virt_viewer_app_auth_unsupported	virt-viewer-app.c	/^static void virt_viewer_app_auth_unsupported(VirtViewerSession *session G_GNUC_UNUSED,$/;"	f	file:
+virt_viewer_app_bell	virt-viewer-app.c	/^static void virt_viewer_app_bell(VirtViewerSession *session G_GNUC_UNUSED,$/;"	f	file:
+virt_viewer_app_cancelled	virt-viewer-app.c	/^static void virt_viewer_app_cancelled(VirtViewerSession *session,$/;"	f	file:
+virt_viewer_app_channel_open	virt-viewer-app.c	/^virt_viewer_app_channel_open(VirtViewerSession *session G_GNUC_UNUSED,$/;"	f	file:
+virt_viewer_app_channel_open	virt-viewer-app.c	/^virt_viewer_app_channel_open(VirtViewerSession *session,$/;"	f	file:
+virt_viewer_app_class_init	virt-viewer-app.c	/^virt_viewer_app_class_init (VirtViewerAppClass *klass)$/;"	f	file:
+virt_viewer_app_clear_hotkeys	virt-viewer-app.c	/^virt_viewer_app_clear_hotkeys(VirtViewerApp *self)$/;"	f
+virt_viewer_app_clipboard_copy	virt-viewer-app.c	/^virt_viewer_app_clipboard_copy(GtkClipboard *clipboard G_GNUC_UNUSED,$/;"	f	file:
+virt_viewer_app_connected	virt-viewer-app.c	/^virt_viewer_app_connected(VirtViewerSession *session G_GNUC_UNUSED,$/;"	f	file:
+virt_viewer_app_create_session	virt-viewer-app.c	/^virt_viewer_app_create_session(VirtViewerApp *self, const gchar *type, GError **error)$/;"	f
+virt_viewer_app_deactivate	virt-viewer-app.c	/^virt_viewer_app_deactivate(VirtViewerApp *self, gboolean connect_error)$/;"	f	file:
+virt_viewer_app_deactivated	virt-viewer-app.c	/^virt_viewer_app_deactivated(VirtViewerApp *self, gboolean connect_error)$/;"	f	file:
+virt_viewer_app_default_activate	virt-viewer-app.c	/^virt_viewer_app_default_activate(VirtViewerApp *self, GError **error)$/;"	f	file:
+virt_viewer_app_default_deactivated	virt-viewer-app.c	/^virt_viewer_app_default_deactivated(VirtViewerApp *self, gboolean connect_error)$/;"	f	file:
+virt_viewer_app_default_initial_connect	virt-viewer-app.c	/^virt_viewer_app_default_initial_connect(VirtViewerApp *self, GError **error)$/;"	f	file:
+virt_viewer_app_default_open_connection	virt-viewer-app.c	/^virt_viewer_app_default_open_connection(VirtViewerApp *self G_GNUC_UNUSED, int *fd)$/;"	f	file:
+virt_viewer_app_default_start	virt-viewer-app.c	/^virt_viewer_app_default_start(VirtViewerApp *self, GError **error G_GNUC_UNUSED)$/;"	f	file:
+virt_viewer_app_disconnected	virt-viewer-app.c	/^virt_viewer_app_disconnected(VirtViewerSession *session G_GNUC_UNUSED, const gchar *msg,$/;"	f	file:
+virt_viewer_app_display_added	virt-viewer-app.c	/^virt_viewer_app_display_added(VirtViewerSession *session G_GNUC_UNUSED,$/;"	f	file:
+virt_viewer_app_display_removed	virt-viewer-app.c	/^virt_viewer_app_display_removed(VirtViewerSession *session G_GNUC_UNUSED,$/;"	f	file:
+virt_viewer_app_display_updated	virt-viewer-app.c	/^virt_viewer_app_display_updated(VirtViewerSession *session G_GNUC_UNUSED,$/;"	f	file:
+virt_viewer_app_dispose	virt-viewer-app.c	/^virt_viewer_app_dispose (GObject *object)$/;"	f	file:
+virt_viewer_app_free_connect_info	virt-viewer-app.c	/^virt_viewer_app_free_connect_info(VirtViewerApp *self)$/;"	f
+virt_viewer_app_get_attach	virt-viewer-app.c	/^virt_viewer_app_get_attach(VirtViewerApp *self)$/;"	f
+virt_viewer_app_get_direct	virt-viewer-app.c	/^gboolean virt_viewer_app_get_direct(VirtViewerApp *self)$/;"	f
+virt_viewer_app_get_enable_accel	virt-viewer-app.c	/^virt_viewer_app_get_enable_accel(VirtViewerApp *self)$/;"	f
+virt_viewer_app_get_first_monitor	virt-viewer-app.c	/^static gint virt_viewer_app_get_first_monitor(VirtViewerApp *self)$/;"	f	file:
+virt_viewer_app_get_fullscreen	virt-viewer-app.c	/^virt_viewer_app_get_fullscreen(VirtViewerApp *self)$/;"	f
+virt_viewer_app_get_initial_displays	virt-viewer-app.c	/^GList* virt_viewer_app_get_initial_displays(VirtViewerApp* self)$/;"	f
+virt_viewer_app_get_initial_monitor_for_display	virt-viewer-app.c	/^gint virt_viewer_app_get_initial_monitor_for_display(VirtViewerApp* self, gint display)$/;"	f
+virt_viewer_app_get_main_window	virt-viewer-app.c	/^virt_viewer_app_get_main_window(VirtViewerApp *self)$/;"	f
+virt_viewer_app_get_monitor_mapping_for_section	virt-viewer-app.c	/^virt_viewer_app_get_monitor_mapping_for_section(VirtViewerApp *self, const gchar *section)$/;"	f	file:
+virt_viewer_app_get_n_windows_visible	virt-viewer-app.c	/^virt_viewer_app_get_n_windows_visible(VirtViewerApp *self)$/;"	f	file:
+virt_viewer_app_get_nth_window	virt-viewer-app.c	/^virt_viewer_app_get_nth_window(VirtViewerApp *self, gint nth)$/;"	f	file:
+virt_viewer_app_get_preferences	virt-viewer-app.c	/^virt_viewer_app_get_preferences(VirtViewerApp *self)$/;"	f	file:
+virt_viewer_app_get_property	virt-viewer-app.c	/^virt_viewer_app_get_property (GObject *object, guint property_id,$/;"	f	file:
+virt_viewer_app_get_session	virt-viewer-app.c	/^virt_viewer_app_get_session(VirtViewerApp *self)$/;"	f
+virt_viewer_app_get_session_cancelled	virt-viewer-app.c	/^gboolean virt_viewer_app_get_session_cancelled(VirtViewerApp *self)$/;"	f
+virt_viewer_app_get_title	virt-viewer-app.c	/^virt_viewer_app_get_title(VirtViewerApp *self)$/;"	f	file:
+virt_viewer_app_get_windows	virt-viewer-app.c	/^virt_viewer_app_get_windows(VirtViewerApp *self)$/;"	f
+virt_viewer_app_has_session	virt-viewer-app.c	/^virt_viewer_app_has_session(VirtViewerApp *self)$/;"	f
+virt_viewer_app_has_usbredir	virt-viewer-app.c	/^virt_viewer_app_has_usbredir(VirtViewerApp *self)$/;"	f	file:
+virt_viewer_app_has_usbredir_updated	virt-viewer-app.c	/^virt_viewer_app_has_usbredir_updated(VirtViewerSession *session,$/;"	f	file:
+virt_viewer_app_hide_all_windows	virt-viewer-app.c	/^virt_viewer_app_hide_all_windows(VirtViewerApp *app)$/;"	f	file:
+virt_viewer_app_init	virt-viewer-app.c	/^virt_viewer_app_init(VirtViewerApp *self)$/;"	f	file:
+virt_viewer_app_initial_connect	virt-viewer-app.c	/^virt_viewer_app_initial_connect(VirtViewerApp *self, GError **error)$/;"	f
+virt_viewer_app_initialized	virt-viewer-app.c	/^virt_viewer_app_initialized(VirtViewerSession *session G_GNUC_UNUSED,$/;"	f	file:
+virt_viewer_app_is_active	virt-viewer-app.c	/^virt_viewer_app_is_active(VirtViewerApp *self)$/;"	f
+virt_viewer_app_local_command_line	virt-viewer-app.c	/^virt_viewer_app_local_command_line (GApplication   *gapp,$/;"	f	file:
+virt_viewer_app_make_message_dialog	virt-viewer-app.c	/^virt_viewer_app_make_message_dialog(VirtViewerApp *self,$/;"	f	file:
+virt_viewer_app_maybe_quit	virt-viewer-app.c	/^virt_viewer_app_maybe_quit(VirtViewerApp *self, VirtViewerWindow *window)$/;"	f
+virt_viewer_app_on_application_startup	virt-viewer-app.c	/^virt_viewer_app_on_application_startup(GApplication *app)$/;"	f	file:
+virt_viewer_app_open_connection	virt-viewer-app.c	/^virt_viewer_app_open_connection(VirtViewerApp *self, int *fd)$/;"	f	file:
+virt_viewer_app_open_tunnel	virt-viewer-app.c	/^virt_viewer_app_open_tunnel(const char **cmd)$/;"	f	file:
+virt_viewer_app_open_tunnel_ssh	virt-viewer-app.c	/^virt_viewer_app_open_tunnel_ssh(const char *sshhost,$/;"	f	file:
+virt_viewer_app_open_unix_sock	virt-viewer-app.c	/^virt_viewer_app_open_unix_sock(const char *unixsock, GError **error)$/;"	f	file:
+virt_viewer_app_quit	virt-viewer-app.c	/^virt_viewer_app_quit(VirtViewerApp *self)$/;"	f	file:
+virt_viewer_app_remove_nth_window	virt-viewer-app.c	/^static void virt_viewer_app_remove_nth_window(VirtViewerApp *self,$/;"	f	file:
+virt_viewer_app_retryauth	virt-viewer-app.c	/^virt_viewer_app_retryauth(gpointer opaque)$/;"	f	file:
+virt_viewer_app_save_config	virt-viewer-app.c	/^virt_viewer_app_save_config(VirtViewerApp *self)$/;"	f	file:
+virt_viewer_app_server_cut_text	virt-viewer-app.c	/^virt_viewer_app_server_cut_text(VirtViewerSession *session G_GNUC_UNUSED,$/;"	f	file:
+virt_viewer_app_set_all_window_subtitles	virt-viewer-app.c	/^virt_viewer_app_set_all_window_subtitles(VirtViewerApp *app)$/;"	f	file:
+virt_viewer_app_set_attach	virt-viewer-app.c	/^virt_viewer_app_set_attach(VirtViewerApp *self, gboolean attach)$/;"	f
+virt_viewer_app_set_connect_info	virt-viewer-app.c	/^virt_viewer_app_set_connect_info(VirtViewerApp *self,$/;"	f
+virt_viewer_app_set_debug	virt-viewer-app.c	/^virt_viewer_app_set_debug(gboolean debug)$/;"	f
+virt_viewer_app_set_direct	virt-viewer-app.c	/^virt_viewer_app_set_direct(VirtViewerApp *self, gboolean direct)$/;"	f
+virt_viewer_app_set_enable_accel	virt-viewer-app.c	/^virt_viewer_app_set_enable_accel(VirtViewerApp *self, gboolean enable)$/;"	f
+virt_viewer_app_set_fullscreen	virt-viewer-app.c	/^virt_viewer_app_set_fullscreen(VirtViewerApp *self, gboolean fullscreen)$/;"	f	file:
+virt_viewer_app_set_hotkeys	virt-viewer-app.c	/^virt_viewer_app_set_hotkeys(VirtViewerApp *self, const gchar *hotkeys_str)$/;"	f
+virt_viewer_app_set_kiosk	virt-viewer-app.c	/^virt_viewer_app_set_kiosk(VirtViewerApp *self, gboolean enabled)$/;"	f	file:
+virt_viewer_app_set_menus_sensitive	virt-viewer-app.c	/^virt_viewer_app_set_menus_sensitive(VirtViewerApp *self, gboolean sensitive)$/;"	f
+virt_viewer_app_set_ovirt_foreign_menu	remote-viewer.c	/^virt_viewer_app_set_ovirt_foreign_menu(VirtViewerApp *app,$/;"	f	file:
+virt_viewer_app_set_property	virt-viewer-app.c	/^virt_viewer_app_set_property (GObject *object, guint property_id,$/;"	f	file:
+virt_viewer_app_set_usb_options_sensitive	virt-viewer-app.c	/^virt_viewer_app_set_usb_options_sensitive(VirtViewerApp *self, gboolean sensitive)$/;"	f	file:
+virt_viewer_app_set_uuid_string	virt-viewer-app.c	/^void virt_viewer_app_set_uuid_string(VirtViewerApp *self, const gchar *uuid_string)$/;"	f	file:
+virt_viewer_app_set_window_subtitle	virt-viewer-app.c	/^virt_viewer_app_set_window_subtitle(VirtViewerApp *app,$/;"	f	file:
+virt_viewer_app_show_display	virt-viewer-app.c	/^virt_viewer_app_show_display(VirtViewerApp *self)$/;"	f
+virt_viewer_app_show_preferences	virt-viewer-app.c	/^virt_viewer_app_show_preferences(VirtViewerApp *self, GtkWidget *parent)$/;"	f
+virt_viewer_app_show_status	virt-viewer-app.c	/^virt_viewer_app_show_status(VirtViewerApp *self, const gchar *fmt, ...)$/;"	f
+virt_viewer_app_simple_message_dialog	virt-viewer-app.c	/^virt_viewer_app_simple_message_dialog(VirtViewerApp *self,$/;"	f
+virt_viewer_app_start	virt-viewer-app.c	/^gboolean virt_viewer_app_start(VirtViewerApp *self, GError **error)$/;"	f
+virt_viewer_app_trace	virt-viewer-app.c	/^virt_viewer_app_trace(VirtViewerApp *self,$/;"	f
+virt_viewer_app_update_menu_displays	virt-viewer-app.c	/^virt_viewer_app_update_menu_displays(VirtViewerApp *self)$/;"	f	file:
+virt_viewer_app_update_pretty_address	virt-viewer-app.c	/^virt_viewer_app_update_pretty_address(VirtViewerApp *self)$/;"	f	file:
+virt_viewer_app_update_title	virt-viewer-app.c	/^virt_viewer_app_update_title(VirtViewerApp *self)$/;"	f	file:
+virt_viewer_app_usb_failed	virt-viewer-app.c	/^static void virt_viewer_app_usb_failed(VirtViewerSession *session G_GNUC_UNUSED,$/;"	f	file:
+virt_viewer_app_window_new	virt-viewer-app.c	/^virt_viewer_app_window_new(VirtViewerApp *self, gint nth)$/;"	f	file:
+virt_viewer_app_window_set_visible	virt-viewer-app.c	/^virt_viewer_app_window_set_visible(VirtViewerApp *self,$/;"	f
+virt_viewer_auth_collect_credentials	virt-viewer-auth.c	/^virt_viewer_auth_collect_credentials(GtkWindow *window,$/;"	f
+virt_viewer_auth_libvirt_credentials	virt-viewer.c	/^virt_viewer_auth_libvirt_credentials(virConnectCredentialPtr cred,$/;"	f	file:
+virt_viewer_class_init	virt-viewer.c	/^virt_viewer_class_init (VirtViewerClass *klass)$/;"	f	file:
+virt_viewer_compare_buildid	virt-viewer-util.c	/^virt_viewer_compare_buildid(const gchar *s1, const gchar *s2)$/;"	f
+virt_viewer_compare_version	virt-viewer-util.c	/^virt_viewer_compare_version(const gchar *s1, const gchar *s2)$/;"	f	file:
+virt_viewer_conn_event	virt-viewer.c	/^virt_viewer_conn_event(virConnectPtr conn G_GNUC_UNUSED,$/;"	f	file:
+virt_viewer_connect	virt-viewer.c	/^virt_viewer_connect(VirtViewerApp *app, GError **err)$/;"	f	file:
+virt_viewer_connect_timer	virt-viewer.c	/^virt_viewer_connect_timer(void *opaque)$/;"	f	file:
+virt_viewer_deactivated	virt-viewer.c	/^virt_viewer_deactivated(VirtViewerApp *app, gboolean connect_error)$/;"	f	file:
+virt_viewer_display_class_init	virt-viewer-display.c	/^virt_viewer_display_class_init(VirtViewerDisplayClass *class)$/;"	f	file:
+virt_viewer_display_close	virt-viewer-display.c	/^void virt_viewer_display_close(VirtViewerDisplay *self)$/;"	f
+virt_viewer_display_disable	virt-viewer-display.c	/^void virt_viewer_display_disable(VirtViewerDisplay *self)$/;"	f
+virt_viewer_display_enable	virt-viewer-display.c	/^void virt_viewer_display_enable(VirtViewerDisplay *self)$/;"	f
+virt_viewer_display_get_desktop_size	virt-viewer-display.c	/^void virt_viewer_display_get_desktop_size(VirtViewerDisplay *display,$/;"	f
+virt_viewer_display_get_enabled	virt-viewer-display.c	/^gboolean virt_viewer_display_get_enabled(VirtViewerDisplay *self)$/;"	f
+virt_viewer_display_get_fullscreen	virt-viewer-display.c	/^gboolean virt_viewer_display_get_fullscreen(VirtViewerDisplay *self)$/;"	f
+virt_viewer_display_get_monitor	virt-viewer-display.c	/^gint virt_viewer_display_get_monitor(VirtViewerDisplay *self)$/;"	f
+virt_viewer_display_get_nth	virt-viewer-display.c	/^virt_viewer_display_get_nth(VirtViewerDisplay *self)$/;"	f
+virt_viewer_display_get_pixbuf	virt-viewer-display.c	/^GdkPixbuf* virt_viewer_display_get_pixbuf(VirtViewerDisplay *display)$/;"	f
+virt_viewer_display_get_preferred_dimension_from_desktop	virt-viewer-display.c	/^static void virt_viewer_display_get_preferred_dimension_from_desktop(VirtViewerDisplay *display,$/;"	f	file:
+virt_viewer_display_get_preferred_height	virt-viewer-display.c	/^static void virt_viewer_display_get_preferred_height(GtkWidget *widget,$/;"	f	file:
+virt_viewer_display_get_preferred_monitor_geometry	virt-viewer-display.c	/^void virt_viewer_display_get_preferred_monitor_geometry(VirtViewerDisplay* self,$/;"	f
+virt_viewer_display_get_preferred_width	virt-viewer-display.c	/^static void virt_viewer_display_get_preferred_width(GtkWidget *widget,$/;"	f	file:
+virt_viewer_display_get_property	virt-viewer-display.c	/^virt_viewer_display_get_property(GObject *object,$/;"	f	file:
+virt_viewer_display_get_selectable	virt-viewer-display.c	/^gboolean virt_viewer_display_get_selectable(VirtViewerDisplay *self)$/;"	f
+virt_viewer_display_get_session	virt-viewer-display.c	/^VirtViewerSession* virt_viewer_display_get_session(VirtViewerDisplay *self)$/;"	f
+virt_viewer_display_get_show_hint	virt-viewer-display.c	/^guint virt_viewer_display_get_show_hint(VirtViewerDisplay *self)$/;"	f
+virt_viewer_display_get_zoom	virt-viewer-display.c	/^gboolean virt_viewer_display_get_zoom(VirtViewerDisplay *display)$/;"	f
+virt_viewer_display_get_zoom_level	virt-viewer-display.c	/^guint virt_viewer_display_get_zoom_level(VirtViewerDisplay *display)$/;"	f
+virt_viewer_display_grab_focus	virt-viewer-display.c	/^virt_viewer_display_grab_focus(GtkWidget *widget)$/;"	f	file:
+virt_viewer_display_init	virt-viewer-display.c	/^virt_viewer_display_init(VirtViewerDisplay *display)$/;"	f	file:
+virt_viewer_display_new	virt-viewer-display.c	/^virt_viewer_display_new(void)$/;"	f
+virt_viewer_display_queue_resize	virt-viewer-display.c	/^void virt_viewer_display_queue_resize(VirtViewerDisplay *display)$/;"	f
+virt_viewer_display_release_cursor	virt-viewer-display.c	/^void virt_viewer_display_release_cursor(VirtViewerDisplay *self)$/;"	f
+virt_viewer_display_send_keys	virt-viewer-display.c	/^void virt_viewer_display_send_keys(VirtViewerDisplay *display,$/;"	f
+virt_viewer_display_set_desktop_size	virt-viewer-display.c	/^void virt_viewer_display_set_desktop_size(VirtViewerDisplay *display,$/;"	f
+virt_viewer_display_set_enabled	virt-viewer-display.c	/^void virt_viewer_display_set_enabled(VirtViewerDisplay *self, gboolean enabled)$/;"	f
+virt_viewer_display_set_fullscreen	virt-viewer-display.c	/^void virt_viewer_display_set_fullscreen(VirtViewerDisplay *self, gboolean fullscreen)$/;"	f
+virt_viewer_display_set_monitor	virt-viewer-display.c	/^void virt_viewer_display_set_monitor(VirtViewerDisplay *self, gint monitor)$/;"	f
+virt_viewer_display_set_property	virt-viewer-display.c	/^virt_viewer_display_set_property(GObject *object,$/;"	f	file:
+virt_viewer_display_set_show_hint	virt-viewer-display.c	/^void virt_viewer_display_set_show_hint(VirtViewerDisplay *self, guint mask, gboolean enable)$/;"	f
+virt_viewer_display_set_zoom_level	virt-viewer-display.c	/^void virt_viewer_display_set_zoom_level(VirtViewerDisplay *display,$/;"	f
+virt_viewer_display_show_hint_flags_get_type	virt-viewer-enums.c	/^virt_viewer_display_show_hint_flags_get_type (void)$/;"	f
+virt_viewer_display_size_allocate	virt-viewer-display.c	/^virt_viewer_display_size_allocate(GtkWidget *widget,$/;"	f	file:
+virt_viewer_display_spice_class_init	virt-viewer-display-spice.c	/^virt_viewer_display_spice_class_init(VirtViewerDisplaySpiceClass *klass)$/;"	f	file:
+virt_viewer_display_spice_close	virt-viewer-display-spice.c	/^virt_viewer_display_spice_close(VirtViewerDisplay *display G_GNUC_UNUSED)$/;"	f	file:
+virt_viewer_display_spice_disable	virt-viewer-display-spice.c	/^static void virt_viewer_display_spice_disable(VirtViewerDisplay *self)$/;"	f	file:
+virt_viewer_display_spice_enable	virt-viewer-display-spice.c	/^static void virt_viewer_display_spice_enable(VirtViewerDisplay *self)$/;"	f	file:
+virt_viewer_display_spice_get_pixbuf	virt-viewer-display-spice.c	/^virt_viewer_display_spice_get_pixbuf(VirtViewerDisplay *display)$/;"	f	file:
+virt_viewer_display_spice_init	virt-viewer-display-spice.c	/^virt_viewer_display_spice_init(VirtViewerDisplaySpice *self G_GNUC_UNUSED)$/;"	f	file:
+virt_viewer_display_spice_keyboard_grab	virt-viewer-display-spice.c	/^virt_viewer_display_spice_keyboard_grab(SpiceDisplay *display G_GNUC_UNUSED,$/;"	f	file:
+virt_viewer_display_spice_monitor_geometry_changed	virt-viewer-display-spice.c	/^virt_viewer_display_spice_monitor_geometry_changed(VirtViewerDisplaySpice *self)$/;"	f	file:
+virt_viewer_display_spice_mouse_grab	virt-viewer-display-spice.c	/^virt_viewer_display_spice_mouse_grab(SpiceDisplay *display G_GNUC_UNUSED,$/;"	f	file:
+virt_viewer_display_spice_new	virt-viewer-display-spice.c	/^virt_viewer_display_spice_new(VirtViewerSessionSpice *session,$/;"	f
+virt_viewer_display_spice_release_cursor	virt-viewer-display-spice.c	/^virt_viewer_display_spice_release_cursor(VirtViewerDisplay *display)$/;"	f	file:
+virt_viewer_display_spice_selectable	virt-viewer-display-spice.c	/^virt_viewer_display_spice_selectable(VirtViewerDisplay *self)$/;"	f	file:
+virt_viewer_display_spice_send_keys	virt-viewer-display-spice.c	/^virt_viewer_display_spice_send_keys(VirtViewerDisplay *display,$/;"	f	file:
+virt_viewer_display_spice_set_desktop	virt-viewer-display-spice.c	/^virt_viewer_display_spice_set_desktop(VirtViewerDisplay *display,$/;"	f
+virt_viewer_display_spice_size_allocate	virt-viewer-display-spice.c	/^virt_viewer_display_spice_size_allocate(VirtViewerDisplaySpice *self,$/;"	f	file:
+virt_viewer_display_vnc_class_init	virt-viewer-display-vnc.c	/^virt_viewer_display_vnc_class_init(VirtViewerDisplayVncClass *klass)$/;"	f	file:
+virt_viewer_display_vnc_close	virt-viewer-display-vnc.c	/^virt_viewer_display_vnc_close(VirtViewerDisplay *display)$/;"	f	file:
+virt_viewer_display_vnc_finalize	virt-viewer-display-vnc.c	/^virt_viewer_display_vnc_finalize(GObject *obj)$/;"	f	file:
+virt_viewer_display_vnc_get_pixbuf	virt-viewer-display-vnc.c	/^virt_viewer_display_vnc_get_pixbuf(VirtViewerDisplay* display)$/;"	f	file:
+virt_viewer_display_vnc_init	virt-viewer-display-vnc.c	/^virt_viewer_display_vnc_init(VirtViewerDisplayVnc *self G_GNUC_UNUSED)$/;"	f	file:
+virt_viewer_display_vnc_initialized	virt-viewer-display-vnc.c	/^virt_viewer_display_vnc_initialized(VncDisplay *vnc G_GNUC_UNUSED,$/;"	f	file:
+virt_viewer_display_vnc_key_grab	virt-viewer-display-vnc.c	/^virt_viewer_display_vnc_key_grab(VncDisplay *vnc G_GNUC_UNUSED,$/;"	f	file:
+virt_viewer_display_vnc_key_ungrab	virt-viewer-display-vnc.c	/^virt_viewer_display_vnc_key_ungrab(VncDisplay *vnc G_GNUC_UNUSED,$/;"	f	file:
+virt_viewer_display_vnc_mouse_grab	virt-viewer-display-vnc.c	/^virt_viewer_display_vnc_mouse_grab(VncDisplay *vnc G_GNUC_UNUSED,$/;"	f	file:
+virt_viewer_display_vnc_mouse_ungrab	virt-viewer-display-vnc.c	/^virt_viewer_display_vnc_mouse_ungrab(VncDisplay *vnc G_GNUC_UNUSED,$/;"	f	file:
+virt_viewer_display_vnc_new	virt-viewer-display-vnc.c	/^virt_viewer_display_vnc_new(VirtViewerSessionVnc *session,$/;"	f
+virt_viewer_display_vnc_release_cursor	virt-viewer-display-vnc.c	/^virt_viewer_display_vnc_release_cursor(VirtViewerDisplay *display)$/;"	f	file:
+virt_viewer_display_vnc_resize_desktop	virt-viewer-display-vnc.c	/^virt_viewer_display_vnc_resize_desktop(VncDisplay *vnc G_GNUC_UNUSED,$/;"	f	file:
+virt_viewer_display_vnc_send_keys	virt-viewer-display-vnc.c	/^virt_viewer_display_vnc_send_keys(VirtViewerDisplay* display,$/;"	f	file:
+virt_viewer_dispose	virt-viewer.c	/^virt_viewer_dispose (GObject *object)$/;"	f	file:
+virt_viewer_domain_event	virt-viewer.c	/^virt_viewer_domain_event(virConnectPtr conn G_GNUC_UNUSED,$/;"	f	file:
+virt_viewer_error_func	virt-viewer.c	/^virt_viewer_error_func (void *data G_GNUC_UNUSED,$/;"	f	file:
+virt_viewer_error_quark	virt-viewer-util.c	/^virt_viewer_error_quark(void)$/;"	f
+virt_viewer_extract_connect_info	virt-viewer.c	/^virt_viewer_extract_connect_info(VirtViewer *self,$/;"	f	file:
+virt_viewer_extract_xpath_string	virt-viewer.c	/^virt_viewer_extract_xpath_string(const gchar *xmldesc,$/;"	f	file:
+virt_viewer_file_check_min_version	virt-viewer-file.c	/^virt_viewer_file_check_min_version(VirtViewerFile *self, GError **error)$/;"	f	file:
+virt_viewer_file_class_init	virt-viewer-file.c	/^virt_viewer_file_class_init(VirtViewerFileClass* klass)$/;"	f	file:
+virt_viewer_file_fill_app	virt-viewer-file.c	/^virt_viewer_file_fill_app(VirtViewerFile* self, VirtViewerApp *app, GError **error)$/;"	f
+virt_viewer_file_finalize	virt-viewer-file.c	/^virt_viewer_file_finalize(GObject* object)$/;"	f	file:
+virt_viewer_file_get_ca	virt-viewer-file.c	/^virt_viewer_file_get_ca(VirtViewerFile* self)$/;"	f
+virt_viewer_file_get_color_depth	virt-viewer-file.c	/^virt_viewer_file_get_color_depth(VirtViewerFile* self)$/;"	f
+virt_viewer_file_get_delete_this_file	virt-viewer-file.c	/^virt_viewer_file_get_delete_this_file(VirtViewerFile* self)$/;"	f
+virt_viewer_file_get_disable_channels	virt-viewer-file.c	/^virt_viewer_file_get_disable_channels(VirtViewerFile* self, gsize* length)$/;"	f
+virt_viewer_file_get_disable_effects	virt-viewer-file.c	/^virt_viewer_file_get_disable_effects(VirtViewerFile* self, gsize* length)$/;"	f
+virt_viewer_file_get_enable_smartcard	virt-viewer-file.c	/^virt_viewer_file_get_enable_smartcard(VirtViewerFile* self)$/;"	f
+virt_viewer_file_get_enable_usb_autoshare	virt-viewer-file.c	/^virt_viewer_file_get_enable_usb_autoshare(VirtViewerFile* self)$/;"	f
+virt_viewer_file_get_enable_usbredir	virt-viewer-file.c	/^virt_viewer_file_get_enable_usbredir(VirtViewerFile* self)$/;"	f
+virt_viewer_file_get_file_type	virt-viewer-file.c	/^virt_viewer_file_get_file_type(VirtViewerFile* self)$/;"	f
+virt_viewer_file_get_fullscreen	virt-viewer-file.c	/^virt_viewer_file_get_fullscreen(VirtViewerFile* self)$/;"	f
+virt_viewer_file_get_host	virt-viewer-file.c	/^virt_viewer_file_get_host(VirtViewerFile* self)$/;"	f
+virt_viewer_file_get_host_subject	virt-viewer-file.c	/^virt_viewer_file_get_host_subject(VirtViewerFile* self)$/;"	f
+virt_viewer_file_get_int	virt-viewer-file.c	/^virt_viewer_file_get_int(VirtViewerFile* self,$/;"	f	file:
+virt_viewer_file_get_ovirt_admin	virt-viewer-file.c	/^virt_viewer_file_get_ovirt_admin(VirtViewerFile* self)$/;"	f
+virt_viewer_file_get_ovirt_ca	virt-viewer-file.c	/^virt_viewer_file_get_ovirt_ca(VirtViewerFile* self)$/;"	f
+virt_viewer_file_get_ovirt_host	virt-viewer-file.c	/^virt_viewer_file_get_ovirt_host(VirtViewerFile* self)$/;"	f
+virt_viewer_file_get_ovirt_jsessionid	virt-viewer-file.c	/^virt_viewer_file_get_ovirt_jsessionid(VirtViewerFile* self)$/;"	f
+virt_viewer_file_get_ovirt_sso_token	virt-viewer-file.c	/^virt_viewer_file_get_ovirt_sso_token(VirtViewerFile* self)$/;"	f
+virt_viewer_file_get_ovirt_vm_guid	virt-viewer-file.c	/^virt_viewer_file_get_ovirt_vm_guid(VirtViewerFile* self)$/;"	f
+virt_viewer_file_get_password	virt-viewer-file.c	/^virt_viewer_file_get_password(VirtViewerFile* self)$/;"	f
+virt_viewer_file_get_port	virt-viewer-file.c	/^virt_viewer_file_get_port(VirtViewerFile* self)$/;"	f
+virt_viewer_file_get_property	virt-viewer-file.c	/^virt_viewer_file_get_property(GObject* object, guint property_id,$/;"	f	file:
+virt_viewer_file_get_proxy	virt-viewer-file.c	/^virt_viewer_file_get_proxy(VirtViewerFile* self)$/;"	f
+virt_viewer_file_get_release_cursor	virt-viewer-file.c	/^virt_viewer_file_get_release_cursor(VirtViewerFile* self)$/;"	f
+virt_viewer_file_get_secure_attention	virt-viewer-file.c	/^virt_viewer_file_get_secure_attention(VirtViewerFile* self)$/;"	f
+virt_viewer_file_get_secure_channels	virt-viewer-file.c	/^virt_viewer_file_get_secure_channels(VirtViewerFile* self, gsize* length)$/;"	f
+virt_viewer_file_get_smartcard_insert	virt-viewer-file.c	/^virt_viewer_file_get_smartcard_insert(VirtViewerFile* self)$/;"	f
+virt_viewer_file_get_smartcard_remove	virt-viewer-file.c	/^virt_viewer_file_get_smartcard_remove(VirtViewerFile* self)$/;"	f
+virt_viewer_file_get_string	virt-viewer-file.c	/^virt_viewer_file_get_string(VirtViewerFile* self,$/;"	f	file:
+virt_viewer_file_get_string_list	virt-viewer-file.c	/^virt_viewer_file_get_string_list(VirtViewerFile* self, const char *group,$/;"	f	file:
+virt_viewer_file_get_title	virt-viewer-file.c	/^virt_viewer_file_get_title(VirtViewerFile* self)$/;"	f
+virt_viewer_file_get_tls_ciphers	virt-viewer-file.c	/^virt_viewer_file_get_tls_ciphers(VirtViewerFile* self)$/;"	f
+virt_viewer_file_get_tls_port	virt-viewer-file.c	/^virt_viewer_file_get_tls_port(VirtViewerFile* self)$/;"	f
+virt_viewer_file_get_toggle_fullscreen	virt-viewer-file.c	/^virt_viewer_file_get_toggle_fullscreen(VirtViewerFile* self)$/;"	f
+virt_viewer_file_get_usb_filter	virt-viewer-file.c	/^virt_viewer_file_get_usb_filter(VirtViewerFile* self)$/;"	f
+virt_viewer_file_get_username	virt-viewer-file.c	/^virt_viewer_file_get_username(VirtViewerFile* self)$/;"	f
+virt_viewer_file_get_version	virt-viewer-file.c	/^virt_viewer_file_get_version(VirtViewerFile* self)$/;"	f
+virt_viewer_file_get_version_url	virt-viewer-file.c	/^virt_viewer_file_get_version_url(VirtViewerFile* self)$/;"	f
+virt_viewer_file_get_versions	virt-viewer-file.c	/^virt_viewer_file_get_versions(VirtViewerFile* self)$/;"	f
+virt_viewer_file_init	virt-viewer-file.c	/^virt_viewer_file_init(VirtViewerFile* self)$/;"	f	file:
+virt_viewer_file_is_set	virt-viewer-file.c	/^virt_viewer_file_is_set(VirtViewerFile* self, const gchar* key)$/;"	f
+virt_viewer_file_new	virt-viewer-file.c	/^virt_viewer_file_new(const gchar* location, GError** error)$/;"	f
+virt_viewer_file_set_ca	virt-viewer-file.c	/^virt_viewer_file_set_ca(VirtViewerFile* self, const gchar* value)$/;"	f
+virt_viewer_file_set_color_depth	virt-viewer-file.c	/^virt_viewer_file_set_color_depth(VirtViewerFile* self, gint value)$/;"	f
+virt_viewer_file_set_delete_this_file	virt-viewer-file.c	/^virt_viewer_file_set_delete_this_file(VirtViewerFile* self, gint value)$/;"	f
+virt_viewer_file_set_disable_channels	virt-viewer-file.c	/^virt_viewer_file_set_disable_channels(VirtViewerFile* self, const gchar* const* value, gsize length)$/;"	f
+virt_viewer_file_set_disable_effects	virt-viewer-file.c	/^virt_viewer_file_set_disable_effects(VirtViewerFile* self, const gchar* const* value, gsize length)$/;"	f
+virt_viewer_file_set_enable_smartcard	virt-viewer-file.c	/^virt_viewer_file_set_enable_smartcard(VirtViewerFile* self, gint value)$/;"	f
+virt_viewer_file_set_enable_usb_autoshare	virt-viewer-file.c	/^virt_viewer_file_set_enable_usb_autoshare(VirtViewerFile* self, gint value)$/;"	f
+virt_viewer_file_set_enable_usbredir	virt-viewer-file.c	/^virt_viewer_file_set_enable_usbredir(VirtViewerFile* self, gint value)$/;"	f
+virt_viewer_file_set_fullscreen	virt-viewer-file.c	/^virt_viewer_file_set_fullscreen(VirtViewerFile* self, gint value)$/;"	f
+virt_viewer_file_set_host	virt-viewer-file.c	/^virt_viewer_file_set_host(VirtViewerFile* self, const gchar* value)$/;"	f
+virt_viewer_file_set_host_subject	virt-viewer-file.c	/^virt_viewer_file_set_host_subject(VirtViewerFile* self, const gchar* value)$/;"	f
+virt_viewer_file_set_int	virt-viewer-file.c	/^virt_viewer_file_set_int(VirtViewerFile* self, const char *group,$/;"	f	file:
+virt_viewer_file_set_ovirt_admin	virt-viewer-file.c	/^virt_viewer_file_set_ovirt_admin(VirtViewerFile* self, gint value)$/;"	f
+virt_viewer_file_set_ovirt_ca	virt-viewer-file.c	/^virt_viewer_file_set_ovirt_ca(VirtViewerFile* self, const gchar* value)$/;"	f
+virt_viewer_file_set_ovirt_host	virt-viewer-file.c	/^virt_viewer_file_set_ovirt_host(VirtViewerFile* self, const gchar* value)$/;"	f
+virt_viewer_file_set_ovirt_jsessionid	virt-viewer-file.c	/^virt_viewer_file_set_ovirt_jsessionid(VirtViewerFile* self, const gchar* value)$/;"	f
+virt_viewer_file_set_ovirt_sso_token	virt-viewer-file.c	/^virt_viewer_file_set_ovirt_sso_token(VirtViewerFile* self, const gchar* value)$/;"	f
+virt_viewer_file_set_ovirt_vm_guid	virt-viewer-file.c	/^virt_viewer_file_set_ovirt_vm_guid(VirtViewerFile* self, const gchar* value)$/;"	f
+virt_viewer_file_set_password	virt-viewer-file.c	/^virt_viewer_file_set_password(VirtViewerFile* self, const gchar* value)$/;"	f
+virt_viewer_file_set_port	virt-viewer-file.c	/^virt_viewer_file_set_port(VirtViewerFile* self, gint value)$/;"	f
+virt_viewer_file_set_property	virt-viewer-file.c	/^virt_viewer_file_set_property(GObject* object, guint property_id,$/;"	f	file:
+virt_viewer_file_set_proxy	virt-viewer-file.c	/^virt_viewer_file_set_proxy(VirtViewerFile* self, const gchar* value)$/;"	f
+virt_viewer_file_set_release_cursor	virt-viewer-file.c	/^virt_viewer_file_set_release_cursor(VirtViewerFile* self, const gchar* value)$/;"	f
+virt_viewer_file_set_secure_attention	virt-viewer-file.c	/^virt_viewer_file_set_secure_attention(VirtViewerFile* self, const gchar* value)$/;"	f
+virt_viewer_file_set_secure_channels	virt-viewer-file.c	/^virt_viewer_file_set_secure_channels(VirtViewerFile* self, const gchar* const* value, gsize length)$/;"	f
+virt_viewer_file_set_smartcard_insert	virt-viewer-file.c	/^virt_viewer_file_set_smartcard_insert(VirtViewerFile* self, const gchar* value)$/;"	f
+virt_viewer_file_set_smartcard_remove	virt-viewer-file.c	/^virt_viewer_file_set_smartcard_remove(VirtViewerFile* self, const gchar* value)$/;"	f
+virt_viewer_file_set_string	virt-viewer-file.c	/^virt_viewer_file_set_string(VirtViewerFile* self, const char *group,$/;"	f	file:
+virt_viewer_file_set_string_list	virt-viewer-file.c	/^virt_viewer_file_set_string_list(VirtViewerFile* self, const char *group,$/;"	f	file:
+virt_viewer_file_set_title	virt-viewer-file.c	/^virt_viewer_file_set_title(VirtViewerFile* self, const gchar* value)$/;"	f
+virt_viewer_file_set_tls_ciphers	virt-viewer-file.c	/^virt_viewer_file_set_tls_ciphers(VirtViewerFile* self, const gchar* value)$/;"	f
+virt_viewer_file_set_tls_port	virt-viewer-file.c	/^virt_viewer_file_set_tls_port(VirtViewerFile* self, gint value)$/;"	f
+virt_viewer_file_set_toggle_fullscreen	virt-viewer-file.c	/^virt_viewer_file_set_toggle_fullscreen(VirtViewerFile* self, const gchar* value)$/;"	f
+virt_viewer_file_set_type	virt-viewer-file.c	/^virt_viewer_file_set_type(VirtViewerFile* self, const gchar* value)$/;"	f
+virt_viewer_file_set_usb_filter	virt-viewer-file.c	/^virt_viewer_file_set_usb_filter(VirtViewerFile* self, const gchar* value)$/;"	f
+virt_viewer_file_set_username	virt-viewer-file.c	/^virt_viewer_file_set_username(VirtViewerFile* self, const gchar* value)$/;"	f
+virt_viewer_file_set_version	virt-viewer-file.c	/^virt_viewer_file_set_version(VirtViewerFile* self, const gchar* value)$/;"	f
+virt_viewer_file_set_version_url	virt-viewer-file.c	/^virt_viewer_file_set_version_url(VirtViewerFile* self, const gchar* value)$/;"	f
+virt_viewer_file_set_versions	virt-viewer-file.c	/^virt_viewer_file_set_versions(VirtViewerFile* self, GHashTable *version_table)$/;"	f
+virt_viewer_file_transfer_dialog_add_task	virt-viewer-file-transfer-dialog.c	/^void virt_viewer_file_transfer_dialog_add_task(VirtViewerFileTransferDialog *self,$/;"	f
+virt_viewer_file_transfer_dialog_class_init	virt-viewer-file-transfer-dialog.c	/^virt_viewer_file_transfer_dialog_class_init(VirtViewerFileTransferDialogClass *klass)$/;"	f	file:
+virt_viewer_file_transfer_dialog_dispose	virt-viewer-file-transfer-dialog.c	/^virt_viewer_file_transfer_dialog_dispose(GObject *object)$/;"	f	file:
+virt_viewer_file_transfer_dialog_init	virt-viewer-file-transfer-dialog.c	/^virt_viewer_file_transfer_dialog_init(VirtViewerFileTransferDialog *self)$/;"	f	file:
+virt_viewer_file_transfer_dialog_new	virt-viewer-file-transfer-dialog.c	/^virt_viewer_file_transfer_dialog_new(GtkWindow *parent)$/;"	f
+virt_viewer_get_error_message_from_vir_error	virt-viewer.c	/^virt_viewer_get_error_message_from_vir_error(VirtViewer *self,$/;"	f	file:
+virt_viewer_get_resource	virt-viewer-resources.c	/^GResource *virt_viewer_get_resource (void)$/;"	f
+virt_viewer_init	virt-viewer.c	/^virt_viewer_init(VirtViewer *self)$/;"	f	file:
+virt_viewer_initial_connect	virt-viewer.c	/^virt_viewer_initial_connect(VirtViewerApp *app, GError **error)$/;"	f	file:
+virt_viewer_is_loopback	virt-viewer.c	/^virt_viewer_is_loopback(const char *host)$/;"	f	file:
+virt_viewer_is_reachable	virt-viewer.c	/^virt_viewer_is_reachable(const gchar *host,$/;"	f	file:
+virt_viewer_local_command_line	virt-viewer.c	/^virt_viewer_local_command_line (GApplication   *gapp,$/;"	f	file:
+virt_viewer_lookup_domain	virt-viewer.c	/^virt_viewer_lookup_domain(VirtViewer *self)$/;"	f	file:
+virt_viewer_matches_domain	virt-viewer.c	/^virt_viewer_matches_domain(VirtViewer *self,$/;"	f	file:
+virt_viewer_menu_add_combo	virt-viewer-window.c	/^virt_viewer_menu_add_combo(VirtViewerWindow *self, GtkMenu *menu,$/;"	f	file:
+virt_viewer_new	virt-viewer.c	/^virt_viewer_new(void)$/;"	f
+virt_viewer_notebook_class_init	virt-viewer-notebook.c	/^virt_viewer_notebook_class_init (VirtViewerNotebookClass *klass)$/;"	f	file:
+virt_viewer_notebook_get_property	virt-viewer-notebook.c	/^virt_viewer_notebook_get_property (GObject *object, guint property_id,$/;"	f	file:
+virt_viewer_notebook_init	virt-viewer-notebook.c	/^virt_viewer_notebook_init (VirtViewerNotebook *self)$/;"	f	file:
+virt_viewer_notebook_new	virt-viewer-notebook.c	/^virt_viewer_notebook_new (void)$/;"	f
+virt_viewer_notebook_set_property	virt-viewer-notebook.c	/^virt_viewer_notebook_set_property (GObject *object, guint property_id,$/;"	f	file:
+virt_viewer_notebook_show_display	virt-viewer-notebook.c	/^virt_viewer_notebook_show_display(VirtViewerNotebook *self)$/;"	f
+virt_viewer_notebook_show_status	virt-viewer-notebook.c	/^virt_viewer_notebook_show_status(VirtViewerNotebook *self, const gchar *fmt, ...)$/;"	f
+virt_viewer_notebook_show_status_va	virt-viewer-notebook.c	/^virt_viewer_notebook_show_status_va(VirtViewerNotebook *self, const gchar *fmt, va_list args)$/;"	f
+virt_viewer_open_connection	virt-viewer.c	/^virt_viewer_open_connection(VirtViewerApp *self G_GNUC_UNUSED, int *fd)$/;"	f	file:
+virt_viewer_parse_monitor_mappings	virt-viewer-util.c	/^virt_viewer_parse_monitor_mappings(gchar **mappings, const gsize nmappings, const gint nmonitors)$/;"	f
+virt_viewer_parse_uuid	virt-viewer.c	/^virt_viewer_parse_uuid(const char *name,$/;"	f	file:
+virt_viewer_replace_host	virt-viewer.c	/^virt_viewer_replace_host(const gchar *host)$/;"	f	file:
+virt_viewer_resource_data	virt-viewer-resources.c	/^static const SECTION union { const guint8 data[88480]; const double alignment; void * const ptr;}  virt_viewer_resource_data = { {$/;"	v	typeref:union:__anon14	file:
+virt_viewer_session_add_display	virt-viewer-session.c	/^void virt_viewer_session_add_display(VirtViewerSession *session,$/;"	f
+virt_viewer_session_can_retry_auth	virt-viewer-session.c	/^gboolean virt_viewer_session_can_retry_auth(VirtViewerSession *self)$/;"	f
+virt_viewer_session_can_share_folder	virt-viewer-session.c	/^gboolean virt_viewer_session_can_share_folder(VirtViewerSession *self)$/;"	f
+virt_viewer_session_channel_open_fd	virt-viewer-session.c	/^gboolean virt_viewer_session_channel_open_fd(VirtViewerSession *session,$/;"	f
+virt_viewer_session_class_init	virt-viewer-session.c	/^virt_viewer_session_class_init(VirtViewerSessionClass *class)$/;"	f	file:
+virt_viewer_session_clear_displays	virt-viewer-session.c	/^void virt_viewer_session_clear_displays(VirtViewerSession *session)$/;"	f
+virt_viewer_session_close	virt-viewer-session.c	/^void virt_viewer_session_close(VirtViewerSession *session)$/;"	f
+virt_viewer_session_finalize	virt-viewer-session.c	/^virt_viewer_session_finalize(GObject *obj)$/;"	f	file:
+virt_viewer_session_get_app	virt-viewer-session.c	/^VirtViewerApp* virt_viewer_session_get_app(VirtViewerSession *self)$/;"	f
+virt_viewer_session_get_auto_usbredir	virt-viewer-session.c	/^gboolean virt_viewer_session_get_auto_usbredir(VirtViewerSession *self)$/;"	f
+virt_viewer_session_get_file	virt-viewer-session.c	/^VirtViewerFile* virt_viewer_session_get_file(VirtViewerSession *self)$/;"	f
+virt_viewer_session_get_has_usbredir	virt-viewer-session.c	/^gboolean virt_viewer_session_get_has_usbredir(VirtViewerSession *self)$/;"	f
+virt_viewer_session_get_property	virt-viewer-session.c	/^virt_viewer_session_get_property(GObject *object,$/;"	f	file:
+virt_viewer_session_get_uri	virt-viewer-session.c	/^gchar* virt_viewer_session_get_uri(VirtViewerSession *self)$/;"	f
+virt_viewer_session_init	virt-viewer-session.c	/^virt_viewer_session_init(VirtViewerSession *session)$/;"	f	file:
+virt_viewer_session_mime_type	virt-viewer-session.c	/^const gchar* virt_viewer_session_mime_type(VirtViewerSession *self)$/;"	f
+virt_viewer_session_on_monitor_geometry_changed	virt-viewer-session.c	/^virt_viewer_session_on_monitor_geometry_changed(VirtViewerSession* self,$/;"	f	file:
+virt_viewer_session_open_fd	virt-viewer-session.c	/^gboolean virt_viewer_session_open_fd(VirtViewerSession *session, int fd)$/;"	f
+virt_viewer_session_open_host	virt-viewer-session.c	/^gboolean virt_viewer_session_open_host(VirtViewerSession *session, const gchar *host, const gchar *port, const gchar *tlsport)$/;"	f
+virt_viewer_session_open_uri	virt-viewer-session.c	/^gboolean virt_viewer_session_open_uri(VirtViewerSession *session, const gchar *uri, GError **error)$/;"	f
+virt_viewer_session_remove_display	virt-viewer-session.c	/^void virt_viewer_session_remove_display(VirtViewerSession *session,$/;"	f
+virt_viewer_session_set_auto_usbredir	virt-viewer-session.c	/^void virt_viewer_session_set_auto_usbredir(VirtViewerSession *self, gboolean auto_usbredir)$/;"	f
+virt_viewer_session_set_file	virt-viewer-session.c	/^void virt_viewer_session_set_file(VirtViewerSession *self, VirtViewerFile *file)$/;"	f
+virt_viewer_session_set_has_usbredir	virt-viewer-session.c	/^void virt_viewer_session_set_has_usbredir(VirtViewerSession *self, gboolean has_usbredir)$/;"	f
+virt_viewer_session_set_property	virt-viewer-session.c	/^virt_viewer_session_set_property(GObject *object,$/;"	f	file:
+virt_viewer_session_smartcard_insert	virt-viewer-session.c	/^void virt_viewer_session_smartcard_insert(VirtViewerSession *self)$/;"	f
+virt_viewer_session_smartcard_remove	virt-viewer-session.c	/^void virt_viewer_session_smartcard_remove(VirtViewerSession *self)$/;"	f
+virt_viewer_session_spice_apply_monitor_geometry	virt-viewer-session-spice.c	/^virt_viewer_session_spice_apply_monitor_geometry(VirtViewerSession *session, GHashTable *monitors)$/;"	f	file:
+virt_viewer_session_spice_can_retry_auth	virt-viewer-session-spice.c	/^virt_viewer_session_spice_can_retry_auth(VirtViewerSession *session G_GNUC_UNUSED)$/;"	f	file:
+virt_viewer_session_spice_can_share_folder	virt-viewer-session-spice.c	/^virt_viewer_session_spice_can_share_folder(VirtViewerSession *session)$/;"	f	file:
+virt_viewer_session_spice_channel_destroy	virt-viewer-session-spice.c	/^virt_viewer_session_spice_channel_destroy(G_GNUC_UNUSED SpiceSession *s,$/;"	f	file:
+virt_viewer_session_spice_channel_new	virt-viewer-session-spice.c	/^virt_viewer_session_spice_channel_new(SpiceSession *s,$/;"	f	file:
+virt_viewer_session_spice_channel_open_fd	virt-viewer-session-spice.c	/^virt_viewer_session_spice_channel_open_fd(VirtViewerSession *session,$/;"	f	file:
+virt_viewer_session_spice_channel_open_fd_request	virt-viewer-session-spice.c	/^virt_viewer_session_spice_channel_open_fd_request(SpiceChannel *channel,$/;"	f	file:
+virt_viewer_session_spice_class_init	virt-viewer-session-spice.c	/^virt_viewer_session_spice_class_init(VirtViewerSessionSpiceClass *klass)$/;"	f	file:
+virt_viewer_session_spice_clear_displays	virt-viewer-session-spice.c	/^static void virt_viewer_session_spice_clear_displays(VirtViewerSessionSpice *self)$/;"	f	file:
+virt_viewer_session_spice_close	virt-viewer-session-spice.c	/^virt_viewer_session_spice_close(VirtViewerSession *session)$/;"	f	file:
+virt_viewer_session_spice_constructed	virt-viewer-session-spice.c	/^virt_viewer_session_spice_constructed(GObject *obj)$/;"	f	file:
+virt_viewer_session_spice_display_monitors	virt-viewer-session-spice.c	/^virt_viewer_session_spice_display_monitors(SpiceChannel *channel,$/;"	f	file:
+virt_viewer_session_spice_dispose	virt-viewer-session-spice.c	/^virt_viewer_session_spice_dispose(GObject *obj)$/;"	f	file:
+virt_viewer_session_spice_fullscreen_auto_conf	virt-viewer-session-spice.c	/^virt_viewer_session_spice_fullscreen_auto_conf(VirtViewerSessionSpice *self)$/;"	f	file:
+virt_viewer_session_spice_get_main_channel	virt-viewer-session-spice.c	/^virt_viewer_session_spice_get_main_channel(VirtViewerSessionSpice *self)$/;"	f
+virt_viewer_session_spice_get_property	virt-viewer-session-spice.c	/^virt_viewer_session_spice_get_property(GObject *object, guint property_id,$/;"	f	file:
+virt_viewer_session_spice_init	virt-viewer-session-spice.c	/^virt_viewer_session_spice_init(VirtViewerSessionSpice *self G_GNUC_UNUSED)$/;"	f	file:
+virt_viewer_session_spice_main_channel_event	virt-viewer-session-spice.c	/^virt_viewer_session_spice_main_channel_event(SpiceChannel *channel,$/;"	f	file:
+virt_viewer_session_spice_mime_type	virt-viewer-session-spice.c	/^virt_viewer_session_spice_mime_type(VirtViewerSession *self G_GNUC_UNUSED)$/;"	f	file:
+virt_viewer_session_spice_new	virt-viewer-session-spice.c	/^virt_viewer_session_spice_new(VirtViewerApp *app, GtkWindow *main_window)$/;"	f
+virt_viewer_session_spice_open_fd	virt-viewer-session-spice.c	/^virt_viewer_session_spice_open_fd(VirtViewerSession *session,$/;"	f	file:
+virt_viewer_session_spice_open_host	virt-viewer-session-spice.c	/^virt_viewer_session_spice_open_host(VirtViewerSession *session,$/;"	f	file:
+virt_viewer_session_spice_open_uri	virt-viewer-session-spice.c	/^virt_viewer_session_spice_open_uri(VirtViewerSession *session,$/;"	f	file:
+virt_viewer_session_spice_set_has_sw_reader	virt-viewer-session-spice.c	/^static void virt_viewer_session_spice_set_has_sw_reader(VirtViewerSessionSpice *session,$/;"	f	file:
+virt_viewer_session_spice_set_property	virt-viewer-session-spice.c	/^virt_viewer_session_spice_set_property(GObject *object, guint property_id,$/;"	f	file:
+virt_viewer_session_spice_smartcard_insert	virt-viewer-session-spice.c	/^virt_viewer_session_spice_smartcard_insert(VirtViewerSession *session G_GNUC_UNUSED)$/;"	f	file:
+virt_viewer_session_spice_smartcard_remove	virt-viewer-session-spice.c	/^virt_viewer_session_spice_smartcard_remove(VirtViewerSession *session G_GNUC_UNUSED)$/;"	f	file:
+virt_viewer_session_spice_usb_device_selection	virt-viewer-session-spice.c	/^virt_viewer_session_spice_usb_device_selection(VirtViewerSession *session,$/;"	f	file:
+virt_viewer_session_update_displays_geometry	virt-viewer-session.c	/^void virt_viewer_session_update_displays_geometry(VirtViewerSession *session)$/;"	f
+virt_viewer_session_usb_device_selection	virt-viewer-session.c	/^void virt_viewer_session_usb_device_selection(VirtViewerSession   *self,$/;"	f
+virt_viewer_session_vnc_auth_credential	virt-viewer-session-vnc.c	/^virt_viewer_session_vnc_auth_credential(GtkWidget *src G_GNUC_UNUSED,$/;"	f	file:
+virt_viewer_session_vnc_auth_failure	virt-viewer-session-vnc.c	/^virt_viewer_session_vnc_auth_failure(VncDisplay *vnc G_GNUC_UNUSED,$/;"	f	file:
+virt_viewer_session_vnc_auth_unsupported	virt-viewer-session-vnc.c	/^virt_viewer_session_vnc_auth_unsupported(VncDisplay *vnc G_GNUC_UNUSED,$/;"	f	file:
+virt_viewer_session_vnc_bell	virt-viewer-session-vnc.c	/^virt_viewer_session_vnc_bell(VncDisplay *vnc G_GNUC_UNUSED,$/;"	f	file:
+virt_viewer_session_vnc_channel_open_fd	virt-viewer-session-vnc.c	/^virt_viewer_session_vnc_channel_open_fd(VirtViewerSession* session G_GNUC_UNUSED,$/;"	f	file:
+virt_viewer_session_vnc_class_init	virt-viewer-session-vnc.c	/^virt_viewer_session_vnc_class_init(VirtViewerSessionVncClass *klass)$/;"	f	file:
+virt_viewer_session_vnc_close	virt-viewer-session-vnc.c	/^virt_viewer_session_vnc_close(VirtViewerSession* session)$/;"	f	file:
+virt_viewer_session_vnc_connected	virt-viewer-session-vnc.c	/^virt_viewer_session_vnc_connected(VncDisplay *vnc G_GNUC_UNUSED,$/;"	f	file:
+virt_viewer_session_vnc_cut_text	virt-viewer-session-vnc.c	/^virt_viewer_session_vnc_cut_text(VncDisplay *vnc G_GNUC_UNUSED,$/;"	f	file:
+virt_viewer_session_vnc_disconnected	virt-viewer-session-vnc.c	/^virt_viewer_session_vnc_disconnected(VncDisplay *vnc G_GNUC_UNUSED,$/;"	f	file:
+virt_viewer_session_vnc_finalize	virt-viewer-session-vnc.c	/^virt_viewer_session_vnc_finalize(GObject *obj)$/;"	f	file:
+virt_viewer_session_vnc_init	virt-viewer-session-vnc.c	/^virt_viewer_session_vnc_init(VirtViewerSessionVnc *self G_GNUC_UNUSED)$/;"	f	file:
+virt_viewer_session_vnc_initialized	virt-viewer-session-vnc.c	/^virt_viewer_session_vnc_initialized(VncDisplay *vnc G_GNUC_UNUSED,$/;"	f	file:
+virt_viewer_session_vnc_mime_type	virt-viewer-session-vnc.c	/^virt_viewer_session_vnc_mime_type(VirtViewerSession *self G_GNUC_UNUSED)$/;"	f	file:
+virt_viewer_session_vnc_new	virt-viewer-session-vnc.c	/^virt_viewer_session_vnc_new(VirtViewerApp *app, GtkWindow *main_window)$/;"	f
+virt_viewer_session_vnc_open_fd	virt-viewer-session-vnc.c	/^virt_viewer_session_vnc_open_fd(VirtViewerSession* session,$/;"	f	file:
+virt_viewer_session_vnc_open_host	virt-viewer-session-vnc.c	/^virt_viewer_session_vnc_open_host(VirtViewerSession* session,$/;"	f	file:
+virt_viewer_session_vnc_open_uri	virt-viewer-session-vnc.c	/^virt_viewer_session_vnc_open_uri(VirtViewerSession* session,$/;"	f	file:
+virt_viewer_set_insert_smartcard_accel	virt-viewer-app.c	/^virt_viewer_set_insert_smartcard_accel(VirtViewerApp *self,$/;"	f	file:
+virt_viewer_set_remove_smartcard_accel	virt-viewer-app.c	/^virt_viewer_set_remove_smartcard_accel(VirtViewerApp *self,$/;"	f	file:
+virt_viewer_shift_monitors_to_origin	virt-viewer-util.c	/^virt_viewer_shift_monitors_to_origin(GHashTable *displays)$/;"	f
+virt_viewer_signal_connect_object	virt-viewer-util.c	/^gulong virt_viewer_signal_connect_object(gpointer instance,$/;"	f
+virt_viewer_start	virt-viewer.c	/^virt_viewer_start(VirtViewerApp *app, GError **error)$/;"	f	file:
+virt_viewer_start_reconnect_poll	virt-viewer.c	/^virt_viewer_start_reconnect_poll(VirtViewer *self)$/;"	f	file:
+virt_viewer_stop_reconnect_poll	virt-viewer.c	/^virt_viewer_stop_reconnect_poll(VirtViewer *self)$/;"	f	file:
+virt_viewer_timed_revealer_class_init	virt-viewer-timed-revealer.c	/^virt_viewer_timed_revealer_class_init(VirtViewerTimedRevealerClass *klass)$/;"	f	file:
+virt_viewer_timed_revealer_dispose	virt-viewer-timed-revealer.c	/^virt_viewer_timed_revealer_dispose(GObject *object)$/;"	f	file:
+virt_viewer_timed_revealer_enter_leave_notify	virt-viewer-timed-revealer.c	/^virt_viewer_timed_revealer_enter_leave_notify(VirtViewerTimedRevealer *self,$/;"	f	file:
+virt_viewer_timed_revealer_force_reveal	virt-viewer-timed-revealer.c	/^virt_viewer_timed_revealer_force_reveal(VirtViewerTimedRevealer *self,$/;"	f
+virt_viewer_timed_revealer_grab_notify	virt-viewer-timed-revealer.c	/^virt_viewer_timed_revealer_grab_notify(VirtViewerTimedRevealer *self,$/;"	f	file:
+virt_viewer_timed_revealer_init	virt-viewer-timed-revealer.c	/^virt_viewer_timed_revealer_init(VirtViewerTimedRevealer *self)$/;"	f	file:
+virt_viewer_timed_revealer_new	virt-viewer-timed-revealer.c	/^virt_viewer_timed_revealer_new(GtkWidget *toolbar)$/;"	f
+virt_viewer_timed_revealer_schedule_unreveal_timeout	virt-viewer-timed-revealer.c	/^virt_viewer_timed_revealer_schedule_unreveal_timeout(VirtViewerTimedRevealer *self,$/;"	f	file:
+virt_viewer_timed_revealer_unregister_timeout	virt-viewer-timed-revealer.c	/^virt_viewer_timed_revealer_unregister_timeout(VirtViewerTimedRevealer *self)$/;"	f	file:
+virt_viewer_update_display	virt-viewer.c	/^virt_viewer_update_display(VirtViewer *self, virDomainPtr dom, GError **error)$/;"	f	file:
+virt_viewer_update_smartcard_accels	virt-viewer-app.c	/^virt_viewer_update_smartcard_accels(VirtViewerApp *self)$/;"	f	file:
+virt_viewer_util_extract_host	virt-viewer-util.c	/^virt_viewer_util_extract_host(const char *uristr,$/;"	f
+virt_viewer_util_init	virt-viewer-util.c	/^void virt_viewer_util_init(const char *appname)$/;"	f
+virt_viewer_util_load_ui	virt-viewer-util.c	/^GtkBuilder *virt_viewer_util_load_ui(const char *name)$/;"	f
+virt_viewer_vm_connection_choose_name_dialog	virt-viewer-vm-connection.c	/^virt_viewer_vm_connection_choose_name_dialog(GtkWindow *main_window,$/;"	f
+virt_viewer_window_class_init	virt-viewer-window.c	/^virt_viewer_window_class_init (VirtViewerWindowClass *klass)$/;"	f	file:
+virt_viewer_window_constructed	virt-viewer-window.c	/^virt_viewer_window_constructed(GObject *object)$/;"	f	file:
+virt_viewer_window_delete	virt-viewer-window.c	/^virt_viewer_window_delete(GtkWidget *src G_GNUC_UNUSED,$/;"	f
+virt_viewer_window_desktop_resize	virt-viewer-window.c	/^virt_viewer_window_desktop_resize(VirtViewerDisplay *display G_GNUC_UNUSED,$/;"	f	file:
+virt_viewer_window_disable_modifiers	virt-viewer-window.c	/^virt_viewer_window_disable_modifiers(VirtViewerWindow *self)$/;"	f
+virt_viewer_window_dispose	virt-viewer-window.c	/^virt_viewer_window_dispose (GObject *object)$/;"	f	file:
+virt_viewer_window_enable_kiosk	virt-viewer-window.c	/^virt_viewer_window_enable_kiosk(VirtViewerWindow *self)$/;"	f	file:
+virt_viewer_window_enable_modifiers	virt-viewer-window.c	/^virt_viewer_window_enable_modifiers(VirtViewerWindow *self)$/;"	f
+virt_viewer_window_enter_fullscreen	virt-viewer-window.c	/^virt_viewer_window_enter_fullscreen(VirtViewerWindow *self, gint monitor)$/;"	f
+virt_viewer_window_get_builder	virt-viewer-window.c	/^virt_viewer_window_get_builder(VirtViewerWindow *self)$/;"	f
+virt_viewer_window_get_display	virt-viewer-window.c	/^virt_viewer_window_get_display(VirtViewerWindow *self)$/;"	f
+virt_viewer_window_get_keycombo_menu	virt-viewer-window.c	/^virt_viewer_window_get_keycombo_menu(VirtViewerWindow *self)$/;"	f	file:
+virt_viewer_window_get_menu_displays	virt-viewer-window.c	/^virt_viewer_window_get_menu_displays(VirtViewerWindow *self)$/;"	f
+virt_viewer_window_get_minimal_dimensions	virt-viewer-window.c	/^virt_viewer_window_get_minimal_dimensions(VirtViewerWindow *self,$/;"	f	file:
+virt_viewer_window_get_minimal_zoom_level	virt-viewer-window.c	/^virt_viewer_window_get_minimal_zoom_level(VirtViewerWindow *self)$/;"	f	file:
+virt_viewer_window_get_notebook	virt-viewer-window.c	/^virt_viewer_window_get_notebook (VirtViewerWindow *self)$/;"	f
+virt_viewer_window_get_property	virt-viewer-window.c	/^virt_viewer_window_get_property (GObject *object, guint property_id,$/;"	f	file:
+virt_viewer_window_get_real_zoom_level	virt-viewer-window.c	/^virt_viewer_window_get_real_zoom_level(VirtViewerWindow *self)$/;"	f	file:
+virt_viewer_window_get_window	virt-viewer-window.c	/^virt_viewer_window_get_window (VirtViewerWindow *self)$/;"	f
+virt_viewer_window_get_zoom_level	virt-viewer-window.c	/^gint virt_viewer_window_get_zoom_level(VirtViewerWindow *self)$/;"	f
+virt_viewer_window_guest_details_response	virt-viewer-window.c	/^virt_viewer_window_guest_details_response(GtkDialog *dialog,$/;"	f
+virt_viewer_window_hide	virt-viewer-window.c	/^virt_viewer_window_hide(VirtViewerWindow *self)$/;"	f
+virt_viewer_window_init	virt-viewer-window.c	/^virt_viewer_window_init (VirtViewerWindow *self)$/;"	f	file:
+virt_viewer_window_keyboard_grab	virt-viewer-window.c	/^virt_viewer_window_keyboard_grab(VirtViewerDisplay *display G_GNUC_UNUSED,$/;"	f	file:
+virt_viewer_window_keyboard_ungrab	virt-viewer-window.c	/^virt_viewer_window_keyboard_ungrab(VirtViewerDisplay *display G_GNUC_UNUSED,$/;"	f	file:
+virt_viewer_window_leave_fullscreen	virt-viewer-window.c	/^virt_viewer_window_leave_fullscreen(VirtViewerWindow *self)$/;"	f
+virt_viewer_window_menu_change_cd_activate	virt-viewer-window.c	/^virt_viewer_window_menu_change_cd_activate(GtkWidget *menu G_GNUC_UNUSED,$/;"	f
+virt_viewer_window_menu_file_quit	virt-viewer-window.c	/^virt_viewer_window_menu_file_quit(GtkWidget *src G_GNUC_UNUSED,$/;"	f
+virt_viewer_window_menu_file_screenshot	virt-viewer-window.c	/^virt_viewer_window_menu_file_screenshot(GtkWidget *menu G_GNUC_UNUSED,$/;"	f
+virt_viewer_window_menu_file_smartcard_insert	virt-viewer-window.c	/^virt_viewer_window_menu_file_smartcard_insert(GtkWidget *menu G_GNUC_UNUSED,$/;"	f
+virt_viewer_window_menu_file_smartcard_remove	virt-viewer-window.c	/^virt_viewer_window_menu_file_smartcard_remove(GtkWidget *menu G_GNUC_UNUSED,$/;"	f
+virt_viewer_window_menu_file_usb_device_selection	virt-viewer-window.c	/^virt_viewer_window_menu_file_usb_device_selection(GtkWidget *menu G_GNUC_UNUSED,$/;"	f
+virt_viewer_window_menu_fullscreen_set_active	virt-viewer-window.c	/^virt_viewer_window_menu_fullscreen_set_active(VirtViewerWindow *self, gboolean active)$/;"	f	file:
+virt_viewer_window_menu_help_about	virt-viewer-window.c	/^virt_viewer_window_menu_help_about(GtkWidget *menu G_GNUC_UNUSED,$/;"	f
+virt_viewer_window_menu_help_guest_details	virt-viewer-window.c	/^virt_viewer_window_menu_help_guest_details(GtkWidget *menu G_GNUC_UNUSED,$/;"	f
+virt_viewer_window_menu_send	virt-viewer-window.c	/^virt_viewer_window_menu_send(GtkWidget *menu,$/;"	f
+virt_viewer_window_menu_view_fullscreen	virt-viewer-window.c	/^virt_viewer_window_menu_view_fullscreen(GtkWidget *menu,$/;"	f
+virt_viewer_window_menu_view_release_cursor	virt-viewer-window.c	/^virt_viewer_window_menu_view_release_cursor(GtkWidget *menu G_GNUC_UNUSED,$/;"	f
+virt_viewer_window_menu_view_zoom_in	virt-viewer-window.c	/^virt_viewer_window_menu_view_zoom_in(GtkWidget *menu G_GNUC_UNUSED,$/;"	f
+virt_viewer_window_menu_view_zoom_out	virt-viewer-window.c	/^virt_viewer_window_menu_view_zoom_out(GtkWidget *menu G_GNUC_UNUSED,$/;"	f
+virt_viewer_window_menu_view_zoom_reset	virt-viewer-window.c	/^virt_viewer_window_menu_view_zoom_reset(GtkWidget *menu G_GNUC_UNUSED,$/;"	f
+virt_viewer_window_move_to_monitor	virt-viewer-window.c	/^virt_viewer_window_move_to_monitor(VirtViewerWindow *self)$/;"	f	file:
+virt_viewer_window_pointer_grab	virt-viewer-window.c	/^virt_viewer_window_pointer_grab(VirtViewerDisplay *display G_GNUC_UNUSED,$/;"	f	file:
+virt_viewer_window_pointer_ungrab	virt-viewer-window.c	/^virt_viewer_window_pointer_ungrab(VirtViewerDisplay *display G_GNUC_UNUSED,$/;"	f	file:
+virt_viewer_window_queue_resize	virt-viewer-window.c	/^virt_viewer_window_queue_resize(VirtViewerWindow *self)$/;"	f	file:
+virt_viewer_window_save_screenshot	virt-viewer-window.c	/^virt_viewer_window_save_screenshot(VirtViewerWindow *self,$/;"	f	file:
+virt_viewer_window_set_display	virt-viewer-window.c	/^virt_viewer_window_set_display(VirtViewerWindow *self, VirtViewerDisplay *display)$/;"	f
+virt_viewer_window_set_fullscreen	virt-viewer-window.c	/^virt_viewer_window_set_fullscreen(VirtViewerWindow *self,$/;"	f	file:
+virt_viewer_window_set_kiosk	virt-viewer-window.c	/^virt_viewer_window_set_kiosk(VirtViewerWindow *self, gboolean enabled)$/;"	f
+virt_viewer_window_set_menu_displays_sensitive	virt-viewer-window.c	/^virt_viewer_window_set_menu_displays_sensitive(VirtViewerWindow *self, gboolean sensitive)$/;"	f
+virt_viewer_window_set_menus_sensitive	virt-viewer-window.c	/^virt_viewer_window_set_menus_sensitive(VirtViewerWindow *self, gboolean sensitive)$/;"	f
+virt_viewer_window_set_property	virt-viewer-window.c	/^virt_viewer_window_set_property (GObject *object, guint property_id,$/;"	f	file:
+virt_viewer_window_set_usb_options_sensitive	virt-viewer-window.c	/^virt_viewer_window_set_usb_options_sensitive(VirtViewerWindow *self, gboolean sensitive)$/;"	f
+virt_viewer_window_set_zoom_level	virt-viewer-window.c	/^virt_viewer_window_set_zoom_level(VirtViewerWindow *self, gint zoom_level)$/;"	f
+virt_viewer_window_show	virt-viewer-window.c	/^virt_viewer_window_show(VirtViewerWindow *self)$/;"	f
+virt_viewer_window_toolbar_leave_fullscreen	virt-viewer-window.c	/^virt_viewer_window_toolbar_leave_fullscreen(GtkWidget *button G_GNUC_UNUSED,$/;"	f	file:
+virt_viewer_window_toolbar_send_key	virt-viewer-window.c	/^virt_viewer_window_toolbar_send_key(GtkWidget *button G_GNUC_UNUSED,$/;"	f	file:
+virt_viewer_window_toolbar_setup	virt-viewer-window.c	/^virt_viewer_window_toolbar_setup(VirtViewerWindow *self)$/;"	f	file:
+virt_viewer_window_update_title	virt-viewer-window.c	/^virt_viewer_window_update_title(VirtViewerWindow *self)$/;"	f
+vms_fetched_cb	ovirt-foreign-menu.c	/^static void vms_fetched_cb(GObject *source_object,$/;"	f	file:
+waitvm	virt-viewer.c	/^    gboolean waitvm;$/;"	m	struct:_VirtViewerPrivate	file:
+whc_free	virt-viewer-util.c	/^whc_free(WeakHandlerCtx *ctx)$/;"	f	file:
+whc_new	virt-viewer-util.c	/^whc_new(GObject *instance,$/;"	f	file:
+window	virt-viewer-window.c	/^    GtkWidget *window;$/;"	m	struct:_VirtViewerWindowPrivate	file:
+window_deleted_cb	remote-viewer-connect.c	/^window_deleted_cb(ConnectionInfo *ci)$/;"	f	file:
+window_empty_display_submenu	virt-viewer-app.c	/^window_empty_display_submenu(VirtViewerWindow *window)$/;"	f	file:
+window_key_pressed	virt-viewer-window.c	/^window_key_pressed (GtkWidget *widget G_GNUC_UNUSED,$/;"	f	file:
+window_update_menu_displays_cb	virt-viewer-app.c	/^window_update_menu_displays_cb(gpointer value,$/;"	f	file:
+windows	virt-viewer-app.c	/^    GList *windows;$/;"	m	struct:_VirtViewerAppPrivate	file:
+windows_cmdline_wrapper_DEPENDENCIES	Makefile	/^windows_cmdline_wrapper_DEPENDENCIES = $(am__append_7)$/;"	m
+windows_cmdline_wrapper_LDADD	Makefile	/^windows_cmdline_wrapper_LDADD = $(LDADD)$/;"	m
+windows_cmdline_wrapper_LINK	Makefile	/^windows_cmdline_wrapper_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC \\$/;"	m
+windows_cmdline_wrapper_OBJECTS	Makefile	/^windows_cmdline_wrapper_OBJECTS =  \\$/;"	m
+x	virt-viewer-display-spice.c	/^    guint x;$/;"	m	struct:_VirtViewerDisplaySpicePrivate	file:
+y	virt-viewer-display-spice.c	/^    guint y;$/;"	m	struct:_VirtViewerDisplaySpicePrivate	file:
+zoom_level	virt-viewer-display.c	/^    guint zoom_level;$/;"	m	struct:_VirtViewerDisplayPrivate	file:
+zoom_level_changed	virt-viewer-display-spice.c	/^zoom_level_changed(VirtViewerDisplaySpice *self,$/;"	f	file:
+zoomlevel	virt-viewer-window.c	/^    gint zoomlevel;$/;"	m	struct:_VirtViewerWindowPrivate	file:
