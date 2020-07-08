@@ -4,12 +4,20 @@
 using std::string;
 
 class Sales_data {
-	public:
+public:
+	//Constructor
+	Sales_data() = default;
+	Sales_data(const string& s):
+		bookNo(s),units_sold(0),revenue(0){ }
+	Sales_data(const string& s, unsigned u, double r):
+		bookNo(s),units_sold(u),revenue(u*r){ }
+
 	//Member function
 	string isbn() const { return bookNo; }	
 	Sales_data&	combine(const Sales_data&);
+
+private:
 	double avg_price() const;
-	
 	//Data member
 	string		bookNo;
 	unsigned	units_sold;
@@ -40,6 +48,7 @@ Sales_data& Sales_data::combine( const Sales_data& rhs)
 	return *this;
 }
 
+// Main function
 int main(int argc, char** argv)
 {
 	return 0;
