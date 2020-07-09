@@ -12,8 +12,8 @@ using std::endl;
 int main()
 {
 	// string initialization
-	string s1 = "love ";
-	string s2("Jiale");
+	string s1 = "love "; //拷贝初始化
+	string s2("Jiale");  //直接初始化
 	//string s3(5, '!');
 	string s3;
 	std::cout << s1 << s2 << s3 << std::endl;

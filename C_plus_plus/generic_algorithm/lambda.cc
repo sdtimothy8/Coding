@@ -29,6 +29,16 @@ void printWords(const vector<string> &words)
 		cout << *iter << endl;
 }
 
+void biggies(vector<string> &words, vector<string>::size_type sz)
+{
+	elimDups(words);
+	stable_sort(words.begin(), words.end(), isShorter);
+	auto wc = find_if(words.begin(), words.end(), [sz](const string &str){return str.size() >= sz;});
+	auto num = words.end() - wc;
+	for_each(wc, words.end(), [](const string &str){cout << str << " ";});
+	cout << endl;
+}
+
 // Main function
 int main( int argc, char** argv )
 {
@@ -51,8 +61,9 @@ int main( int argc, char** argv )
 	//auto result_p = partition(words.begin(), words.end(), isShorterThanNc);
 	//for (auto iter = words.begin(); iter != result_p; ++iter)
 	//	cout << *iter << endl;
-	elimDups(words);
-	printWords(words);
+	//elimDups(words);
+	//printWords(words);
+	biggies(words, 5);
 
 	return 0;
 }

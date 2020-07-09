@@ -1,18 +1,22 @@
 #include <iostream>
 #include <string>
+#include <memory>
+#include <vector>
 
-using std::string;
+using namespace std;
 
 class Sales_data {
 public:
 	//Constructor
-	Sales_data() = default; //显示的让编译器生成合成构造函数
+	Sales_data() = default;
 	Sales_data(const string& s):
 		bookNo(s),units_sold(0),revenue(0){ }
 	Sales_data(const string& s, unsigned u, double r):
 		bookNo(s),units_sold(u),revenue(u*r){ }
 	//重载拷贝运算符
 	Sales_data& operator=(const Sales_data &rhs);
+	//析构函数
+	~Sales_data() {}
 
 	//Member function
 	string isbn() const { return bookNo; }	
@@ -59,9 +63,20 @@ Sales_data& Sales_data::combine( const Sales_data& rhs)
 	return *this;
 }
 
+void testFunc()
+{
+	Sales_data *p = new Sales_data;
+	auto p2 = make_shared<Sales_data>();
+	Sales_data item(*p);
+	vector<Sales_data> vec;
+	vec.push_back(*p2);
+	delete p;
+}
+
 // Main function
 int main(int argc, char** argv)
 {
+
 	return 0;
 }
 
