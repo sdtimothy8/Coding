@@ -16,7 +16,7 @@ public:
 	//重载拷贝运算符
 	Sales_data& operator=(const Sales_data &rhs);
 	//析构函数
-	~Sales_data() {}
+	~Sales_data() = default;
 
 	//Member function
 	string isbn() const { return bookNo; }	

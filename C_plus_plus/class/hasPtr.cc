@@ -16,6 +16,8 @@ class HasPtr
 			ps(new string(*(s.ps))),i(s.i){}
 		// Copy operator
 		HasPtr &operator=(const HasPtr &rhs);
+		string getStr() const { return *ps; }
+		int getValue() const { return i; }
 		
 	private:
 		string *ps;
