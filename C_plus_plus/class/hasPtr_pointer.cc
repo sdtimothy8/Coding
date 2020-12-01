@@ -29,8 +29,9 @@ class HasPtr
 
 HasPtr& HasPtr::operator=(const HasPtr &rhs)
 {
-	//这里要考虑将左侧对象ps指向的原有资源先释放掉。
+	//首先递增右侧对象的引用计数是为了处理自赋值问题
 	++*rhs.refCount;
+	//这里要考虑将左侧对象ps指向的原有资源先释放掉。
 	if( 0 == --*refCount )
     {
 		delete ps;
@@ -58,6 +59,7 @@ int main(int argc, char** argv)
 	HasPtr test;
 	HasPtr test1;
 	test1 = test;
+    test = test;
 
 	return 0;
 }
