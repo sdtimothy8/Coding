@@ -1,6 +1,9 @@
 #include <cstdio>
 #include <string>
 #include <iostream>
+#include <utility>
+
+using std::pair;
 
 class Quote
 {
@@ -24,43 +27,43 @@ double Quote::net_price(std::size_t cnt) const {
 	return cnt * price;
 }
 
-// Derived class
-class Bulk_quote : public Quote {
+class Disc_quote : public Quote {
+public:
+    Disc_quote() = default;
+    Disc_quote(const std::string& book, double price, std::size_t qty, double disc) :
+    Quote(book, price),
+    quantity(qty),
+    discount(disc) { }
+    double net_price(std::size_t cnt) const = 0;
+    pair<std::size_t, double> discount_policy() const { return {quantity, discount}; }
+protected:
+    std::size_t quantity = 0;
+    double discount = 0.0;
+};
+
+// Derived classisc
+class Bulk_quote : public Disc_quote {
 public:
 	Bulk_quote() = default;
-	Bulk_quote(const std::string&, double, std::size_t, double);
+	Bulk_quote(const std::string& book, double p, std::size_t qty, double dis):
+    Disc_quote(book, p, qty, dis) { }
 	double net_price(std::size_t n) const override;
 	//定义与派生类同名的非虚函数
 	void print() const { std::cout << "Bulk_quote: print()!!" << std::endl; }
-private:
-	std::size_t min_qty = 0;
-	double discount = 0.0;
 };
 
 // Derived class
 // 当购买数量超过一定的限量时原价销售
-class Bulk_quote2 : public Quote {
+class Bulk_quote2 : public Disc_quote {
 public:
 	Bulk_quote2() = default;
-	Bulk_quote2(const std::string&, double, std::size_t, double);
+	Bulk_quote2(const std::string& book, double p, std::size_t qty, double dis):
+    Disc_quote(book, p, qty, dis) { }
 	double net_price(std::size_t) const;
-private:
-	std::size_t max_qty;
-	double discount = 0.0;
 };
 
-Bulk_quote::Bulk_quote(const std::string& book, double p, std::size_t qty, double dis): 
-	Quote(book, p),
-	min_qty(qty),
-	discount(dis) { }
-
-Bulk_quote2::Bulk_quote2(const std::string& book, double p, std::size_t qty, double dis): 
-	Quote(book, p),
-	max_qty(qty),
-	discount(dis) { }
-
 double Bulk_quote::net_price(std::size_t cnt) const {
-	if (cnt < min_qty) 
+	if (cnt < quantity) 
 		return cnt * price;
 	else
 		return cnt * price * (1 - discount);
@@ -70,7 +73,7 @@ double Bulk_quote::net_price(std::size_t cnt) const {
 }
 
 double Bulk_quote2::net_price(std::size_t cnt) const {
-	if (cnt >= max_qty)
+	if (cnt >= quantity)
 		return cnt * price;
 	else
 		return cnt * price * (1 - discount);
@@ -99,6 +102,9 @@ int main(int argc, char** argv)
 	
 	//回避虚函数，强制调用Quote中的net_price版本
 	qte_item.Quote::net_price(100);
+
+    // 不允许创建抽象基类对象
+    // Disc_quote disc_item;
 
 	return 0;
 }
